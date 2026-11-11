@@ -1,0 +1,280 @@
+{
+  "zh": "老年医学科",
+  "diseases": [
+    {
+      "key": "FRA",
+      "zh": "衰弱",
+      "epmc": [
+        "\"frailty\"",
+        "\"frail older\""
+      ],
+      "mesh": "\"Frailty\"[Mesh]",
+      "mesh_key": "Frailty",
+      "match": [
+        "frailty",
+        "frail"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "SAR",
+      "zh": "肌少症",
+      "epmc": [
+        "\"sarcopenia\"",
+        "\"muscle mass older\""
+      ],
+      "mesh": "\"Sarcopenia\"[Mesh]",
+      "mesh_key": "Sarcopenia",
+      "match": [
+        "sarcopenia",
+        "muscle mass",
+        "myosteatosis"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "POL",
+      "zh": "多重用药",
+      "epmc": [
+        "\"polypharmacy\"",
+        "\"deprescribing\""
+      ],
+      "mesh": "\"Polypharmacy\"[Mesh]",
+      "mesh_key": "Polypharmacy",
+      "match": [
+        "polypharmacy",
+        "deprescribing",
+        "potentially inappropriate"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "FAL",
+      "zh": "跌倒",
+      "epmc": [
+        "\"falls older\"",
+        "\"fall prevention\"",
+        "\"accidental falls\""
+      ],
+      "mesh": "\"Accidental Falls\"[Mesh]",
+      "mesh_key": "Accidental Falls",
+      "match": [
+        "falls",
+        "fall prevention",
+        "faller"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "DEM",
+      "zh": "认知障碍与痴呆",
+      "epmc": [
+        "\"cognitive impairment older\"",
+        "\"dementia older\""
+      ],
+      "mesh": "\"Dementia\"[Mesh]",
+      "mesh_key": "Dementia",
+      "match": [
+        "cognitive impairment",
+        "dementia",
+        "MCI"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "MAL",
+      "zh": "营养不良",
+      "epmc": [
+        "\"malnutrition older\"",
+        "\"nutritional status older\""
+      ],
+      "mesh": "\"Malnutrition\"[Mesh]",
+      "mesh_key": "Malnutrition",
+      "match": [
+        "malnutrition",
+        "undernutrition",
+        "nutritional status"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "DEL",
+      "zh": "谵妄",
+      "epmc": [
+        "\"delirium older\""
+      ],
+      "mesh": "\"Delirium\"[Mesh]",
+      "mesh_key": "Delirium",
+      "match": [
+        "delirium"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "GON",
+      "zh": "老年肿瘤",
+      "epmc": [
+        "\"older patients cancer\"",
+        "\"geriatric oncology\""
+      ],
+      "mesh": "\"Neoplasms\"[Mesh]",
+      "mesh_key": "Neoplasms",
+      "match": [
+        "geriatric oncology",
+        "older patients with cancer",
+        "cancer in the elderly"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "PRU",
+      "zh": "压疮",
+      "epmc": [
+        "\"pressure ulcer\"",
+        "\"pressure injury\""
+      ],
+      "mesh": "\"Pressure Ulcer\"[Mesh]",
+      "mesh_key": "Pressure Ulcer",
+      "match": [
+        "pressure ulcer",
+        "pressure injury"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "PAL",
+      "zh": "缓和医疗",
+      "epmc": [
+        "\"palliative care\"",
+        "\"end-of-life\""
+      ],
+      "mesh": "\"Palliative Care\"[Mesh]",
+      "mesh_key": "Palliative Care",
+      "match": [
+        "palliative",
+        "end-of-life",
+        "hospice"
+      ],
+      "abbr": []
+    }
+  ],
+  "journals": {
+    "top": {
+      "J Am Geriatr Soc": 32,
+      "Lancet Healthy Longev": 30,
+      "Age Ageing": 28,
+      "N Engl J Med": 30,
+      "Lancet": 26,
+      "JAMA": 28
+    },
+    "core": {
+      "J Gerontol A Biol Sci Med Sci": 26,
+      "J Am Med Dir Assoc": 24,
+      "J Nutr Health Aging": 18,
+      "Drugs Aging": 16,
+      "J Palliat Med": 16,
+      "J Pain Symptom Manage": 16,
+      "Exp Gerontol": 14,
+      "BMC Geriatr": 12,
+      "Maturitas": 14,
+      "Eur Geriatr Med": 14,
+      "Int Psychogeriatr": 14,
+      "Aging Clin Exp Res": 12,
+      "Gerontology": 12,
+      "Geriatr Gerontol Int": 12,
+      "J Geriatr Oncol": 16,
+      "J Frailty Aging": 14,
+      "Palliat Support Care": 12,
+      "Am J Hosp Palliat Care": 10
+    },
+    "sci": {
+      "Geroscience": 14,
+      "Aging Cell": 14,
+      "Ageing Res Rev": 16,
+      "Aging (Albany NY)": 10
+    }
+  },
+  "conference": {
+    "journal_markers": [
+      "j am geriatr soc",
+      "age ageing",
+      "j am med dir assoc"
+    ],
+    "blob_terms": "ags \\d{4}|eugms \\d{4}|american geriatrics society|european geriatric medicine society|supplement",
+    "pubmed_jour": "\"J Am Geriatr Soc\"[jour] OR \"Age Ageing\"[jour] OR \"J Am Med Dir Assoc\"[jour]",
+    "pubmed_terms": "\"AGS\"[tiab] OR \"EuGMS\"[tiab] OR \"Congress\"[tiab] OR \"meeting abstract\"[tiab]",
+    "epmc_titles": [
+      "congress",
+      "annual meeting",
+      "meeting abstract",
+      "conference abstract",
+      "proceedings"
+    ]
+  },
+  "ctgov_conditions": [
+    "frailty",
+    "sarcopenia",
+    "polypharmacy",
+    "accidental falls",
+    "dementia",
+    "malnutrition",
+    "delirium",
+    "pressure ulcer",
+    "palliative care"
+  ],
+  "ua": "MedicalDigest/1.2 (geriatrics literature digest)",
+  "topic_words": [
+    [
+      "\\b(frailty|frail|gait speed|grip strength)\\b",
+      14
+    ],
+    [
+      "\\b(polypharmacy|deprescribing|potentially inappropriate|Beers criteria)\\b",
+      14
+    ],
+    [
+      "\\b(falls|fall[- ]related|fall prevention)\\b",
+      12
+    ],
+    [
+      "\\b(delirium|hypoactive)\\b",
+      12
+    ],
+    [
+      "\\b(senolytics|anti[- ]aging|geroprotector)\\b",
+      12
+    ],
+    [
+      "\\b(comprehensive geriatric assessment|CGA)\\b",
+      12
+    ],
+    [
+      "\\b(malnutrition|oral nutritional supplement|weight loss)\\b",
+      10
+    ],
+    [
+      "\\b(cognitive impairment|dementia|cholinesterase)\\b",
+      10
+    ],
+    [
+      "\\b(anticoagulation|DOAC|bleeding risk)\\b",
+      10
+    ],
+    [
+      "\\b(palliative|end[- ]of[- ]life|advance care planning)\\b",
+      10
+    ],
+    [
+      "\\b(immunosenescence|vaccination|influenza|RSV)\\b",
+      10
+    ],
+    [
+      "\\b(prognos|predict|machine learning|deep learning|artificial intelligence|risk factor)\\b",
+      8
+    ],
+    [
+      "\\b(trial|safety|efficacy|adverse|mortality|hospitalization)\\b",
+      5
+    ]
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "zh": "感染科",
+  "diseases": [
+    {
+      "key": "SEPSIS",
+      "zh": "脓毒症",
+      "epmc": [
+        "\"sepsis\"",
+        "\"septic shock\""
+      ],
+      "mesh": "\"Sepsis\"[Mesh]",
+      "mesh_key": "Sepsis",
+      "match": [
+        "sepsis",
+        "septic shock"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "CAP",
+      "zh": "肺炎",
+      "epmc": [
+        "\"community-acquired pneumonia\"",
+        "\"pneumonia\""
+      ],
+      "mesh": "\"Pneumonia\"[Mesh]",
+      "mesh_key": "Pneumonia",
+      "match": [
+        "community-acquired pneumonia",
+        "pneumonia"
+      ],
+      "abbr": [
+        "\\bCAP\\b"
+      ]
+    },
+    {
+      "key": "BSI",
+      "zh": "血流感染/耐药菌",
+      "epmc": [
+        "\"bloodstream infection\"",
+        "\"antimicrobial resistance\"",
+        "\"carbapenem-resistant\""
+      ],
+      "mesh": "\"Bacteremia\"[Mesh]",
+      "mesh_key": "Bacteremia",
+      "match": [
+        "bloodstream infection",
+        "antimicrobial resistance",
+        "carbapenem-resistant"
+      ],
+      "abbr": [
+        "\\bBSI\\b",
+        "\\bCRE\\b",
+        "\\bMRSA\\b"
+      ]
+    },
+    {
+      "key": "HIV",
+      "zh": "HIV感染",
+      "epmc": [
+        "\"HIV\"",
+        "\"antiretroviral\""
+      ],
+      "mesh": "\"HIV Infections\"[Mesh]",
+      "mesh_key": "HIV Infections",
+      "match": [
+        "hiv",
+        "antiretroviral"
+      ],
+      "abbr": [
+        "\\bHIV\\b",
+        "\\bART\\b"
+      ]
+    },
+    {
+      "key": "TB",
+      "zh": "结核病",
+      "epmc": [
+        "\"tuberculosis\""
+      ],
+      "mesh": "\"Tuberculosis\"[Mesh]",
+      "mesh_key": "Tuberculosis",
+      "match": [
+        "tuberculosis"
+      ],
+      "abbr": [
+        "\\bTB\\b"
+      ]
+    },
+    {
+      "key": "FUNG",
+      "zh": "侵袭性真菌",
+      "epmc": [
+        "\"invasive fungal\"",
+        "\"candidemia\"",
+        "\"aspergillosis\""
+      ],
+      "mesh": "\"Invasive Fungal Infections\"[Mesh]",
+      "mesh_key": "Invasive Fungal Infections",
+      "match": [
+        "invasive fungal",
+        "candidemia",
+        "aspergillosis"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "CDI",
+      "zh": "艰难梭菌",
+      "epmc": [
+        "\"clostridioides difficile\""
+      ],
+      "mesh": "\"Clostridium Infections\"[Mesh]",
+      "mesh_key": "Clostridium Infections",
+      "match": [
+        "clostridioides difficile",
+        "clostridium difficile"
+      ],
+      "abbr": [
+        "\\bCDI\\b"
+      ]
+    },
+    {
+      "key": "FOU",
+      "zh": "发热待查",
+      "epmc": [
+        "\"fever of unknown origin\""
+      ],
+      "mesh": "\"Fever of Unknown Origin\"[Mesh]",
+      "mesh_key": "Fever of Unknown Origin",
+      "match": [
+        "fever of unknown origin"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "VIRAL",
+      "zh": "呼吸道病毒感染",
+      "epmc": [
+        "\"influenza\"",
+        "\"respiratory syncytial virus\""
+      ],
+      "mesh": "\"Virus Diseases\"[Mesh]",
+      "mesh_key": "Virus Diseases",
+      "match": [
+        "influenza",
+        "respiratory syncytial"
+      ],
+      "abbr": [
+        "\\bRSV\\b"
+      ]
+    },
+    {
+      "key": "AMS",
+      "zh": "抗菌药物管理",
+      "epmc": [
+        "\"antimicrobial stewardship\""
+      ],
+      "mesh": "\"Antimicrobial Stewardship\"[Mesh]",
+      "mesh_key": "Antimicrobial Stewardship",
+      "match": [
+        "antimicrobial stewardship"
+      ],
+      "abbr": []
+    }
+  ],
+  "journals": {
+    "top": {
+      "N Engl J Med": 30,
+      "Lancet": 26,
+      "JAMA": 28,
+      "Nat Med": 30,
+      "Ann Intern Med": 24,
+      "Lancet Infect Dis": 34,
+      "Clin Infect Dis": 32,
+      "Nat Rev Microbiol": 26,
+      "J Antimicrob Chemother": 24,
+      "Clin Microbiol Rev": 24,
+      "Emerg Infect Dis": 22,
+      "Lancet Respir Med": 26,
+      "Intensive Care Med": 24,
+      "Crit Care Med": 22,
+      "Open Forum Infect Dis": 18,
+      "Lancet HIV": 26
+    },
+    "core": {
+      "Clin Microbiol Infect": 18,
+      "J Infect": 16,
+      "J Clin Microbiol": 14,
+      "Antimicrob Agents Chemother": 16,
+      "Int J Antimicrob Agents": 14,
+      "BMC Infect Dis": 14,
+      "Int J Infect Dis": 14,
+      "Eur J Clin Microbiol Infect Dis": 14,
+      "Infection": 12,
+      "Infect Dis (Lond)": 12,
+      "J Hosp Infect": 12,
+      "Front Cell Infect Microbiol": 10,
+      "Emerg Microbes Infect": 12,
+      "JAC Antimicrob Resist": 12,
+      "Diagn Microbiol Infect Dis": 10,
+      "Travel Med Infect Dis": 10
+    },
+    "sci": {
+      "J Infect Dis": 16,
+      "EBioMedicine": 10,
+      "mBio": 10,
+      "Virulence": 8
+    }
+  },
+  "conference": {
+    "journal_markers": [
+      "lancet infect dis",
+      "clin infect dis",
+      "j antimicrob chemother"
+    ],
+    "blob_terms": "idsa \\d{4}|eccmid \\d{4}|escmid|infectious diseases society of america|annual meeting",
+    "pubmed_jour": "\"Clin Infect Dis\"[jour]",
+    "pubmed_terms": "\"IDSA\"[tiab] OR \"ECCMID\"[tiab] OR \"congress\"[tiab]",
+    "epmc_titles": [
+      "congress",
+      "annual meeting",
+      "eccmid",
+      "late-breaking"
+    ]
+  },
+  "ctgov_conditions": [
+    "sepsis",
+    "pneumonia",
+    "bacteremia",
+    "hiv infections",
+    "tuberculosis",
+    "invasive fungal infections",
+    "clostridium infections",
+    "fever of unknown origin"
+  ],
+  "ua": "MedicalDigest/1.2 (infectious literature digest)",
+  "topic_words": [
+    [
+      "\\b(sepsis|septic shock|SOFA|qSOFA)\\b",
+      12
+    ],
+    [
+      "\\b(antimicrobial resistance|MDR|XDR|CRE|MRSA|VRE|ESBL|carbapenemase)\\b",
+      12
+    ],
+    [
+      "\\b(HIV|ART|antiretroviral|dolutegravir|tenofovir|viral suppression|PrEP)\\b",
+      12
+    ],
+    [
+      "\\b(antibiotic|antimicrobial|stewardship|de[- ]escalation|duration of therapy)\\b",
+      10
+    ],
+    [
+      "\\b(TB|tuberculosis|rifampicin|isoniazid|bedaquiline)\\b",
+      10
+    ],
+    [
+      "\\b(invasive fungal|aspergill|Candida|cryptococc|antifungal|azole|echinocandin)\\b",
+      10
+    ],
+    [
+      "\\b(bacteremia|bloodstream infection|endocarditis|catheter[- ]related)\\b",
+      9
+    ],
+    [
+      "\\b(RSV|influenza|SARS-CoV-2|COVID|vaccin|mpox|measles)\\b",
+      9
+    ],
+    [
+      "\\b(Clostridioides|C\\. difficile|CDI|fidaxomicin|FMT)\\b",
+      8
+    ],
+    [
+      "\\b(pneumonia|CAP|HAP|VAP)\\b",
+      8
+    ],
+    [
+      "\\b(fever of unknown origin|FUO|diagnostic stewardship|rapid diagnostic|metagenomic)\\b",
+      8
+    ],
+    [
+      "\\b(prognos|predict|machine learning|deep learning|artificial intelligence|risk factor)\\b",
+      8
+    ],
+    [
+      "\\b(trial|safety|efficacy|adverse|mortality|outbreak)\\b",
+      5
+    ]
+  ]
+}

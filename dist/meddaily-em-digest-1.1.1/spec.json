@@ -1,0 +1,8 @@
+{
+  "name": "医学文献日报-急诊科",
+  "version": "1.1.1",
+  "specialty_spec": "emergency.json",
+  "key": "emergency",
+  "dept": "急诊科",
+  "file_prefix": "meddaily-em-digest"
+}

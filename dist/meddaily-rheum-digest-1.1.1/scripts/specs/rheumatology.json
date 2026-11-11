@@ -1,0 +1,299 @@
+{
+  "zh": "风湿科",
+  "diseases": [
+    {
+      "key": "RA",
+      "zh": "类风湿关节炎",
+      "epmc": [
+        "\"rheumatoid arthritis\"",
+        "\"rheumatoid\""
+      ],
+      "mesh": "\"arthritis, rheumatoid\"[Mesh]",
+      "mesh_key": "arthritis, rheumatoid",
+      "match": [
+        "rheumatoid arthriti"
+      ],
+      "abbr": [
+        "\\bRA\\b"
+      ]
+    },
+    {
+      "key": "SLE",
+      "zh": "系统性红斑狼疮",
+      "epmc": [
+        "\"systemic lupus erythematosus\"",
+        "\"lupus\""
+      ],
+      "mesh": "\"lupus erythematosus, systemic\"[Mesh]",
+      "mesh_key": "lupus erythematosus, systemic",
+      "match": [
+        "systemic lupus erythematosus",
+        "lupus nephritis",
+        "\\blupus\\b"
+      ],
+      "abbr": [
+        "\\bSLE\\b"
+      ]
+    },
+    {
+      "key": "AS",
+      "zh": "强直性脊柱炎",
+      "epmc": [
+        "\"ankylosing spondylitis\"",
+        "\"axial spondyloarthritis\"",
+        "\"spondyloarthritis\""
+      ],
+      "mesh": "\"spondyloarthropathy, ankylosing\"[Mesh]",
+      "mesh_key": "spondyloarthropathy, ankylosing",
+      "match": [
+        "ankylosing spondyl",
+        "axial spondyloarthritis",
+        "non-radiographic axSpA"
+      ],
+      "abbr": [
+        "\\bAS\\b",
+        "\\baxSpA\\b"
+      ]
+    },
+    {
+      "key": "PsA",
+      "zh": "银屑病关节炎",
+      "epmc": [
+        "\"psoriatic arthritis\"",
+        "\"psoriatic\""
+      ],
+      "mesh": "\"arthritis, psoriatic\"[Mesh]",
+      "mesh_key": "arthritis, psoriatic",
+      "match": [
+        "psoriatic arthriti"
+      ],
+      "abbr": [
+        "\\bPsA\\b"
+      ]
+    },
+    {
+      "key": "SJ",
+      "zh": "干燥综合征",
+      "epmc": [
+        "\"sjogren\"",
+        "\"sicca syndrome\""
+      ],
+      "mesh": "\"sjogren syndrome\"[Mesh]",
+      "mesh_key": "sjogren",
+      "match": [
+        "sj[oö]gren",
+        "\\bsicca\\b"
+      ],
+      "abbr": [
+        "\\bSj[oö]gren's\\b",
+        "\\bSjD\\b"
+      ]
+    },
+    {
+      "key": "SSc",
+      "zh": "系统性硬化症",
+      "epmc": [
+        "\"systemic sclerosis\"",
+        "\"scleroderma\""
+      ],
+      "mesh": "\"systemic sclerosis\"[Mesh]",
+      "mesh_key": "systemic sclerosis",
+      "match": [
+        "systemic sclerosis",
+        "scleroderma",
+        "diffuse cutaneous systemic sclerosis"
+      ],
+      "abbr": [
+        "\\bSSc\\b"
+      ]
+    },
+    {
+      "key": "GOU",
+      "zh": "痛风",
+      "epmc": [
+        "\"gout\"",
+        "\"hyperuricemia\"",
+        "\"urate crystals\""
+      ],
+      "mesh": "\"gout\"[Mesh]",
+      "mesh_key": "gout",
+      "match": [
+        "\\bgout\\b",
+        "hyperuric?emi",
+        "urate crystal"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "VAS",
+      "zh": "血管炎",
+      "epmc": [
+        "\"vasculitis\"",
+        "\"ANCA\"",
+        "\"anti-neutrophil cytoplasmic\""
+      ],
+      "mesh": "\"vasculitis\"[Mesh]",
+      "mesh_key": "vasculitis",
+      "match": [
+        "vasculitis",
+        "giant cell arteritis",
+        "takayasu arteritis",
+        "\\bANCA\\b"
+      ],
+      "abbr": [
+        "\\bGPA\\b",
+        "\\bMPA\\b"
+      ]
+    },
+    {
+      "key": "JIA",
+      "zh": "幼年型特发性关节炎",
+      "epmc": [
+        "\"juvenile idiopathic arthritis\"",
+        "\"juvenile arthritis\""
+      ],
+      "mesh": "\"juvenile arthritis\"[Mesh]",
+      "mesh_key": "juvenile arthritis",
+      "match": [
+        "juvenile idiopathic arthriti",
+        "juvenile arthritis"
+      ],
+      "abbr": [
+        "\\bJIA\\b"
+      ]
+    }
+  ],
+  "journals": {
+    "top": {
+      "Ann Rheum Dis": 34,
+      "Lancet Rheumatol": 36,
+      "Arthritis Rheumatol": 34,
+      "Ann Intern Med": 28,
+      "N Engl J Med": 30,
+      "JAMA": 28,
+      "Nat Med": 30,
+      "Lancet": 26,
+      "BMJ": 24,
+      "JAMA Intern Med": 24,
+      "Nat Rev Rheumatol": 30,
+      "Circulation": 18,
+      "Gut": 16,
+      "Kidney Int": 16,
+      "Eur Heart J": 16
+    },
+    "core": {
+      "Rheumatology (Oxford, England)": 26,
+      "J Rheumatol": 22,
+      "Arthritis Care Res (Hoboken)": 22,
+      "Rheumatol Ther": 20,
+      "Clin Rheumatol": 18,
+      "Arthritis Res Ther": 20,
+      "Autoimmun Rev": 16,
+      "Semin Arthritis Rheum": 18,
+      "J Autoimmun": 16,
+      "Mod Rheumatol": 16,
+      "Clin Exp Rheumatol": 14,
+      "Rheumatol Int": 12,
+      "Z Rheumatol": 12,
+      "Rheumatol (Genova)": 12,
+      "Adv Ther": 16,
+      "Drugs": 14,
+      "Front Immunol": 12,
+      "Ther Adv Musculoskelet Dis": 12,
+      "J Inflamm Res": 10,
+      "Arch Rheumatol": 10,
+      "Pediatr Rheumatol": 14,
+      "Lupus": 12,
+      "Lupus Sci Med": 12
+    },
+    "sci": {
+      "J Allergy Clin Immunol": 14,
+      "Eur J Immunol": 12,
+      "J Immunol": 12,
+      "Immunol Today": 10,
+      "Nat Rev Immunol": 14,
+      "Sci Transl Med": 14,
+      "Nat Commun": 10,
+      "Cell": 12,
+      "Lancet Infect Dis": 8,
+      "Clin Infect Dis": 8
+    }
+  },
+  "conference": {
+    "journal_markers": [
+      "ann rheum dis"
+    ],
+    "blob_terms": "eular \\d{4}|eular|acr \\d{4}|ann rheum dis suppl|supplement",
+    "pubmed_jour": "\"Ann Rheum Dis\"[jour]",
+    "pubmed_terms": "\"EULAR\"[tiab] OR \"ACR\"[tiab] OR \"Congress\"[tiab] OR \"meeting abstract\"[tiab]",
+    "epmc_titles": [
+      "congress",
+      "annual meeting",
+      "meeting abstract",
+      "conference abstract",
+      "proceedings"
+    ]
+  },
+  "ctgov_conditions": [
+    "rheumatoid arthritis",
+    "systemic lupus erythematosus",
+    "psoriatic arthritis",
+    "ankylosing spondylitis",
+    "sjogren",
+    "systemic sclerosis",
+    "gout",
+    "vasculitis",
+    "juvenile idiopathic arthritis"
+  ],
+  "ua": "OpenClaw-RheumDaily/1.0 (rheumatology literature digest)",
+  "topic_words": [
+    [
+      "\\b(JAK inhibitor|tofacitinib|upadacitinib|baricitinib|filgotinib|peficitinib|deuruxolitinib)\\b",
+      14
+    ],
+    [
+      "\\b(CAR[- ]?T|BCMA|CD19|autologous stem cell transplant)\\b",
+      16
+    ],
+    [
+      "\\b(bispecific|双抗|teclistamab|blinatumomab|talquetamab|tepotamab)\\b",
+      14
+    ],
+    [
+      "\\b(anti[- ]?TNF|infliximab|adalimumab|etanercept|certolizumab|golimumab)\\b",
+      10
+    ],
+    [
+      "\\b(abatacept|rituximab|tocilizumab|sarilumab|olokizumab)\\b",
+      11
+    ],
+    [
+      "\\b(IL[- ]?17|secukinumab|ixekizumab|bimekizumab)\\b",
+      12
+    ],
+    [
+      "\\b(IL[- ]?23|guselkumab|risankizumab|tildrakizumab)\\b",
+      12
+    ],
+    [
+      "\\b(IL[- ]?6|tocilizumab|sarilumab)\\b",
+      9
+    ],
+    [
+      "\\b(biologic|DMARD|treat[- ]to[- ]target|remission|low disease activity)\\b",
+      9
+    ],
+    [
+      "\\b(psoriatic arthritis|axial spondyloarthritis|systemic lupus)\\b",
+      5
+    ],
+    [
+      "\\b(prognos|predict|machine learning|deep learning|artificial intelligence|risk factor)\\b",
+      8
+    ],
+    [
+      "\\b(trial|safety|efficacy|adverse|infection|malignancy)\\b",
+      5
+    ]
+  ]
+}

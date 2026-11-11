@@ -1,0 +1,8 @@
+{
+  "name": "医学文献日报-妇产科",
+  "version": "1.1.1",
+  "specialty_spec": "obgyn.json",
+  "key": "obgyn",
+  "dept": "妇产科",
+  "file_prefix": "meddaily-obgyn-digest"
+}

@@ -1,0 +1,300 @@
+{
+  "zh": "内分泌科",
+  "diseases": [
+    {
+      "key": "T2DM",
+      "zh": "2型糖尿病",
+      "epmc": [
+        "\"type 2 diabetes\"",
+        "\"type 2 diabetes mellitus\""
+      ],
+      "mesh": "\"Diabetes Mellitus, Type 2\"[Mesh]",
+      "mesh_key": "Diabetes Mellitus, Type 2",
+      "match": [
+        "type 2 diabetes",
+        "T2DM"
+      ],
+      "abbr": [
+        "\\bT2DM\\b"
+      ]
+    },
+    {
+      "key": "T1DM",
+      "zh": "1型糖尿病",
+      "epmc": [
+        "\"type 1 diabetes\""
+      ],
+      "mesh": "\"Diabetes Mellitus, Type 1\"[Mesh]",
+      "mesh_key": "Diabetes Mellitus, Type 1",
+      "match": [
+        "type 1 diabetes"
+      ],
+      "abbr": [
+        "\\bT1DM\\b"
+      ]
+    },
+    {
+      "key": "THY",
+      "zh": "甲状腺疾病",
+      "epmc": [
+        "\"thyroid\"",
+        "\"hypothyroidism\"",
+        "\"hyperthyroidism\""
+      ],
+      "mesh": "\"Thyroid Diseases\"[Mesh]",
+      "mesh_key": "Thyroid Diseases",
+      "match": [
+        "thyroid",
+        "hypothyroid",
+        "hyperthyroid"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "OP",
+      "zh": "骨质疏松",
+      "epmc": [
+        "\"osteoporosis\"",
+        "\"fragility fracture\""
+      ],
+      "mesh": "\"Osteoporosis\"[Mesh]",
+      "mesh_key": "Osteoporosis",
+      "match": [
+        "osteoporosis",
+        "fragility fracture"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "OB",
+      "zh": "肥胖/代谢",
+      "epmc": [
+        "\"obesity\"",
+        "\"GLP-1 receptor agonist\""
+      ],
+      "mesh": "\"Obesity\"[Mesh]",
+      "mesh_key": "Obesity",
+      "match": [
+        "obesity",
+        "GLP-1 receptor agonist"
+      ],
+      "abbr": [
+        "\\bGLP-1\\b"
+      ]
+    },
+    {
+      "key": "PIT",
+      "zh": "垂体疾病",
+      "epmc": [
+        "\"pituitary\"",
+        "\"acromegaly\"",
+        "\"prolactinoma\""
+      ],
+      "mesh": "\"Pituitary Diseases\"[Mesh]",
+      "mesh_key": "Pituitary Diseases",
+      "match": [
+        "pituitary",
+        "acromegaly",
+        "prolactinoma"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "ADR",
+      "zh": "肾上腺疾病",
+      "epmc": [
+        "\"adrenal\"",
+        "\"Cushing\"",
+        "\"primary aldosteronism\""
+      ],
+      "mesh": "\"Adrenal Gland Diseases\"[Mesh]",
+      "mesh_key": "Adrenal Gland Diseases",
+      "match": [
+        "adrenal",
+        "cushing",
+        "aldosteronism"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "PCOS",
+      "zh": "多囊卵巢综合征",
+      "epmc": [
+        "\"polycystic ovary syndrome\""
+      ],
+      "mesh": "\"Polycystic Ovary Syndrome\"[Mesh]",
+      "mesh_key": "Polycystic Ovary Syndrome",
+      "match": [
+        "polycystic ovary"
+      ],
+      "abbr": [
+        "\\bPCOS\\b"
+      ]
+    },
+    {
+      "key": "DC",
+      "zh": "糖尿病并发症",
+      "epmc": [
+        "\"diabetic kidney disease\"",
+        "\"diabetic retinopathy\"",
+        "\"diabetic neuropathy\""
+      ],
+      "mesh": "\"Diabetes Complications\"[Mesh]",
+      "mesh_key": "Diabetes Complications",
+      "match": [
+        "diabetic kidney",
+        "diabetic retinopathy",
+        "diabetic neuropathy"
+      ],
+      "abbr": [
+        "\\bDKD\\b"
+      ]
+    },
+    {
+      "key": "CAL",
+      "zh": "钙磷代谢",
+      "epmc": [
+        "\"hypercalcemia\"",
+        "\"hypocalcemia\"",
+        "\"parathyroid\""
+      ],
+      "mesh": "\"Calcium Metabolism Disorders\"[Mesh]",
+      "mesh_key": "Calcium Metabolism Disorders",
+      "match": [
+        "hypercalcemia",
+        "hypocalcemia",
+        "parathyroid"
+      ],
+      "abbr": []
+    }
+  ],
+  "journals": {
+    "top": {
+      "N Engl J Med": 30,
+      "Lancet": 26,
+      "JAMA": 28,
+      "Nat Med": 30,
+      "Ann Intern Med": 24,
+      "Diabetes Care": 36,
+      "Lancet Diabetes Endocrinol": 34,
+      "Diabetes": 30,
+      "J Clin Endocrinol Metab": 30,
+      "Nat Rev Endocrinol": 28,
+      "Cell Metab": 28,
+      "Diabetologia": 26,
+      "BMJ": 24,
+      "Nat Metab": 16
+    },
+    "core": {
+      "Diabetes Obes Metab": 20,
+      "Diabet Med": 16,
+      "Eur J Endocrinol": 18,
+      "Thyroid": 18,
+      "J Bone Miner Res": 18,
+      "Osteoporos Int": 16,
+      "Endocr Pract": 14,
+      "Endocrine": 14,
+      "J Endocrinol Invest": 12,
+      "Front Endocrinol (Lausanne)": 12,
+      "Diabetes Metab Res Rev": 12,
+      "Nutr Metab Cardiovasc Dis": 10,
+      "BMJ Open Diabetes Res Care": 10,
+      "Diabetes Technol Ther": 12,
+      "Obes Rev": 18,
+      "Clin Endocrinol (Oxf)": 14,
+      "J Endocr Soc": 12,
+      "J Diabetes Complications": 12,
+      "Obesity (Silver Spring)": 12,
+      "Endocr Relat Cancer": 12,
+      "Pituitary": 10
+    },
+    "sci": {
+      "Mol Metab": 14,
+      "J Bone Miner Metab": 10,
+      "Bone": 10,
+      "Calcif Tissue Int": 10
+    }
+  },
+  "conference": {
+    "journal_markers": [
+      "diabetes care",
+      "lancet diabetes endocrinol",
+      "diabetologia"
+    ],
+    "blob_terms": "ada \\d{4}|easd \\d{4}|endo \\d{4}|american diabetes association|european association for the study of diabetes|endocrine society",
+    "pubmed_jour": "\"Diabetes Care\"[jour]",
+    "pubmed_terms": "\"ADA\"[tiab] OR \"EASD\"[tiab] OR \"congress\"[tiab]",
+    "epmc_titles": [
+      "congress",
+      "annual meeting",
+      "scientific sessions",
+      "late-breaking"
+    ]
+  },
+  "ctgov_conditions": [
+    "type 2 diabetes",
+    "type 1 diabetes",
+    "thyroid diseases",
+    "osteoporosis",
+    "obesity",
+    "pituitary diseases",
+    "polycystic ovary syndrome",
+    "diabetic nephropathies",
+    "hypercalcemia"
+  ],
+  "ua": "MedicalDigest/1.2 (endocrinology literature digest)",
+  "topic_words": [
+    [
+      "\\b(GLP[- ]1|semaglutide|tirzepatide|liraglutide|dulaglutide|exenatide)\\b",
+      14
+    ],
+    [
+      "\\b(SGLT2|empagliflozin|dapagliflozin|canagliflozin)\\b",
+      12
+    ],
+    [
+      "\\b(insulin|basal insulin|insulin degludec|insulin glargine|pump|CGM|continuous glucose)\\b",
+      10
+    ],
+    [
+      "\\b(osteoporosis|bisphosphonate|denosumab|romosozumab|fracture|BMD)\\b",
+      10
+    ],
+    [
+      "\\b(pituitary|acromegaly|Cushing|prolactinoma|adrenal|primary aldosteronism|pheochromocytoma)\\b",
+      10
+    ],
+    [
+      "\\b(HbA1c|glycemic|time in range|TIR|hypoglycemia)\\b",
+      9
+    ],
+    [
+      "\\b(thyroid|hypothyroid|hyperthyroid|Graves|thyroiditis|levothyroxine|TSH)\\b",
+      9
+    ],
+    [
+      "\\b(obesity|weight loss|BMI|bariatric|metabolic surgery)\\b",
+      8
+    ],
+    [
+      "\\b(diabetic kidney|retinopathy|neuropathy|diabetic foot)\\b",
+      8
+    ],
+    [
+      "\\b(PCOS|polycystic ovary|androgen|fertility)\\b",
+      7
+    ],
+    [
+      "\\b(calcium|phosphate|PTH|vitamin D|hyperparathyroidism)\\b",
+      7
+    ],
+    [
+      "\\b(prognos|predict|machine learning|deep learning|artificial intelligence|risk factor)\\b",
+      8
+    ],
+    [
+      "\\b(trial|safety|efficacy|adverse|mortality|hospitalization)\\b",
+      5
+    ]
+  ]
+}

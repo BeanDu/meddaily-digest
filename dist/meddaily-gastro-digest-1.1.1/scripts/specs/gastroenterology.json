@@ -1,0 +1,309 @@
+{
+  "zh": "消化内科",
+  "diseases": [
+    {
+      "key": "IBD",
+      "zh": "炎症性肠病",
+      "epmc": [
+        "\"inflammatory bowel disease\"",
+        "\"ulcerative colitis\"",
+        "\"Crohn's disease\""
+      ],
+      "mesh": "\"Inflammatory Bowel Diseases\"[Mesh]",
+      "mesh_key": "Inflammatory Bowel Diseases",
+      "match": [
+        "inflammatory bowel disease",
+        "ulcerative colitis",
+        "crohn"
+      ],
+      "abbr": [
+        "\\bIBD\\b",
+        "\\bUC\\b"
+      ]
+    },
+    {
+      "key": "CIRR",
+      "zh": "肝硬化",
+      "epmc": [
+        "\"liver cirrhosis\"",
+        "\"portal hypertension\""
+      ],
+      "mesh": "\"Liver Cirrhosis\"[Mesh]",
+      "mesh_key": "Liver Cirrhosis",
+      "match": [
+        "cirrhosis",
+        "portal hypertension"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "PANC",
+      "zh": "胰腺炎",
+      "epmc": [
+        "\"acute pancreatitis\"",
+        "\"chronic pancreatitis\""
+      ],
+      "mesh": "\"Pancreatitis\"[Mesh]",
+      "mesh_key": "Pancreatitis",
+      "match": [
+        "pancreatitis"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "GIB",
+      "zh": "消化道出血",
+      "epmc": [
+        "\"gastrointestinal bleeding\"",
+        "\"variceal\""
+      ],
+      "mesh": "\"Gastrointestinal Hemorrhage\"[Mesh]",
+      "mesh_key": "Gastrointestinal Hemorrhage",
+      "match": [
+        "gastrointestinal bleeding",
+        "variceal"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "HP",
+      "zh": "幽门螺杆菌/溃疡",
+      "epmc": [
+        "\"Helicobacter pylori\"",
+        "\"peptic ulcer\""
+      ],
+      "mesh": "\"Helicobacter pylori\"[Mesh]",
+      "mesh_key": "Helicobacter pylori",
+      "match": [
+        "helicobacter",
+        "peptic ulcer"
+      ],
+      "abbr": [
+        "\\bH\\. pylori\\b"
+      ]
+    },
+    {
+      "key": "IBS",
+      "zh": "肠易激综合征",
+      "epmc": [
+        "\"irritable bowel syndrome\""
+      ],
+      "mesh": "\"Irritable Bowel Syndrome\"[Mesh]",
+      "mesh_key": "Irritable Bowel Syndrome",
+      "match": [
+        "irritable bowel syndrome"
+      ],
+      "abbr": [
+        "\\bIBS\\b"
+      ]
+    },
+    {
+      "key": "GERD",
+      "zh": "胃食管反流",
+      "epmc": [
+        "\"gastroesophageal reflux\""
+      ],
+      "mesh": "\"Gastroesophageal Reflux\"[Mesh]",
+      "mesh_key": "Gastroesophageal Reflux",
+      "match": [
+        "gastroesophageal reflux",
+        "reflux disease"
+      ],
+      "abbr": [
+        "\\bGERD\\b"
+      ]
+    },
+    {
+      "key": "MASLD",
+      "zh": "代谢性脂肪肝",
+      "epmc": [
+        "\"nonalcoholic fatty liver\"",
+        "\"MASLD\"",
+        "\"metabolic dysfunction-associated steatotic\""
+      ],
+      "mesh": "\"Non-alcoholic Fatty Liver Disease\"[Mesh]",
+      "mesh_key": "Non-alcoholic Fatty Liver Disease",
+      "match": [
+        "fatty liver",
+        "MASLD",
+        "NAFLD"
+      ],
+      "abbr": [
+        "\\bMASLD\\b",
+        "\\bNAFLD\\b"
+      ]
+    },
+    {
+      "key": "HBV",
+      "zh": "病毒性肝炎",
+      "epmc": [
+        "\"hepatitis B\"",
+        "\"hepatitis C\""
+      ],
+      "mesh": "\"Hepatitis, Viral, Human\"[Mesh]",
+      "mesh_key": "Hepatitis, Viral, Human",
+      "match": [
+        "hepatitis b",
+        "hepatitis c"
+      ],
+      "abbr": [
+        "\\bHBV\\b",
+        "\\bHCV\\b"
+      ]
+    },
+    {
+      "key": "GIT",
+      "zh": "消化道肿瘤",
+      "epmc": [
+        "\"colorectal cancer\"",
+        "\"gastric cancer\"",
+        "\"esophageal cancer\""
+      ],
+      "mesh": "\"Gastrointestinal Neoplasms\"[Mesh]",
+      "mesh_key": "Gastrointestinal Neoplasms",
+      "match": [
+        "colorectal cancer",
+        "gastric cancer",
+        "esophageal cancer"
+      ],
+      "abbr": [
+        "\\bCRC\\b"
+      ]
+    }
+  ],
+  "journals": {
+    "top": {
+      "N Engl J Med": 30,
+      "Lancet": 26,
+      "JAMA": 28,
+      "Nat Med": 30,
+      "Ann Intern Med": 24,
+      "Gastroenterology": 34,
+      "Gut": 32,
+      "J Hepatol": 32,
+      "Lancet Gastroenterol Hepatol": 30,
+      "Hepatology": 30,
+      "Clin Gastroenterol Hepatol": 26,
+      "Am J Gastroenterol": 26,
+      "J Crohns Colitis": 26,
+      "Nat Rev Gastroenterol Hepatol": 28,
+      "Gut Microbes": 18
+    },
+    "core": {
+      "Aliment Pharmacol Ther": 20,
+      "Dig Liver Dis": 14,
+      "Inflamm Bowel Dis": 18,
+      "J Gastroenterol": 14,
+      "World J Gastroenterol": 12,
+      "Clin Transl Gastroenterol": 14,
+      "United European Gastroenterol J": 14,
+      "Neurogastroenterol Motil": 14,
+      "Pancreatology": 12,
+      "J Clin Gastroenterol": 12,
+      "Dig Dis Sci": 12,
+      "Therap Adv Gastroenterol": 12,
+      "BMC Gastroenterol": 10,
+      "HPB (Oxford)": 10,
+      "Front Med (Lausanne)": 10,
+      "J Gastroenterol Hepatol": 18,
+      "Gastrointest Endosc": 18,
+      "Endoscopy": 16,
+      "Dig Endosc": 12
+    },
+    "sci": {
+      "Cell Mol Gastroenterol Hepatol": 16,
+      "Liver Int": 14,
+      "JHEP Rep": 14,
+      "Hepatol Commun": 10,
+      "Nat Rev Microbiol": 12,
+      "Gut Pathog": 8
+    }
+  },
+  "conference": {
+    "journal_markers": [
+      "gastroenterology",
+      "gut",
+      "am j gastroenterol"
+    ],
+    "blob_terms": "aga \\d{4}|ddw \\d{4}|digestive disease week|united european gastroenterology|uEG week|european association for the study of the liver|easl \\d{4}",
+    "pubmed_jour": "\"Gastroenterology\"[jour]",
+    "pubmed_terms": "\"AGA\"[tiab] OR \"DDW\"[tiab] OR \"EASL\"[tiab] OR \"congress\"[tiab]",
+    "epmc_titles": [
+      "congress",
+      "annual meeting",
+      "digestive disease week",
+      "late-breaking"
+    ]
+  },
+  "ctgov_conditions": [
+    "inflammatory bowel disease",
+    "ulcerative colitis",
+    "crohn disease",
+    "liver cirrhosis",
+    "pancreatitis",
+    "irritable bowel syndrome",
+    "gastroesophageal reflux",
+    "non-alcoholic fatty liver disease",
+    "hepatitis B",
+    "colorectal neoplasms"
+  ],
+  "ua": "MedicalDigest/1.2 (gastroenterology literature digest)",
+  "topic_words": [
+    [
+      "\\b(IBD|Crohn|ulcerative colitis|vedolizumab|ustekinumab|risankizumab|mirikizumab|JAK inhibitor|tofacitinib|filgotinib)\\b",
+      14
+    ],
+    [
+      "\\b(MASLD|NAFLD|NASH|semaglutide|resmetirom|FGF21|fibrosis)\\b",
+      12
+    ],
+    [
+      "\\b(anti[- ]?TNF|infliximab|adalimumab|golimumab|certolizumab)\\b",
+      10
+    ],
+    [
+      "\\b(HCV|HBV|hepatitis|DAA|tenofovir|entecavir|HBsAg|cure)\\b",
+      10
+    ],
+    [
+      "\\b(cirrhosis|portal hypertension|variceal|TIPS|ascites|hepatic encephalopathy)\\b",
+      10
+    ],
+    [
+      "\\b(pancreatitis|ERCP|necrosis|fluid resuscitation)\\b",
+      10
+    ],
+    [
+      "\\b(GI bleeding|upper GI|endoscopy|hemostasis|transfusion)\\b",
+      8
+    ],
+    [
+      "\\b(H\\. pylori|Helicobacter|eradication|PPI|ulcer)\\b",
+      8
+    ],
+    [
+      "\\b(IBS|irritable bowel|functional GI|FODMAP|gut[- ]brain)\\b",
+      8
+    ],
+    [
+      "\\b(colorectal cancer|gastric cancer|esophageal cancer|HCC|immunotherapy)\\b",
+      8
+    ],
+    [
+      "\\b(microbiome|gut microbiota|FMT)\\b",
+      8
+    ],
+    [
+      "\\b(GERD|reflux|esophagitis|Barrett)\\b",
+      7
+    ],
+    [
+      "\\b(prognos|predict|machine learning|deep learning|artificial intelligence|risk factor)\\b",
+      8
+    ],
+    [
+      "\\b(trial|safety|efficacy|adverse|mortality|hospitalization)\\b",
+      5
+    ]
+  ]
+}

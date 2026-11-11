@@ -1,0 +1,8 @@
+{
+  "name": "医学文献日报-耳鼻咽喉科",
+  "version": "1.1.1",
+  "specialty_spec": "otolaryngology.json",
+  "key": "otolaryngology",
+  "dept": "耳鼻咽喉科",
+  "file_prefix": "meddaily-ent-digest"
+}

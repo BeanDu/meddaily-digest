@@ -1,0 +1,286 @@
+{
+  "zh": "神经外科",
+  "diseases": [
+    {
+      "key": "ANE",
+      "zh": "脑动脉瘤",
+      "epmc": [
+        "\"intracranial aneurysm\"",
+        "\"cerebral aneurysm\""
+      ],
+      "mesh": "\"Intracranial Aneurysm\"[Mesh]",
+      "mesh_key": "Intracranial Aneurysm",
+      "match": [
+        "intracranial aneurysm",
+        "cerebral aneurysm",
+        "aneurysm"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "AVM",
+      "zh": "脑血管畸形",
+      "epmc": [
+        "\"arteriovenous malformation\"",
+        "\"cavernous malformation\""
+      ],
+      "mesh": "\"Intracranial Arteriovenous Malformations\"[Mesh]",
+      "mesh_key": "Intracranial Arteriovenous Malformations",
+      "match": [
+        "arteriovenous malformation",
+        "cavernous malformation"
+      ],
+      "abbr": [
+        "\\bAVM\\b"
+      ]
+    },
+    {
+      "key": "TBI",
+      "zh": "创伤性脑损伤",
+      "epmc": [
+        "\"traumatic brain injury\"",
+        "\"intracranial pressure\""
+      ],
+      "mesh": "\"Brain Injuries, Traumatic\"[Mesh]",
+      "mesh_key": "Brain Injuries, Traumatic",
+      "match": [
+        "traumatic brain injury",
+        "intracranial pressure",
+        "concussion"
+      ],
+      "abbr": [
+        "\\bTBI\\b"
+      ]
+    },
+    {
+      "key": "GLI",
+      "zh": "胶质瘤",
+      "epmc": [
+        "\"glioma\"",
+        "\"glioblastoma\""
+      ],
+      "mesh": "\"Glioma\"[Mesh]",
+      "mesh_key": "Glioma",
+      "match": [
+        "glioma",
+        "glioblastoma",
+        "diffuse midline",
+        "IDH"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "MEN",
+      "zh": "脑膜瘤与颅底肿瘤",
+      "epmc": [
+        "\"meningioma\"",
+        "\"skull base tumor\""
+      ],
+      "mesh": "\"Meningioma\"[Mesh]",
+      "mesh_key": "Meningioma",
+      "match": [
+        "meningioma",
+        "skull base"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "HYD",
+      "zh": "脑积水",
+      "epmc": [
+        "\"hydrocephalus\""
+      ],
+      "mesh": "\"Hydrocephalus\"[Mesh]",
+      "mesh_key": "Hydrocephalus",
+      "match": [
+        "hydrocephalus",
+        "shunt"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "DBS",
+      "zh": "功能神经外科",
+      "epmc": [
+        "\"deep brain stimulation\"",
+        "\"stereotactic neurosurgery\""
+      ],
+      "mesh": "\"Deep Brain Stimulation\"[Mesh]",
+      "mesh_key": "Deep Brain Stimulation",
+      "match": [
+        "deep brain stimulation",
+        "stereotactic",
+        "neuromodulation"
+      ],
+      "abbr": [
+        "\\bDBS\\b"
+      ]
+    },
+    {
+      "key": "EPX",
+      "zh": "癫痫外科",
+      "epmc": [
+        "\"epilepsy surgery\"",
+        "\"surgical treatment of epilepsy\""
+      ],
+      "mesh": "\"Epilepsy\"[Mesh]",
+      "mesh_key": "Epilepsy",
+      "match": [
+        "epilepsy surgery",
+        "epilepsia surgica",
+        "selective amygdalohippocampectomy"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "ICH",
+      "zh": "脑出血外科",
+      "epmc": [
+        "\"intracerebral hemorrhage\"",
+        "\"minimally invasive surgery hematoma\""
+      ],
+      "mesh": "\"Cerebral Hemorrhage\"[Mesh]",
+      "mesh_key": "Cerebral Hemorrhage",
+      "match": [
+        "intracerebral hemorrhage",
+        "intracranial hemorrhage",
+        "hematoma evacuation"
+      ],
+      "abbr": [
+        "\\bICH\\b"
+      ]
+    },
+    {
+      "key": "PIT",
+      "zh": "垂体瘤外科",
+      "epmc": [
+        "\"pituitary adenoma\"",
+        "\"transsphenoidal\""
+      ],
+      "mesh": "\"Pituitary Neoplasms\"[Mesh]",
+      "mesh_key": "Pituitary Neoplasms",
+      "match": [
+        "pituitary adenoma",
+        "transsphenoidal"
+      ],
+      "abbr": []
+    }
+  ],
+  "journals": {
+    "top": {
+      "J Neurosurg": 34,
+      "Neurosurgery": 32,
+      "Stroke": 26,
+      "N Engl J Med": 30,
+      "Lancet": 26,
+      "JAMA": 28
+    },
+    "core": {
+      "J Neurol Neurosurg Psychiatry": 24,
+      "Acta Neurochir (Wien)": 20,
+      "Neurosurg Focus": 18,
+      "World Neurosurg": 18,
+      "Neurocrit Care": 18,
+      "J Neurointerv Surg": 18,
+      "Neurosurg Rev": 16,
+      "Stereotact Funct Neurosurg": 14,
+      "Clin Neurol Neurosurg": 14,
+      "Childs Nerv Syst": 12,
+      "J Clin Neurosci": 12,
+      "Neuro Oncol": 20,
+      "J Neurosurg Spine": 16,
+      "Neurosurg Clin N Am": 12,
+      "J Neurosurg Pediatr": 12,
+      "Interv Neuroradiol": 12,
+      "Br J Neurosurg": 10,
+      "J Spinal Disord Tech": 12
+    },
+    "sci": {
+      "Exp Neurol": 10
+    }
+  },
+  "conference": {
+    "journal_markers": [
+      "j neurosurg",
+      "neurosurgery",
+      "acta neurochir",
+      "world neurosurg"
+    ],
+    "blob_terms": "aans \\d{4}|eans \\d{4}|wfns \\d{4}|supplement",
+    "pubmed_jour": "\"J Neurosurg\"[jour] OR \"Neurosurgery\"[jour] OR \"Acta Neurochir (Wien)\"[jour]",
+    "pubmed_terms": "\"AANS\"[tiab] OR \"EANS\"[tiab] OR \"WFNS\"[tiab] OR \"Congress\"[tiab] OR \"meeting abstract\"[tiab]",
+    "epmc_titles": [
+      "congress",
+      "annual meeting",
+      "meeting abstract",
+      "conference abstract",
+      "proceedings"
+    ]
+  },
+  "ctgov_conditions": [
+    "intracranial aneurysm",
+    "arteriovenous malformations, intracranial",
+    "brain injuries, traumatic",
+    "glioma",
+    "meningioma",
+    "hydrocephalus",
+    "deep brain stimulation",
+    "cerebral hemorrhage",
+    "pituitary neoplasms"
+  ],
+  "ua": "MedicalDigest/1.2 (neurosurgery literature digest)",
+  "topic_words": [
+    [
+      "\\b(flow diverter|coiling|clipping|cerebral aneurysm)\\b",
+      14
+    ],
+    [
+      "\\b(glioma|glioblastoma|IDH|awake craniotomy|5[- ]ALA)\\b",
+      14
+    ],
+    [
+      "\\b(meningioma|skull base|endoscopic endonasal)\\b",
+      12
+    ],
+    [
+      "\\b(deep brain stimulation|DBS|neuromodulation)\\b",
+      12
+    ],
+    [
+      "\\b(traumatic brain injury|intracranial pressure|decompressive craniectomy)\\b",
+      14
+    ],
+    [
+      "\\b(intracerebral hemorrhage|minimally invasive evacuation|thrombolysis)\\b",
+      12
+    ],
+    [
+      "\\b(hydrocephalus|shunt|third ventriculostomy)\\b",
+      12
+    ],
+    [
+      "\\b(pituitary adenoma|transsphenoidal)\\b",
+      12
+    ],
+    [
+      "\\b(epilepsy surgery|laser interstitial|stereotactic)\\b",
+      12
+    ],
+    [
+      "\\b(spinal cord|spine surgery|instrumentation)\\b",
+      10
+    ],
+    [
+      "\\b(intraoperative monitoring|neuronavigation|robot[- ]assisted)\\b",
+      10
+    ],
+    [
+      "\\b(prognos|predict|machine learning|deep learning|artificial intelligence|risk factor)\\b",
+      8
+    ],
+    [
+      "\\b(trial|safety|efficacy|adverse|mortality|hospitalization)\\b",
+      5
+    ]
+  ]
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- 深蓝医疗渐变底，圆角方形 -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07131f"/>
+      <stop offset="0.55" stop-color="#0c2a3f"/>
+      <stop offset="1" stop-color="#081b2b"/>
+    </linearGradient>
+    <linearGradient id="pulse" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3fd0c9"/>
+      <stop offset="1" stop-color="#4fd1c5"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="52" fill="url(#bg)"/>
+  <!-- 文献页 -->
+  <path d="M78 46 h72 l34 34 v130 a8 8 0 0 1 -8 8 H78 a8 8 0 0 1 -8 -8 V54 a8 8 0 0 1 8 -8 z"
+        fill="#f2f7fb" opacity="0.96"/>
+  <path d="M150 46 l34 34 h-30 a4 4 0 0 1 -4 -4 z" fill="#93a9bd"/>
+  <!-- 文本行 -->
+  <rect x="90" y="98" width="84" height="8" rx="4" fill="#5f7387"/>
+  <rect x="90" y="118" width="68" height="8" rx="4" fill="#8fa6ba"/>
+  <rect x="90" y="138" width="76" height="8" rx="4" fill="#8fa6ba"/>
+  <!-- 脉搏线（穿过页面下部，品牌识别元素） -->
+  <polyline points="64,196 96,196 106,172 118,214 130,182 138,196 192,196"
+            fill="none" stroke="url(#pulse)" stroke-width="10"
+            stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -18,8 +18,8 @@
 | 方式 | 说明 |
 |---|---|
 | **SkillHub / WorkBuddy 搜索** | 客户端内搜索 `meddaily-<科>-digest`（如 `meddaily-rheum-digest`），免费安装 |
-| **本仓库构建** | 见下文"构建"，生成 dist zip 后按平台方式导入 |
-| **直接使用源码** | 把生成的某科包目录放入宿主技能目录（如 `~/.workbuddy/skills/`） |
+| **直接下载（推荐）** | 本仓库 [dist/](dist/) 目录：下载对应科室的 zip（如 `meddaily-rheum-digest-1.1.1.zip`）后按平台方式导入；也可整目录下载放入宿主技能目录（如 `~/.workbuddy/skills/`） |
+| **本仓库构建** | 见下文"构建"，从源码自行生成 |
 
 安装后对 agent 说「跑风湿科文献日报」或配成每日定时任务即可。完整产出样例见 [examples/](examples/)。
 
@@ -51,6 +51,7 @@ GEN_VERSION=1.2.0 python3 gen_specialty.py <key>   # 自定义版本（需同步
 digest/            通用源（模板 + 脚本 + icon.svg）
 specs/             27 科专科配置
 gen_specialty.py   专科包生成器
+dist/              27 科即用包（目录 + zip，可直接下载导入）
 examples/          真实日报产出样例
 ```
 

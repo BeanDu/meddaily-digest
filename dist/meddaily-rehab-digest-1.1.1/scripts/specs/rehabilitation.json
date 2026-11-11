@@ -1,0 +1,276 @@
+{
+  "zh": "康复医学科",
+  "diseases": [
+    {
+      "key": "STR",
+      "zh": "卒中康复",
+      "epmc": [
+        "\"stroke rehabilitation\"",
+        "\"post-stroke recovery\""
+      ],
+      "mesh": "\"Stroke Rehabilitation\"[Mesh]",
+      "mesh_key": "Stroke Rehabilitation",
+      "match": [
+        "stroke rehabilitation",
+        "post-stroke",
+        "recovery after stroke"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "SCI",
+      "zh": "脊髓损伤康复",
+      "epmc": [
+        "\"spinal cord injury rehabilitation\""
+      ],
+      "mesh": "\"Spinal Cord Injuries\"[Mesh]",
+      "mesh_key": "Spinal Cord Injuries",
+      "match": [
+        "spinal cord injury"
+      ],
+      "abbr": [
+        "\\bSCI\\b"
+      ]
+    },
+    {
+      "key": "CP",
+      "zh": "脑瘫康复",
+      "epmc": [
+        "\"cerebral palsy\""
+      ],
+      "mesh": "\"Cerebral Palsy\"[Mesh]",
+      "mesh_key": "Cerebral Palsy",
+      "match": [
+        "cerebral palsy"
+      ],
+      "abbr": [
+        "\\bCP\\b"
+      ]
+    },
+    {
+      "key": "AJR",
+      "zh": "骨科康复",
+      "epmc": [
+        "\"arthroplasty rehabilitation\"",
+        "\"total knee rehabilitation\"",
+        "\"return to sport\""
+      ],
+      "mesh": "\"Recovery of Function\"[Mesh]",
+      "mesh_key": "Recovery of Function",
+      "match": [
+        "arthroplasty rehabilitation",
+        "postoperative rehabilitation",
+        "return to sport"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "CAR",
+      "zh": "心肺康复",
+      "epmc": [
+        "\"cardiac rehabilitation\"",
+        "\"pulmonary rehabilitation\""
+      ],
+      "mesh": "\"Exercise Therapy\"[Mesh]",
+      "mesh_key": "Exercise Therapy",
+      "match": [
+        "cardiac rehabilitation",
+        "pulmonary rehabilitation",
+        "exercise training"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "DYS",
+      "zh": "吞咽障碍",
+      "epmc": [
+        "\"dysphagia\"",
+        "\"swallowing disorder\"",
+        "\"swallowing rehabilitation\""
+      ],
+      "mesh": "\"Deglutition Disorders\"[Mesh]",
+      "mesh_key": "Deglutition Disorders",
+      "match": [
+        "dysphagia",
+        "swallowing"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "LAN",
+      "zh": "言语与认知康复",
+      "epmc": [
+        "\"aphasia rehabilitation\"",
+        "\"cognitive rehabilitation\""
+      ],
+      "mesh": "\"Aphasia\"[Mesh]",
+      "mesh_key": "Aphasia",
+      "match": [
+        "aphasia",
+        "cognitive rehabilitation",
+        "language recovery"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "NPP",
+      "zh": "神经病理性疼痛",
+      "epmc": [
+        "\"neuropathic pain\"",
+        "\"central pain\""
+      ],
+      "mesh": "\"Neuralgia\"[Mesh]",
+      "mesh_key": "Neuralgia",
+      "match": [
+        "neuropathic pain",
+        "central pain"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "PRO",
+      "zh": "假肢与辅具",
+      "epmc": [
+        "\"prosthesis\"",
+        "\"artificial limb\"",
+        "\"orthosis\""
+      ],
+      "mesh": "\"Artificial Limbs\"[Mesh]",
+      "mesh_key": "Artificial Limbs",
+      "match": [
+        "prosthes",
+        "artificial limb",
+        "orthos"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "ACU",
+      "zh": "针灸与传统康复",
+      "epmc": [
+        "\"acupuncture\"",
+        "\"electroacupuncture\""
+      ],
+      "mesh": "\"Acupuncture Therapy\"[Mesh]",
+      "mesh_key": "Acupuncture Therapy",
+      "match": [
+        "acupuncture",
+        "electroacupuncture",
+        "moxibustion"
+      ],
+      "abbr": []
+    }
+  ],
+  "journals": {
+    "top": {
+      "Arch Phys Med Rehabil": 30,
+      "Stroke": 26,
+      "Lancet": 26,
+      "J Physiother": 22,
+      "Neurorehabil Neural Repair": 24,
+      "N Engl J Med": 30
+    },
+    "core": {
+      "Clin Rehabil": 20,
+      "J Rehabil Med": 18,
+      "Am J Phys Med Rehabil": 18,
+      "Spinal Cord": 18,
+      "Disabil Rehabil": 16,
+      "Eur J Phys Rehabil Med": 14,
+      "Top Stroke Rehabil": 14,
+      "PM R": 16,
+      "Muscle Nerve": 14,
+      "J Neurol Phys Ther": 12,
+      "NeuroRehabilitation": 12,
+      "Physiotherapy": 12,
+      "J Hand Ther": 12,
+      "Prosthet Orthot Int": 12,
+      "J Back Musculoskelet Rehabil": 10,
+      "Am J Occup Ther": 10,
+      "Dev Neurorehabil": 10,
+      "Dysphagia": 14,
+      "Dev Med Child Neurol": 12
+    },
+    "sci": {
+      "J Neuroeng Rehabil": 14
+    }
+  },
+  "conference": {
+    "journal_markers": [
+      "arch phys med rehabil",
+      "clin rehabil",
+      "j rehabil med"
+    ],
+    "blob_terms": "isprm \\d{4}|international society of physical and rehabilitation medicine|supplement",
+    "pubmed_jour": "\"Arch Phys Med Rehabil\"[jour] OR \"Clin Rehabil\"[jour] OR \"J Rehabil Med\"[jour]",
+    "pubmed_terms": "\"ISPRM\"[tiab] OR \"APTA\"[tiab] OR \"Congress\"[tiab] OR \"meeting abstract\"[tiab]",
+    "epmc_titles": [
+      "congress",
+      "annual meeting",
+      "meeting abstract",
+      "conference abstract",
+      "proceedings"
+    ]
+  },
+  "ctgov_conditions": [
+    "stroke rehabilitation",
+    "spinal cord injuries",
+    "cerebral palsy",
+    "deglutition disorders",
+    "aphasia",
+    "neuralgia",
+    "artificial limbs",
+    "acupuncture therapy"
+  ],
+  "ua": "MedicalDigest/1.2 (rehabilitation literature digest)",
+  "topic_words": [
+    [
+      "\\b(stroke rehabilitation|neuroplasticity|constraint[- ]induced|task[- ]specific)\\b",
+      14
+    ],
+    [
+      "\\b(robot[- ]assisted|exoskeleton|brain[- ]computer interface)\\b",
+      12
+    ],
+    [
+      "\\b(rTMS|transcranial|non[- ]invasive brain stimulation)\\b",
+      12
+    ],
+    [
+      "\\b(spinal cord injury|locomotor training|activity[- ]based)\\b",
+      12
+    ],
+    [
+      "\\b(sarcopenia|resistance training|exercise intervention)\\b",
+      12
+    ],
+    [
+      "\\b(virtual reality|gamification|telerehabilitation|wearable)\\b",
+      10
+    ],
+    [
+      "\\b(dysphagia|swallowing|neuromuscular electrical stimulation)\\b",
+      12
+    ],
+    [
+      "\\b(aphasia|speech and language|cognitive rehabilitation)\\b",
+      10
+    ],
+    [
+      "\\b(neuropathic pain|mirror therapy)\\b",
+      10
+    ],
+    [
+      "\\b(cardiac rehabilitation|pulmonary rehabilitation)\\b",
+      12
+    ],
+    [
+      "\\b(cerebral palsy|botulinum toxin)\\b",
+      10
+    ],
+    [
+      "\\b(trial|safety|efficacy|adverse|mortality|hospitalization)\\b",
+      5
+    ]
+  ]
+}

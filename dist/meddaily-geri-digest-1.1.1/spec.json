@@ -1,0 +1,8 @@
+{
+  "name": "医学文献日报-老年医学科",
+  "version": "1.1.1",
+  "specialty_spec": "geriatrics.json",
+  "key": "geriatrics",
+  "dept": "老年医学科",
+  "file_prefix": "meddaily-geri-digest"
+}

@@ -1,0 +1,297 @@
+{
+  "zh": "普通外科",
+  "diseases": [
+    {
+      "key": "GAS",
+      "zh": "胃癌外科",
+      "epmc": [
+        "\"gastric cancer surgery\"",
+        "\"gastrectomy\"",
+        "\"lymphadenectomy\""
+      ],
+      "mesh": "\"Stomach Neoplasms\"[Mesh]",
+      "mesh_key": "Stomach Neoplasms",
+      "match": [
+        "gastrectomy",
+        "gastric cancer",
+        "lymphadenectomy"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "COL",
+      "zh": "结直肠癌外科",
+      "epmc": [
+        "\"colorectal cancer surgery\"",
+        "\"colectomy\"",
+        "\"total mesorectal excision\""
+      ],
+      "mesh": "\"Colorectal Neoplasms\"[Mesh]",
+      "mesh_key": "Colorectal Neoplasms",
+      "match": [
+        "colectomy",
+        "colorectal cancer",
+        "total mesorectal",
+        "rectal cancer"
+      ],
+      "abbr": [
+        "\\bTME\\b"
+      ]
+    },
+    {
+      "key": "LAP",
+      "zh": "微创与机器人外科",
+      "epmc": [
+        "\"laparoscopic surgery\"",
+        "\"robotic surgery\"",
+        "\"minimally invasive surgery\""
+      ],
+      "mesh": "\"Laparoscopy\"[Mesh]",
+      "mesh_key": "Laparoscopy",
+      "match": [
+        "laparoscop",
+        "robotic surgery",
+        "robotic-assisted",
+        "minimally invasive"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "HER",
+      "zh": "疝与腹壁外科",
+      "epmc": [
+        "\"inguinal hernia\"",
+        "\"ventral hernia\"",
+        "\"abdominal wall reconstruction\""
+      ],
+      "mesh": "\"Hernia, Inguinal\"[Mesh]",
+      "mesh_key": "Hernia, Inguinal",
+      "match": [
+        "hernia",
+        "abdominal wall reconstruction",
+        "mesh"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "BAR",
+      "zh": "肥胖与代谢外科",
+      "epmc": [
+        "\"bariatric surgery\"",
+        "\"metabolic surgery\"",
+        "\"sleeve gastrectomy\""
+      ],
+      "mesh": "\"Bariatric Surgery\"[Mesh]",
+      "mesh_key": "Bariatric Surgery",
+      "match": [
+        "bariatric",
+        "metabolic surgery",
+        "sleeve gastrectomy",
+        "roux-en-y"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "APP",
+      "zh": "急腹症与阑尾炎",
+      "epmc": [
+        "\"appendicitis\"",
+        "\"acute abdomen\""
+      ],
+      "mesh": "\"Appendicitis\"[Mesh]",
+      "mesh_key": "Appendicitis",
+      "match": [
+        "appendicitis",
+        "acute abdomen"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "GAL",
+      "zh": "胆道外科",
+      "epmc": [
+        "\"cholecystectomy\"",
+        "\"choledocholithiasis\"",
+        "\"gallstone\""
+      ],
+      "mesh": "\"Cholelithiasis\"[Mesh]",
+      "mesh_key": "Cholelithiasis",
+      "match": [
+        "cholecystectomy",
+        "choledocholithiasis",
+        "gallstone",
+        "common bile duct"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "THY",
+      "zh": "甲状腺与甲状旁腺外科",
+      "epmc": [
+        "\"thyroidectomy\"",
+        "\"thyroid cancer surgery\"",
+        "\"parathyroidectomy\""
+      ],
+      "mesh": "\"Thyroid Nodule\"[Mesh]",
+      "mesh_key": "Thyroid Nodule",
+      "match": [
+        "thyroidectomy",
+        "thyroid nodule",
+        "thyroid cancer",
+        "parathyroid"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "BRS",
+      "zh": "乳腺外科",
+      "epmc": [
+        "\"breast surgery\"",
+        "\"breast-conserving\""
+      ],
+      "mesh": "\"Breast Neoplasms\"[Mesh]",
+      "mesh_key": "Breast Neoplasms",
+      "match": [
+        "breast surgery",
+        "breast-conserving",
+        "sentinel lymph node",
+        "mastectomy"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "PST",
+      "zh": "围术期与并发症",
+      "epmc": [
+        "\"anastomotic leak\"",
+        "\"postoperative ileus\"",
+        "\"surgical site infection\""
+      ],
+      "mesh": "\"Postoperative Complications\"[Mesh]",
+      "mesh_key": "Postoperative Complications",
+      "match": [
+        "anastomotic leak",
+        "postoperative ileus",
+        "surgical site infection"
+      ],
+      "abbr": []
+    }
+  ],
+  "journals": {
+    "top": {
+      "Ann Surg": 34,
+      "JAMA Surg": 32,
+      "Br J Surg": 30,
+      "N Engl J Med": 30,
+      "Lancet": 26,
+      "JAMA": 28
+    },
+    "core": {
+      "J Am Coll Surg": 22,
+      "Ann Surg Oncol": 20,
+      "Surg Endosc": 20,
+      "Surgery": 18,
+      "J Gastrointest Surg": 18,
+      "Surg Obes Relat Dis": 18,
+      "World J Surg": 16,
+      "Int J Surg": 16,
+      "Hernia": 16,
+      "Colorectal Dis": 14,
+      "BJS Open": 14,
+      "Langenbecks Arch Surg": 12,
+      "J Surg Oncol": 16,
+      "HPB (Oxford)": 12,
+      "J Hepatobiliary Pancreat Sci": 12,
+      "Tech Coloproctol": 12,
+      "Int J Colorectal Dis": 12,
+      "Surg Today": 10,
+      "Updates Surg": 10
+    },
+    "sci": {
+      "Front Surg": 8
+    }
+  },
+  "conference": {
+    "journal_markers": [
+      "ann surg",
+      "jama surg",
+      "br j surg"
+    ],
+    "blob_terms": "acs \\d{4}|american college of surgeons|european surgical association|supplement",
+    "pubmed_jour": "\"Ann Surg\"[jour] OR \"JAMA Surg\"[jour] OR \"Br J Surg\"[jour]",
+    "pubmed_terms": "\"ACS\"[tiab] OR \"ESS\"[tiab] OR \"Congress\"[tiab] OR \"meeting abstract\"[tiab]",
+    "epmc_titles": [
+      "congress",
+      "annual meeting",
+      "meeting abstract",
+      "conference abstract",
+      "proceedings"
+    ]
+  },
+  "ctgov_conditions": [
+    "stomach neoplasms",
+    "colorectal neoplasms",
+    "hernia, inguinal",
+    "bariatric surgery",
+    "appendicitis",
+    "cholelithiasis",
+    "thyroid nodule",
+    "breast neoplasms",
+    "postoperative complications"
+  ],
+  "ua": "MedicalDigest/1.2 (generalsurgery literature digest)",
+  "topic_words": [
+    [
+      "\\b(laparoscopic|robotic|minimally invasive)\\b",
+      12
+    ],
+    [
+      "\\b(gastrectomy|D2 lymphadenectomy|neoadjuvant)\\b",
+      12
+    ],
+    [
+      "\\b(colectomy|rectal cancer|total mesorectal|TME)\\b",
+      12
+    ],
+    [
+      "\\b(bariatric|sleeve gastrectomy|roux[- ]en[- ]y|metabolic surgery)\\b",
+      14
+    ],
+    [
+      "\\b(inguinal hernia|ventral hernia|mesh|TAPP|TEP)\\b",
+      12
+    ],
+    [
+      "\\b(cholecystectomy|common bile duct|ERCP)\\b",
+      10
+    ],
+    [
+      "\\b(appendicitis|acute abdomen)\\b",
+      10
+    ],
+    [
+      "\\b(thyroidectomy|parathyroid|nerve monitoring)\\b",
+      10
+    ],
+    [
+      "\\b(breast[- ]conserving|sentinel node|axillary)\\b",
+      12
+    ],
+    [
+      "\\b(ERAS|enhanced recovery|postoperative complication)\\b",
+      10
+    ],
+    [
+      "\\b(anastomotic leak|ileus)\\b",
+      8
+    ],
+    [
+      "\\b(prognos|predict|machine learning|deep learning|artificial intelligence|risk factor)\\b",
+      8
+    ],
+    [
+      "\\b(trial|safety|efficacy|adverse|mortality|hospitalization)\\b",
+      5
+    ]
+  ]
+}

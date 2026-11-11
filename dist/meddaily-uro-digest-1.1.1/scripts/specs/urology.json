@@ -1,0 +1,289 @@
+{
+  "zh": "泌尿外科",
+  "diseases": [
+    {
+      "key": "PRC",
+      "zh": "前列腺癌",
+      "epmc": [
+        "\"prostate cancer\"",
+        "\"prostate carcinoma\""
+      ],
+      "mesh": "\"Prostatic Neoplasms\"[Mesh]",
+      "mesh_key": "Prostatic Neoplasms",
+      "match": [
+        "prostate cancer",
+        "prostate carcinoma",
+        "prostatic neoplasm"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "BLC",
+      "zh": "膀胱癌",
+      "epmc": [
+        "\"bladder cancer\"",
+        "\"urothelial carcinoma\"",
+        "\"bladder carcinoma\""
+      ],
+      "mesh": "\"Urinary Bladder Neoplasms\"[Mesh]",
+      "mesh_key": "Urinary Bladder Neoplasms",
+      "match": [
+        "bladder cancer",
+        "bladder carcinoma",
+        "urothelial carcin"
+      ],
+      "abbr": [
+        "\\bNMIBC\\b",
+        "\\bMIBC\\b"
+      ]
+    },
+    {
+      "key": "RCC",
+      "zh": "肾细胞癌",
+      "epmc": [
+        "\"renal cell carcinoma\"",
+        "\"kidney cancer\""
+      ],
+      "mesh": "\"Carcinoma, Renal Cell\"[Mesh]",
+      "mesh_key": "Carcinoma, Renal Cell",
+      "match": [
+        "renal cell carcinoma",
+        "kidney cancer",
+        "renal mass"
+      ],
+      "abbr": [
+        "\\bRCC\\b"
+      ]
+    },
+    {
+      "key": "BPH",
+      "zh": "前列腺增生",
+      "epmc": [
+        "\"benign prostatic hyperplasia\"",
+        "\"lower urinary tract symptoms\""
+      ],
+      "mesh": "\"Prostatic Hyperplasia\"[Mesh]",
+      "mesh_key": "Prostatic Hyperplasia",
+      "match": [
+        "benign prostatic hyperplasia",
+        "prostatic enlargement",
+        "lower urinary tract symptoms"
+      ],
+      "abbr": [
+        "\\bBPH\\b",
+        "\\bLUTS\\b"
+      ]
+    },
+    {
+      "key": "STO",
+      "zh": "尿路结石",
+      "epmc": [
+        "\"urolithiasis\"",
+        "\"kidney stone\"",
+        "\"renal colic\"",
+        "\"ureteral stone\""
+      ],
+      "mesh": "\"Urolithiasis\"[Mesh]",
+      "mesh_key": "Urolithiasis",
+      "match": [
+        "urolithiasis",
+        "kidney stone",
+        "renal colic",
+        "ureteral stone",
+        "nephrolithiasis"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "EDF",
+      "zh": "勃起功能障碍",
+      "epmc": [
+        "\"erectile dysfunction\""
+      ],
+      "mesh": "\"Erectile Dysfunction\"[Mesh]",
+      "mesh_key": "Erectile Dysfunction",
+      "match": [
+        "erectile dysfunction"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "UIN",
+      "zh": "尿失禁与膀胱过度活动",
+      "epmc": [
+        "\"urinary incontinence\"",
+        "\"stress urinary incontinence\"",
+        "\"overactive bladder\""
+      ],
+      "mesh": "\"Urinary Incontinence\"[Mesh]",
+      "mesh_key": "Urinary Incontinence",
+      "match": [
+        "urinary incontinence",
+        "overactive bladder"
+      ],
+      "abbr": [
+        "\\bSUI\\b",
+        "\\bOAB\\b"
+      ]
+    },
+    {
+      "key": "PRO",
+      "zh": "慢性前列腺炎",
+      "epmc": [
+        "\"chronic prostatitis\"",
+        "\"chronic pelvic pain syndrome\""
+      ],
+      "mesh": "\"Prostatitis\"[Mesh]",
+      "mesh_key": "Prostatitis",
+      "match": [
+        "prostatitis",
+        "chronic pelvic pain syndrome"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "ICB",
+      "zh": "膀胱疼痛综合征",
+      "epmc": [
+        "\"interstitial cystitis\"",
+        "\"bladder pain syndrome\""
+      ],
+      "mesh": "\"Cystitis, Interstitial\"[Mesh]",
+      "mesh_key": "Cystitis, Interstitial",
+      "match": [
+        "interstitial cystitis",
+        "bladder pain syndrome"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "MIF",
+      "zh": "男性不育",
+      "epmc": [
+        "\"male infertility\"",
+        "\"male subfertility\"",
+        "\"semen quality\""
+      ],
+      "mesh": "\"Infertility, Male\"[Mesh]",
+      "mesh_key": "Infertility, Male",
+      "match": [
+        "male infertil",
+        "male subfertil",
+        "semen quality",
+        "oligozoospermia"
+      ],
+      "abbr": []
+    }
+  ],
+  "journals": {
+    "top": {
+      "Eur Urol": 34,
+      "J Urol": 32,
+      "Nat Rev Urol": 30,
+      "N Engl J Med": 30,
+      "Lancet": 26,
+      "JAMA": 28
+    },
+    "core": {
+      "BJU Int": 24,
+      "Eur Urol Focus": 20,
+      "J Endourol": 14,
+      "Urology": 14,
+      "Urol Oncol": 14,
+      "J Sex Med": 14,
+      "Int J Impot Res": 12,
+      "Neurourol Urodyn": 12,
+      "World J Urol": 12,
+      "Prostate": 10,
+      "Asian J Androl": 10,
+      "Andrology": 10,
+      "Int Urol Nephrol": 12,
+      "Prostate Cancer Prostatic Dis": 12,
+      "Urol Clin North Am": 10,
+      "Investig Clin Urol": 10
+    },
+    "sci": {
+      "Sci Transl Med": 14,
+      "Nat Commun": 10
+    }
+  },
+  "conference": {
+    "journal_markers": [
+      "eur urol",
+      "j urol",
+      "bju int",
+      "european urology"
+    ],
+    "blob_terms": "aua \\d{4}|eau \\d{4}|american urological association|european association of urology|supplement",
+    "pubmed_jour": "\"Eur Urol\"[jour] OR \"J Urol\"[jour] OR \"BJU Int\"[jour]",
+    "pubmed_terms": "\"AUA\"[tiab] OR \"EAU\"[tiab] OR \"Congress\"[tiab] OR \"meeting abstract\"[tiab]",
+    "epmc_titles": [
+      "congress",
+      "annual meeting",
+      "meeting abstract",
+      "conference abstract",
+      "proceedings"
+    ]
+  },
+  "ctgov_conditions": [
+    "prostate cancer",
+    "bladder cancer",
+    "renal cell carcinoma",
+    "prostatic hyperplasia",
+    "urolithiasis",
+    "erectile dysfunction",
+    "urinary incontinence",
+    "male infertility"
+  ],
+  "ua": "MedicalDigest/1.2 (urology literature digest)",
+  "topic_words": [
+    [
+      "\\b(PSA|prostate[- ]specific antigen|mpMRI|PI[- ]RADS)\\b",
+      12
+    ],
+    [
+      "\\b(radical prostatectomy|radiotherapy|brachytherapy|SBRT|focal therapy)\\b",
+      12
+    ],
+    [
+      "\\b(androgen receptor|abiraterone|enzalutamide|darolutamide|apalutamide|mCRPC)\\b",
+      14
+    ],
+    [
+      "\\b(PSMA|177Lu|lutetium|radioligand)\\b",
+      14
+    ],
+    [
+      "\\b(nephron[- ]sparing|partial nephrectomy|renal mass|cryoablation)\\b",
+      10
+    ],
+    [
+      "\\b(BCG|enfortumab|erdafitinib|nadofaragene|NMIBC|MIBC)\\b",
+      14
+    ],
+    [
+      "\\b(kidney stone|ureteroscopy|PCNL|shock wave|metabolic evaluation)\\b",
+      10
+    ],
+    [
+      "\\b(BPH|LUTS|TURP|rezum|UroLift|5[- ]alpha)\\b",
+      10
+    ],
+    [
+      "\\b(PDE5|penile prosthesis|shockwave)\\b",
+      10
+    ],
+    [
+      "\\b(sling|midurethral|pelvic floor|neuromodulation)\\b",
+      10
+    ],
+    [
+      "\\b(varicocele|sperm|ICSI|testosterone)\\b",
+      8
+    ],
+    [
+      "\\b(trial|safety|efficacy|adverse|mortality|hospitalization)\\b",
+      5
+    ]
+  ]
+}

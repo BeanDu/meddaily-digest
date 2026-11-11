@@ -1,0 +1,286 @@
+{
+  "zh": "肿瘤科",
+  "diseases": [
+    {
+      "key": "NSCLC",
+      "zh": "肺癌",
+      "epmc": [
+        "\"non-small cell lung cancer\"",
+        "\"lung cancer\""
+      ],
+      "mesh": "\"Lung Neoplasms\"[Mesh]",
+      "mesh_key": "Lung Neoplasms",
+      "match": [
+        "non-small cell lung",
+        "lung cancer",
+        "NSCLC"
+      ],
+      "abbr": [
+        "\\bNSCLC\\b"
+      ]
+    },
+    {
+      "key": "BC",
+      "zh": "乳腺癌",
+      "epmc": [
+        "\"breast cancer\""
+      ],
+      "mesh": "\"Breast Neoplasms\"[Mesh]",
+      "mesh_key": "Breast Neoplasms",
+      "match": [
+        "breast cancer",
+        "breast carcinoma"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "CRC",
+      "zh": "结直肠癌",
+      "epmc": [
+        "\"colorectal cancer\""
+      ],
+      "mesh": "\"Colorectal Neoplasms\"[Mesh]",
+      "mesh_key": "Colorectal Neoplasms",
+      "match": [
+        "colorectal cancer"
+      ],
+      "abbr": [
+        "\\bCRC\\b"
+      ]
+    },
+    {
+      "key": "GC",
+      "zh": "胃癌",
+      "epmc": [
+        "\"gastric cancer\""
+      ],
+      "mesh": "\"Stomach Neoplasms\"[Mesh]",
+      "mesh_key": "Stomach Neoplasms",
+      "match": [
+        "gastric cancer"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "HCC",
+      "zh": "肝细胞癌",
+      "epmc": [
+        "\"hepatocellular carcinoma\""
+      ],
+      "mesh": "\"Carcinoma, Hepatocellular\"[Mesh]",
+      "mesh_key": "Carcinoma, Hepatocellular",
+      "match": [
+        "hepatocellular carcinoma"
+      ],
+      "abbr": [
+        "\\bHCC\\b"
+      ]
+    },
+    {
+      "key": "PCA",
+      "zh": "前列腺癌",
+      "epmc": [
+        "\"prostate cancer\""
+      ],
+      "mesh": "\"Prostatic Neoplasms\"[Mesh]",
+      "mesh_key": "Prostatic Neoplasms",
+      "match": [
+        "prostate cancer"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "PC",
+      "zh": "胰腺癌",
+      "epmc": [
+        "\"pancreatic cancer\""
+      ],
+      "mesh": "\"Pancreatic Neoplasms\"[Mesh]",
+      "mesh_key": "Pancreatic Neoplasms",
+      "match": [
+        "pancreatic cancer"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "IO",
+      "zh": "免疫检查点治疗",
+      "epmc": [
+        "\"immune checkpoint inhibitor\"",
+        "\"immunotherapy\""
+      ],
+      "mesh": "\"Immune Checkpoint Inhibitors\"[Mesh]",
+      "mesh_key": "Immune Checkpoint Inhibitors",
+      "match": [
+        "immune checkpoint",
+        "immunotherapy"
+      ],
+      "abbr": [
+        "\\bICI\\b",
+        "\\birAE\\b"
+      ]
+    },
+    {
+      "key": "TGT",
+      "zh": "靶向治疗",
+      "epmc": [
+        "\"targeted therapy\"",
+        "\"tyrosine kinase inhibitor\""
+      ],
+      "mesh": "\"Molecular Targeted Therapy\"[Mesh]",
+      "mesh_key": "Molecular Targeted Therapy",
+      "match": [
+        "targeted therapy",
+        "tyrosine kinase"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "SUPP",
+      "zh": "支持治疗",
+      "epmc": [
+        "\"supportive care\"",
+        "\"chemotherapy-induced\""
+      ],
+      "mesh": "\"Antineoplastic Agents\"[Mesh]",
+      "mesh_key": "Antineoplastic Agents",
+      "match": [
+        "supportive care",
+        "chemotherapy-induced"
+      ],
+      "abbr": []
+    }
+  ],
+  "journals": {
+    "top": {
+      "N Engl J Med": 30,
+      "Lancet": 26,
+      "JAMA": 28,
+      "Nat Med": 30,
+      "Ann Intern Med": 24,
+      "J Clin Oncol": 34,
+      "Lancet Oncol": 34,
+      "Ann Oncol": 30,
+      "JAMA Oncol": 28,
+      "Nat Rev Clin Oncol": 30,
+      "Cancer Cell": 30,
+      "Cancer Discov": 28,
+      "Nat Cancer": 26
+    },
+    "core": {
+      "Eur J Cancer": 22,
+      "Cancer Treat Rev": 20,
+      "Clin Cancer Res": 20,
+      "J Natl Cancer Inst": 20,
+      "J Immunother Cancer": 20,
+      "Br J Cancer": 18,
+      "Oncologist": 16,
+      "Int J Cancer": 14,
+      "Cancer": 14,
+      "ESMO Open": 14,
+      "Cancer Immunol Immunother": 14,
+      "Cancer Commun (Lond)": 12,
+      "Breast Cancer Res Treat": 14,
+      "Lung Cancer": 14,
+      "Gastric Cancer": 14,
+      "Ther Adv Med Oncol": 12,
+      "Clin Lung Cancer": 12,
+      "Prostate Cancer Prostatic Dis": 12,
+      "Clin Genitourin Cancer": 12,
+      "Cancer Med": 10,
+      "Cancers (Basel)": 10,
+      "Ann Surg Oncol": 20,
+      "Support Care Cancer": 18,
+      "Eur Radiol": 14,
+      "Urol Oncol": 14,
+      "Transl Oncol": 10
+    },
+    "sci": {
+      "Nat Rev Cancer": 16,
+      "Cancer Res": 12,
+      "Mol Cancer": 12,
+      "Clin Transl Med": 10
+    }
+  },
+  "conference": {
+    "journal_markers": [
+      "j clin oncol",
+      "lancet oncol",
+      "ann oncol"
+    ],
+    "blob_terms": "asco \\d{4}|esmo \\d{4}|aacr \\d{4}|american society of clinical oncology|european society for medical oncology|annual meeting",
+    "pubmed_jour": "\"J Clin Oncol\"[jour]",
+    "pubmed_terms": "\"ASCO\"[tiab] OR \"ESMO\"[tiab] OR \"congress\"[tiab]",
+    "epmc_titles": [
+      "congress",
+      "annual meeting",
+      "asco \\d{4}",
+      "late-breaking"
+    ]
+  },
+  "ctgov_conditions": [
+    "non-small cell lung cancer",
+    "breast neoplasms",
+    "colorectal neoplasms",
+    "stomach neoplasms",
+    "hepatocellular carcinoma",
+    "prostatic neoplasms",
+    "pancreatic neoplasms",
+    "immunotherapy"
+  ],
+  "ua": "MedicalDigest/1.2 (oncology literature digest)",
+  "topic_words": [
+    [
+      "\\b(immunotherapy|pembrolizumab|nivolumab|atezolizumab|durvalumab|PD[- ]1|PD[- ]L1|CTLA[- ]4|ICI)\\b",
+      14
+    ],
+    [
+      "\\b(EGFR|osimertinib|ALK|alectinib|lorlatinib|KRAS|sotorasib|HER2|T[- ]DXd|ADC)\\b",
+      14
+    ],
+    [
+      "\\b(ctDNA|liquid biopsy|minimal residual disease|MRD|biomarker|TMB|MSI)\\b",
+      10
+    ],
+    [
+      "\\b(targeted therapy|tyrosine kinase|PARP|olaparib|CDK4/6|palbociclib|mTOR)\\b",
+      10
+    ],
+    [
+      "\\b(HCC|hepatocellular|lenvatinib|sorafenib|bevacizumab|TACE)\\b",
+      10
+    ],
+    [
+      "\\b(NSCLC|SCLC|lung cancer|breast cancer|colorectal|gastric cancer|prostate cancer|pancreatic cancer)\\b",
+      9
+    ],
+    [
+      "\\b(neoadjuvant|adjuvant|perioperative|chemotherapy|platinum|FOLFOX|FOLFIRI)\\b",
+      9
+    ],
+    [
+      "\\b(survival|overall survival|progression[- ]free|PFS|response rate|ORR)\\b",
+      8
+    ],
+    [
+      "\\b(supportive care|palliative|antiemetic|neutropenia|G[- ]CSF|febrile neutropenia)\\b",
+      8
+    ],
+    [
+      "\\b(colorectal cancer|MSI[- ]H|dMMR|BRAF|KRAS)\\b",
+      8
+    ],
+    [
+      "\\b(gastric|GEJ|trastuzumab|claudin|zolbetuximab)\\b",
+      8
+    ],
+    [
+      "\\b(prognos|predict|machine learning|deep learning|artificial intelligence|risk factor)\\b",
+      8
+    ],
+    [
+      "\\b(trial|safety|efficacy|adverse|toxicity)\\b",
+      5
+    ]
+  ]
+}

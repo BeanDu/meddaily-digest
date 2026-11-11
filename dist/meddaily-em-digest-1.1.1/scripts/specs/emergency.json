@@ -1,0 +1,290 @@
+{
+  "zh": "急诊科",
+  "diseases": [
+    {
+      "key": "CPR",
+      "zh": "心脏骤停与心肺复苏",
+      "epmc": [
+        "\"cardiac arrest\"",
+        "\"cardiopulmonary resuscitation\"",
+        "\"return of spontaneous circulation\""
+      ],
+      "mesh": "\"Heart Arrest\"[Mesh]",
+      "mesh_key": "Heart Arrest",
+      "match": [
+        "cardiac arrest",
+        "cardiopulmonary resuscitation",
+        "resuscitation",
+        "ROSC"
+      ],
+      "abbr": [
+        "\\bCPR\\b",
+        "\\bROSC\\b"
+      ]
+    },
+    {
+      "key": "TOX",
+      "zh": "急性中毒",
+      "epmc": [
+        "\"acute poisoning\"",
+        "\"drug overdose\"",
+        "\"toxicology\""
+      ],
+      "mesh": "\"Poisoning\"[Mesh]",
+      "mesh_key": "Poisoning",
+      "match": [
+        "poisoning",
+        "overdose",
+        "intoxication",
+        "antidote"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "TRA",
+      "zh": "创伤与多发伤",
+      "epmc": [
+        "\"multiple trauma\"",
+        "\"polytrauma\"",
+        "\"trauma care\""
+      ],
+      "mesh": "\"Multiple Trauma\"[Mesh]",
+      "mesh_key": "Multiple Trauma",
+      "match": [
+        "multiple trauma",
+        "polytrauma",
+        "trauma patient",
+        "damage control"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "AAD",
+      "zh": "急性主动脉综合征",
+      "epmc": [
+        "\"aortic dissection\"",
+        "\"acute aortic syndrome\""
+      ],
+      "mesh": "\"Aortic Dissection\"[Mesh]",
+      "mesh_key": "Aortic Dissection",
+      "match": [
+        "aortic dissection",
+        "acute aortic syndrome"
+      ],
+      "abbr": [
+        "\\bAAD\\b"
+      ]
+    },
+    {
+      "key": "HST",
+      "zh": "热射病",
+      "epmc": [
+        "\"heat stroke\"",
+        "\"exertional heat\""
+      ],
+      "mesh": "\"Heat Stroke\"[Mesh]",
+      "mesh_key": "Heat Stroke",
+      "match": [
+        "heat stroke",
+        "heat illness",
+        "hyperthermia"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "ANA",
+      "zh": "严重过敏反应",
+      "epmc": [
+        "\"anaphylaxis\"",
+        "\"anaphylactic shock\""
+      ],
+      "mesh": "\"Anaphylaxis\"[Mesh]",
+      "mesh_key": "Anaphylaxis",
+      "match": [
+        "anaphyla"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "ELE",
+      "zh": "水电解质紊乱",
+      "epmc": [
+        "\"electrolyte imbalance\"",
+        "\"hyponatremia\"",
+        "\"hyperkalemia\""
+      ],
+      "mesh": "\"Water-Electrolyte Imbalance\"[Mesh]",
+      "mesh_key": "Water-Electrolyte Imbalance",
+      "match": [
+        "hyponatr",
+        "hyperkalemia",
+        "electrolyte imbalance",
+        "dysnatremia"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "SED",
+      "zh": "操作镇静与镇痛",
+      "epmc": [
+        "\"procedural sedation\"",
+        "\"conscious sedation\""
+      ],
+      "mesh": "\"Conscious Sedation\"[Mesh]",
+      "mesh_key": "Conscious Sedation",
+      "match": [
+        "procedural sedation",
+        "conscious sedation"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "AHF",
+      "zh": "急性心力衰竭",
+      "epmc": [
+        "\"acute heart failure\"",
+        "\"acute decompensated heart failure\""
+      ],
+      "mesh": "\"Heart Failure\"[Mesh]",
+      "mesh_key": "Heart Failure",
+      "match": [
+        "acute heart failure",
+        "acute decompensated"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "EMS",
+      "zh": "院前急救与急诊体系",
+      "epmc": [
+        "\"emergency medical services\"",
+        "\"prehospital\"",
+        "\"emergency department crowding\""
+      ],
+      "mesh": "\"Emergency Medical Services\"[Mesh]",
+      "mesh_key": "Emergency Medical Services",
+      "match": [
+        "emergency medical service",
+        "prehospital",
+        "pre-hospital",
+        "triage"
+      ],
+      "abbr": []
+    }
+  ],
+  "journals": {
+    "top": {
+      "Ann Emerg Med": 32,
+      "Resuscitation": 30,
+      "N Engl J Med": 30,
+      "JAMA": 28,
+      "Lancet": 26
+    },
+    "core": {
+      "Acad Emerg Med": 26,
+      "Emerg Med J": 20,
+      "Am J Emerg Med": 18,
+      "Clin Toxicol (Phila)": 20,
+      "Scand J Trauma Resusc Emerg Med": 14,
+      "J Emerg Med": 14,
+      "Eur J Emerg Med": 12,
+      "JACEP Open": 12,
+      "West J Emerg Med": 10,
+      "Injury": 12,
+      "CJEM": 10,
+      "Eur J Intern Med": 14,
+      "Prehosp Emerg Care": 14,
+      "Emerg Med Clin North Am": 12,
+      "Intern Emerg Med": 12,
+      "Pediatr Emerg Care": 12,
+      "Disaster Med Public Health Prep": 10,
+      "Heart Lung": 12,
+      "J Am Heart Assoc": 14
+    },
+    "sci": {
+      "Resuscitation Plus": 10
+    }
+  },
+  "conference": {
+    "journal_markers": [
+      "ann emerg med",
+      "resuscitation",
+      "acad emerg med",
+      "emerg med j"
+    ],
+    "blob_terms": "acep \\d{4}|eusem \\d{4}|american college of emergency physicians|european society for emergency medicine|supplement",
+    "pubmed_jour": "\"Ann Emerg Med\"[jour] OR \"Resuscitation\"[jour] OR \"Acad Emerg Med\"[jour]",
+    "pubmed_terms": "\"ACEP\"[tiab] OR \"EUSEM\"[tiab] OR \"Congress\"[tiab] OR \"meeting abstract\"[tiab]",
+    "epmc_titles": [
+      "congress",
+      "annual meeting",
+      "meeting abstract",
+      "conference abstract",
+      "proceedings"
+    ]
+  },
+  "ctgov_conditions": [
+    "heart arrest",
+    "poisoning",
+    "multiple trauma",
+    "aortic dissection",
+    "heat stroke",
+    "anaphylaxis",
+    "heart failure"
+  ],
+  "ua": "MedicalDigest/1.2 (emergency literature digest)",
+  "topic_words": [
+    [
+      "\\b(cardiac arrest|CPR|cardiopulmonary resuscitation|ROSC|extracorporeal CPR)\\b",
+      14
+    ],
+    [
+      "\\b(POCUS|point[- ]of[- ]care ultrasound|bedside ultrasound)\\b",
+      10
+    ],
+    [
+      "\\b(sepsis|septic shock|lactate)\\b",
+      12
+    ],
+    [
+      "\\b(poisoning|overdose|toxicology|antidote|naloxone)\\b",
+      14
+    ],
+    [
+      "\\b(trauma|damage control|hemostatic|tourniquet)\\b",
+      12
+    ],
+    [
+      "\\b(heat stroke|exertional heat)\\b",
+      12
+    ],
+    [
+      "\\b(anaphylaxis|epinephrine)\\b",
+      12
+    ],
+    [
+      "\\b(aortic dissection|acute aortic)\\b",
+      12
+    ],
+    [
+      "\\b(triage|crowding|boarding|prehospital)\\b",
+      8
+    ],
+    [
+      "\\b(procedural sedation|ketamine|etomidate)\\b",
+      10
+    ],
+    [
+      "\\b(hyponatremia|hyperkalemia|electrolyte)\\b",
+      10
+    ],
+    [
+      "\\b(prognos|predict|machine learning|deep learning|artificial intelligence|risk factor)\\b",
+      8
+    ],
+    [
+      "\\b(trial|safety|efficacy|adverse|mortality|hospitalization)\\b",
+      5
+    ]
+  ]
+}

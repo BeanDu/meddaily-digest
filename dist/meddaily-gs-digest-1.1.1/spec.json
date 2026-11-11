@@ -1,0 +1,8 @@
+{
+  "name": "医学文献日报-普通外科",
+  "version": "1.1.1",
+  "specialty_spec": "generalsurgery.json",
+  "key": "generalsurgery",
+  "dept": "普通外科",
+  "file_prefix": "meddaily-gs-digest"
+}

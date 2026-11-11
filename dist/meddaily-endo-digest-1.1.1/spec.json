@@ -1,0 +1,8 @@
+{
+  "name": "医学文献日报-内分泌科",
+  "version": "1.1.1",
+  "specialty_spec": "endocrinology.json",
+  "key": "endocrinology",
+  "dept": "内分泌科",
+  "file_prefix": "meddaily-endo-digest"
+}

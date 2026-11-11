@@ -1,0 +1,8 @@
+{
+  "name": "医学文献日报-眼科",
+  "version": "1.1.1",
+  "specialty_spec": "ophthalmology.json",
+  "key": "ophthalmology",
+  "dept": "眼科",
+  "file_prefix": "meddaily-ophth-digest"
+}

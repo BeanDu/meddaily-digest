@@ -1,0 +1,8 @@
+{
+  "name": "医学文献日报-精神科",
+  "version": "1.1.1",
+  "specialty_spec": "psychiatry.json",
+  "key": "psychiatry",
+  "dept": "精神科",
+  "file_prefix": "meddaily-psych-digest"
+}

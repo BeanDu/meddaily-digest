@@ -1,0 +1,283 @@
+{
+  "zh": "口腔科",
+  "diseases": [
+    {
+      "key": "CAR",
+      "zh": "龋病",
+      "epmc": [
+        "\"dental caries\"",
+        "\"caries\""
+      ],
+      "mesh": "\"Dental Caries\"[Mesh]",
+      "mesh_key": "Dental Caries",
+      "match": [
+        "caries",
+        "cavitated lesion"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "END",
+      "zh": "牙体牙髓病与根管治疗",
+      "epmc": [
+        "\"root canal treatment\"",
+        "\"endodontic\"",
+        "\"apical periodontitis\""
+      ],
+      "mesh": "\"Root Canal Therapy\"[Mesh]",
+      "mesh_key": "Root Canal Therapy",
+      "match": [
+        "root canal",
+        "endodontic",
+        "apical periodontitis",
+        "pulp"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "PER",
+      "zh": "牙周病",
+      "epmc": [
+        "\"periodontitis\"",
+        "\"periodontal disease\""
+      ],
+      "mesh": "\"Periodontitis\"[Mesh]",
+      "mesh_key": "Periodontitis",
+      "match": [
+        "periodontitis",
+        "periodontal"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "IMP",
+      "zh": "口腔种植",
+      "epmc": [
+        "\"dental implant\"",
+        "\"osseointegration\"",
+        "\"peri-implantitis\""
+      ],
+      "mesh": "\"Dental Implantation\"[Mesh]",
+      "mesh_key": "Dental Implantation",
+      "match": [
+        "dental implant",
+        "osseointegr",
+        "peri-implant"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "OSC",
+      "zh": "口腔癌",
+      "epmc": [
+        "\"oral squamous cell carcinoma\"",
+        "\"oral cancer\""
+      ],
+      "mesh": "\"Mouth Neoplasms\"[Mesh]",
+      "mesh_key": "Mouth Neoplasms",
+      "match": [
+        "oral squamous",
+        "oral cancer",
+        "oral cavity cancer"
+      ],
+      "abbr": [
+        "\\bOSCC\\b"
+      ]
+    },
+    {
+      "key": "ORT",
+      "zh": "错颌畸形与正畸",
+      "epmc": [
+        "\"malocclusion\"",
+        "\"orthodontic\"",
+        "\"clear aligner\""
+      ],
+      "mesh": "\"Malocclusion\"[Mesh]",
+      "mesh_key": "Malocclusion",
+      "match": [
+        "malocclusion",
+        "orthodontic",
+        "aligner"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "OLP",
+      "zh": "口腔黏膜病",
+      "epmc": [
+        "\"oral lichen planus\"",
+        "\"oral leukoplakia\"",
+        "\"oral potentially malignant\""
+      ],
+      "mesh": "\"Leukoplakia, Oral\"[Mesh]",
+      "mesh_key": "Leukoplakia, Oral",
+      "match": [
+        "lichen planus",
+        "leukoplakia",
+        "potentially malignant"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "TMD",
+      "zh": "颞下颌关节疾病",
+      "epmc": [
+        "\"temporomandibular disorder\"",
+        "\"temporomandibular joint\""
+      ],
+      "mesh": "\"Temporomandibular Joint Disorders\"[Mesh]",
+      "mesh_key": "Temporomandibular Joint Disorders",
+      "match": [
+        "temporomandibular"
+      ],
+      "abbr": [
+        "\\bTMD\\b"
+      ]
+    },
+    {
+      "key": "PED",
+      "zh": "儿童口腔医学",
+      "epmc": [
+        "\"early childhood caries\"",
+        "\"pediatric dentistry\""
+      ],
+      "mesh": "\"Dental Care for Children\"[Mesh]",
+      "mesh_key": "Dental Care for Children",
+      "match": [
+        "early childhood caries",
+        "pediatric dentistry",
+        "children dental"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "OGN",
+      "zh": "正颌与口腔颌面外科",
+      "epmc": [
+        "\"orthognathic surgery\"",
+        "\"jaw fracture\"",
+        "\"maxillofacial surgery\""
+      ],
+      "mesh": "\"Orthognathic Surgery\"[Mesh]",
+      "mesh_key": "Orthognathic Surgery",
+      "match": [
+        "orthognathic",
+        "jaw fracture",
+        "maxillofacial"
+      ],
+      "abbr": []
+    }
+  ],
+  "journals": {
+    "top": {
+      "J Dent Res": 34,
+      "J Clin Periodontol": 30,
+      "Clin Oral Implants Res": 30,
+      "J Periodontol": 26,
+      "J Endod": 26,
+      "Lancet": 26
+    },
+    "core": {
+      "Oral Oncol": 22,
+      "Am J Orthod Dentofacial Orthop": 20,
+      "Int Endod J": 18,
+      "J Prosthet Dent": 16,
+      "Clin Oral Investig": 16,
+      "Dent Mater": 16,
+      "J Dent": 14,
+      "Oral Dis": 12,
+      "Angle Orthod": 12,
+      "Caries Res": 12,
+      "J Craniofac Surg": 10,
+      "J Oral Maxillofac Surg": 16,
+      "Int J Oral Maxillofac Surg": 16,
+      "Clin Implant Dent Relat Res": 16,
+      "Oral Surg Oral Med Oral Pathol Oral Radiol": 14,
+      "Oper Dent": 12,
+      "J Oral Pathol Med": 12,
+      "J Esthet Restor Dent": 10,
+      "Aust Dent J": 10,
+      "Odontology": 10
+    },
+    "sci": {
+      "BMC Oral Health": 8
+    }
+  },
+  "conference": {
+    "journal_markers": [
+      "j dent res",
+      "j clin periodontol",
+      "clin oral implants res"
+    ],
+    "blob_terms": "iadr \\d{4}|aadocr \\d{4}|international association for dental|supplement",
+    "pubmed_jour": "\"J Dent Res\"[jour] OR \"J Clin Periodontol\"[jour] OR \"Clin Oral Implants Res\"[jour]",
+    "pubmed_terms": "\"IADR\"[tiab] OR \"AADOCR\"[tiab] OR \"Congress\"[tiab] OR \"meeting abstract\"[tiab]",
+    "epmc_titles": [
+      "congress",
+      "annual meeting",
+      "meeting abstract",
+      "conference abstract",
+      "proceedings"
+    ]
+  },
+  "ctgov_conditions": [
+    "dental caries",
+    "periodontitis",
+    "dental implantation",
+    "mouth neoplasms",
+    "malocclusion",
+    "temporomandibular joint disorders",
+    "orthognathic surgery"
+  ],
+  "ua": "MedicalDigest/1.2 (dentistry literature digest)",
+  "topic_words": [
+    [
+      "\\b(dental implant|implant[- ]supported|osseointegration|peri[- ]implantitis)\\b",
+      14
+    ],
+    [
+      "\\b(periodontitis|peri[- ]implant|scaling|root planing)\\b",
+      12
+    ],
+    [
+      "\\b(root canal|endodontic|apical|pulp)\\b",
+      12
+    ],
+    [
+      "\\b(caries|fluoride|remineralization|silver diamine)\\b",
+      12
+    ],
+    [
+      "\\b(clear aligner|orthodontic|malocclusion)\\b",
+      12
+    ],
+    [
+      "\\b(oral squamous|oral cancer|potentially malignant)\\b",
+      12
+    ],
+    [
+      "\\b(digital dentistry|CAD/CAM|intraoral scan|3D printing)\\b",
+      10
+    ],
+    [
+      "\\b(zirconia|ceramic|bonding|adhesive)\\b",
+      10
+    ],
+    [
+      "\\b(temporomandibular|occlusal)\\b",
+      10
+    ],
+    [
+      "\\b(microbiome|biofilm|saliva)\\b",
+      8
+    ],
+    [
+      "\\b(pulp regeneration|stem cell)\\b",
+      10
+    ],
+    [
+      "\\b(trial|safety|efficacy|adverse|mortality|hospitalization)\\b",
+      5
+    ]
+  ]
+}

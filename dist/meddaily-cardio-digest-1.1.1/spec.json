@@ -1,0 +1,8 @@
+{
+  "name": "医学文献日报-心内科",
+  "version": "1.1.1",
+  "specialty_spec": "cardiology.json",
+  "key": "cardiology",
+  "dept": "心内科",
+  "file_prefix": "meddaily-cardio-digest"
+}

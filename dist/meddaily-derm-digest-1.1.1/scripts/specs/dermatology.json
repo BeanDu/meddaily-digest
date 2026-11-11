@@ -1,0 +1,268 @@
+{
+  "zh": "皮肤科",
+  "diseases": [
+    {
+      "key": "AD",
+      "zh": "特应性皮炎",
+      "epmc": [
+        "\"atopic dermatitis\"",
+        "\"atopic eczema\""
+      ],
+      "mesh": "\"Atopic Dermatitis\"[Mesh]",
+      "mesh_key": "Atopic Dermatitis",
+      "match": [
+        "atopic dermatitis",
+        "atopic eczema"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "PSO",
+      "zh": "银屑病",
+      "epmc": [
+        "\"psoriasis\"",
+        "\"psoriatic\""
+      ],
+      "mesh": "\"Psoriasis\"[Mesh]",
+      "mesh_key": "Psoriasis",
+      "match": [
+        "psoriasis",
+        "psoriatic"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "URT",
+      "zh": "荨麻疹",
+      "epmc": [
+        "\"urticaria\""
+      ],
+      "mesh": "\"Urticaria\"[Mesh]",
+      "mesh_key": "Urticaria",
+      "match": [
+        "urticaria"
+      ],
+      "abbr": [
+        "\\bCSU\\b"
+      ]
+    },
+    {
+      "key": "MEL",
+      "zh": "黑素瘤",
+      "epmc": [
+        "\"melanoma\""
+      ],
+      "mesh": "\"Melanoma\"[Mesh]",
+      "mesh_key": "Melanoma",
+      "match": [
+        "melanoma"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "SCC",
+      "zh": "皮肤鳞癌",
+      "epmc": [
+        "\"cutaneous squamous cell carcinoma\"",
+        "\"non-melanoma skin cancer\""
+      ],
+      "mesh": "\"Carcinoma, Squamous Cell\"[Mesh]",
+      "mesh_key": "Carcinoma, Squamous Cell",
+      "match": [
+        "cutaneous squamous",
+        "non-melanoma skin cancer",
+        "nonmelanoma skin cancer"
+      ],
+      "abbr": [
+        "\\bcSCC\\b",
+        "\\bNMSC\\b"
+      ]
+    },
+    {
+      "key": "ACN",
+      "zh": "痤疮",
+      "epmc": [
+        "\"acne vulgaris\"",
+        "\"acne\""
+      ],
+      "mesh": "\"Acne Vulgaris\"[Mesh]",
+      "mesh_key": "Acne Vulgaris",
+      "match": [
+        "acne"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "BLA",
+      "zh": "大疱性皮肤病",
+      "epmc": [
+        "\"bullous pemphigoid\"",
+        "\"pemphigus\""
+      ],
+      "mesh": "\"Pemphigoid, Bullous\"[Mesh]",
+      "mesh_key": "Pemphigoid, Bullous",
+      "match": [
+        "bullous pemphigoid",
+        "pemphigus"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "VIT",
+      "zh": "白癜风",
+      "epmc": [
+        "\"vitiligo\""
+      ],
+      "mesh": "\"Vitiligo\"[Mesh]",
+      "mesh_key": "Vitiligo",
+      "match": [
+        "vitiligo"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "FUN",
+      "zh": "皮肤真菌病",
+      "epmc": [
+        "\"dermatophyte\"",
+        "\"onychomycosis\"",
+        "\"tinea\""
+      ],
+      "mesh": "\"Dermatomycoses\"[Mesh]",
+      "mesh_key": "Dermatomycoses",
+      "match": [
+        "dermatophyt",
+        "onychomycosis",
+        "tinea "
+      ],
+      "abbr": []
+    },
+    {
+      "key": "ALO",
+      "zh": "脱发",
+      "epmc": [
+        "\"alopecia areata\"",
+        "\"hair loss\""
+      ],
+      "mesh": "\"Alopecia Areata\"[Mesh]",
+      "mesh_key": "Alopecia Areata",
+      "match": [
+        "alopecia areata",
+        "alopecia"
+      ],
+      "abbr": []
+    }
+  ],
+  "journals": {
+    "top": {
+      "N Engl J Med": 30,
+      "Lancet": 26,
+      "JAMA": 28,
+      "Nat Med": 30,
+      "J Am Acad Dermatol": 32,
+      "JAMA Dermatol": 30,
+      "Br J Dermatol": 28,
+      "J Eur Acad Dermatol Venereol": 26
+    },
+    "core": {
+      "J Invest Dermatol": 26,
+      "Am J Clin Dermatol": 18,
+      "Pediatr Dermatol": 12,
+      "Contact Dermatitis": 12,
+      "Exp Dermatol": 12,
+      "Dermatology": 10,
+      "Acta Derm Venereol": 10,
+      "Arch Dermatol Res": 10,
+      "J Dermatol Sci": 10,
+      "J Dermatol": 10,
+      "Int J Dermatol": 10,
+      "J Dermatolog Treat": 12,
+      "Dermatol Surg": 12,
+      "J Cutan Med Surg": 10,
+      "J Drugs Dermatol": 8
+    },
+    "sci": {
+      "Sci Transl Med": 14,
+      "Nat Commun": 10,
+      "Front Immunol": 12,
+      "JCI Insight": 10
+    }
+  },
+  "conference": {
+    "journal_markers": [
+      "j am acad dermatol",
+      "jama dermatol",
+      "br j dermatol",
+      "j eur acad dermatol"
+    ],
+    "blob_terms": "eadv \\d{4}|aad \\d{4}|american academy of dermatology|european academy of dermatology|supplement",
+    "pubmed_jour": "\"J Am Acad Dermatol\"[jour] OR \"JAMA Dermatol\"[jour] OR \"Br J Dermatol\"[jour]",
+    "pubmed_terms": "\"AAD\"[tiab] OR \"EADV\"[tiab] OR \"Congress\"[tiab] OR \"meeting abstract\"[tiab]",
+    "epmc_titles": [
+      "congress",
+      "annual meeting",
+      "meeting abstract",
+      "conference abstract",
+      "proceedings"
+    ]
+  },
+  "ctgov_conditions": [
+    "atopic dermatitis",
+    "psoriasis",
+    "urticaria",
+    "melanoma",
+    "pemphigus",
+    "vitiligo"
+  ],
+  "ua": "MedicalDigest/1.2 (dermatology literature digest)",
+  "topic_words": [
+    [
+      "\\b(dupilumab|tralokinumab|lebrikizumab|nemolizumab|upadacitinib|abrocitinib)\\b",
+      14
+    ],
+    [
+      "\\b(secukinumab|ixekizumab|bimekizumab|guselkumab|risankizumab|tildrakizumab)\\b",
+      14
+    ],
+    [
+      "\\b(biologic|JAK inhibitor|small molecule)\\b",
+      9
+    ],
+    [
+      "\\b(chronic spontaneous urticaria|omalizumab|ligelizumab|remibrutinib)\\b",
+      12
+    ],
+    [
+      "\\b(checkpoint|pembrolizumab|nivolumab|BRAF|combination immunotherapy)\\b",
+      12
+    ],
+    [
+      "\\b(cutaneous squamous|basal cell|vismodegib|cemiplimab)\\b",
+      10
+    ],
+    [
+      "\\b(isotretinoin|clascoterone|rosacea)\\b",
+      8
+    ],
+    [
+      "\\b(vitiligo|ruxolitinib cream|afamelanotide)\\b",
+      10
+    ],
+    [
+      "\\b(bullous pemphigoid|pemphigus|rituximab|intravenous immunoglobulin)\\b",
+      10
+    ],
+    [
+      "\\b(dermoscopy|teledermatology|skin barrier|microbiome|filaggrin)\\b",
+      8
+    ],
+    [
+      "\\b(prognos|predict|machine learning|deep learning|artificial intelligence|risk factor)\\b",
+      8
+    ],
+    [
+      "\\b(trial|safety|efficacy|adverse|mortality|hospitalization)\\b",
+      5
+    ]
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "zh": "妇产科",
+  "diseases": [
+    {
+      "key": "PRE",
+      "zh": "子痫前期",
+      "epmc": [
+        "\"preeclampsia\"",
+        "\"pre-eclampsia\""
+      ],
+      "mesh": "\"Pre-Eclampsia\"[Mesh]",
+      "mesh_key": "Pre-Eclampsia",
+      "match": [
+        "preeclampsia",
+        "pre-eclampsia"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "PTB",
+      "zh": "早产",
+      "epmc": [
+        "\"preterm birth\"",
+        "\"premature birth\"",
+        "\"preterm labor\""
+      ],
+      "mesh": "\"Premature Birth\"[Mesh]",
+      "mesh_key": "Premature Birth",
+      "match": [
+        "preterm birth",
+        "premature birth",
+        "preterm labour",
+        "preterm labor"
+      ],
+      "abbr": [
+        "\\bPTB\\b"
+      ]
+    },
+    {
+      "key": "END",
+      "zh": "子宫内膜异位症",
+      "epmc": [
+        "\"endometriosis\"",
+        "\"adenomyosis\""
+      ],
+      "mesh": "\"Endometriosis\"[Mesh]",
+      "mesh_key": "Endometriosis",
+      "match": [
+        "endometrios",
+        "adenomyosis"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "OVC",
+      "zh": "卵巢癌",
+      "epmc": [
+        "\"ovarian cancer\"",
+        "\"ovarian carcinoma\""
+      ],
+      "mesh": "\"Ovarian Neoplasms\"[Mesh]",
+      "mesh_key": "Ovarian Neoplasms",
+      "match": [
+        "ovarian cancer",
+        "ovarian carcinoma",
+        "ovarian tumor"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "CXC",
+      "zh": "宫颈癌",
+      "epmc": [
+        "\"cervical cancer\"",
+        "\"cervical carcinoma\""
+      ],
+      "mesh": "\"Uterine Cervical Neoplasms\"[Mesh]",
+      "mesh_key": "Uterine Cervical Neoplasms",
+      "match": [
+        "cervical cancer",
+        "cervical carcinoma"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "EMC",
+      "zh": "子宫内膜癌",
+      "epmc": [
+        "\"endometrial cancer\"",
+        "\"endometrial carcinoma\""
+      ],
+      "mesh": "\"Endometrial Neoplasms\"[Mesh]",
+      "mesh_key": "Endometrial Neoplasms",
+      "match": [
+        "endometrial cancer",
+        "endometrial carcinoma"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "PPH",
+      "zh": "产后出血",
+      "epmc": [
+        "\"postpartum hemorrhage\""
+      ],
+      "mesh": "\"Postpartum Hemorrhage\"[Mesh]",
+      "mesh_key": "Postpartum Hemorrhage",
+      "match": [
+        "postpartum hemorrhage"
+      ],
+      "abbr": [
+        "\\bPPH\\b"
+      ]
+    },
+    {
+      "key": "GDM",
+      "zh": "妊娠期糖尿病",
+      "epmc": [
+        "\"gestational diabetes\""
+      ],
+      "mesh": "\"Diabetes, Gestational\"[Mesh]",
+      "mesh_key": "Diabetes, Gestational",
+      "match": [
+        "gestational diabetes"
+      ],
+      "abbr": [
+        "\\bGDM\\b"
+      ]
+    },
+    {
+      "key": "INF",
+      "zh": "不孕与辅助生殖",
+      "epmc": [
+        "\"infertility\"",
+        "\"in vitro fertilization\"",
+        "\"assisted reproductive\""
+      ],
+      "mesh": "\"Infertility\"[Mesh]",
+      "mesh_key": "Infertility",
+      "match": [
+        "infertility",
+        "in vitro fertilization",
+        "assisted reproduct"
+      ],
+      "abbr": [
+        "\\bIVF\\b"
+      ]
+    },
+    {
+      "key": "RMS",
+      "zh": "复发性流产",
+      "epmc": [
+        "\"recurrent miscarriage\"",
+        "\"recurrent pregnancy loss\"",
+        "\"recurrent abortion\""
+      ],
+      "mesh": "\"Abortion, Habitual\"[Mesh]",
+      "mesh_key": "Abortion, Habitual",
+      "match": [
+        "recurrent miscarriage",
+        "recurrent pregnancy loss",
+        "recurrent abortion"
+      ],
+      "abbr": [
+        "\\bRPL\\b"
+      ]
+    }
+  ],
+  "journals": {
+    "top": {
+      "Am J Obstet Gynecol": 32,
+      "Obstet Gynecol": 30,
+      "N Engl J Med": 30,
+      "Hum Reprod Update": 30,
+      "JAMA": 28,
+      "Lancet": 26,
+      "BJOG": 26,
+      "Fertil Steril": 26
+    },
+    "core": {
+      "Gynecol Oncol": 26,
+      "Hum Reprod": 24,
+      "Ultrasound Obstet Gynecol": 22,
+      "Reprod Biomed Online": 14,
+      "J Matern Fetal Neonatal Med": 16,
+      "J Gynecol Oncol": 14,
+      "Int J Gynecol Cancer": 14,
+      "J Minim Invasive Gynecol": 14,
+      "Placenta": 12,
+      "Arch Gynecol Obstet": 12,
+      "Menopause": 12,
+      "Reprod Sci": 10,
+      "Climacteric": 10,
+      "BMC Pregnancy Childbirth": 10,
+      "Am J Perinatol": 12,
+      "Int Urogynecol J": 12,
+      "Int J Gynaecol Obstet": 20,
+      "Am J Obstet Gynecol MFM": 18,
+      "Pregnancy Hypertens": 12,
+      "Minerva Obstet Gynecol": 10,
+      "J Obstet Gynaecol": 10
+    },
+    "sci": {
+      "Sci Transl Med": 14,
+      "Nat Commun": 10
+    }
+  },
+  "conference": {
+    "journal_markers": [
+      "am j obstet gynecol",
+      "obstet gynecol",
+      "bjog",
+      "hum reprod"
+    ],
+    "blob_terms": "figo \\d{4}|acog \\d{4}|smfm \\d{4}|eshre \\d{4}|asrm \\d{4}|supplement",
+    "pubmed_jour": "\"Am J Obstet Gynecol\"[jour] OR \"Obstet Gynecol\"[jour] OR \"BJOG\"[jour]",
+    "pubmed_terms": "\"FIGO\"[tiab] OR \"ACOG\"[tiab] OR \"SMFM\"[tiab] OR \"ESHRE\"[tiab] OR \"Congress\"[tiab] OR \"meeting abstract\"[tiab]",
+    "epmc_titles": [
+      "congress",
+      "annual meeting",
+      "meeting abstract",
+      "conference abstract",
+      "proceedings"
+    ]
+  },
+  "ctgov_conditions": [
+    "preeclampsia",
+    "preterm birth",
+    "endometriosis",
+    "ovarian cancer",
+    "cervical cancer",
+    "endometrial cancer",
+    "postpartum hemorrhage",
+    "gestational diabetes",
+    "infertility"
+  ],
+  "ua": "MedicalDigest/1.2 (obgyn literature digest)",
+  "topic_words": [
+    [
+      "\\b(preeclampsia|gestational hypertension|sFlt1|placental growth factor|aspirin)\\b",
+      14
+    ],
+    [
+      "\\b(preterm birth|tocolysis|progesterone|cerclage|fibronectin)\\b",
+      12
+    ],
+    [
+      "\\b(endometriosis|adenomyosis|dienogest|elagolix|relugolix)\\b",
+      12
+    ],
+    [
+      "\\b(PARP inhibitor|olaparib|niraparib|HRD|BRCA)\\b",
+      14
+    ],
+    [
+      "\\b(HPV|vaccination|cervical screening|colposcopy|conization)\\b",
+      12
+    ],
+    [
+      "\\b(immunotherapy|pembrolizumab|dostarlimab)\\b",
+      12
+    ],
+    [
+      "\\b(postpartum hemorrhage|tranexamic acid|uterine atony|balloon tamponade)\\b",
+      12
+    ],
+    [
+      "\\b(IVF|in vitro fertilization|embryo transfer|PGT|live birth rate)\\b",
+      12
+    ],
+    [
+      "\\b(recurrent miscarriage|recurrent pregnancy loss|antiphospholipid)\\b",
+      10
+    ],
+    [
+      "\\b(gestational diabetes|metformin|glycemic)\\b",
+      10
+    ],
+    [
+      "\\b(labor induction|misoprostol|cervical ripening)\\b",
+      8
+    ],
+    [
+      "\\b(prognos|predict|machine learning|deep learning|artificial intelligence|risk factor)\\b",
+      8
+    ],
+    [
+      "\\b(trial|safety|efficacy|adverse|mortality|hospitalization)\\b",
+      5
+    ]
+  ]
+}

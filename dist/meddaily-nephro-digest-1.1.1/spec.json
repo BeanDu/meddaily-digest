@@ -1,0 +1,8 @@
+{
+  "name": "医学文献日报-肾内科",
+  "version": "1.1.1",
+  "specialty_spec": "nephrology.json",
+  "key": "nephrology",
+  "dept": "肾内科",
+  "file_prefix": "meddaily-nephro-digest"
+}

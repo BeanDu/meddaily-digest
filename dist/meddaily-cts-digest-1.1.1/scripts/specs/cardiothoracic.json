@@ -1,0 +1,280 @@
+{
+  "zh": "心胸外科",
+  "diseases": [
+    {
+      "key": "CAB",
+      "zh": "冠状动脉旁路移植",
+      "epmc": [
+        "\"coronary artery bypass\""
+      ],
+      "mesh": "\"Coronary Artery Bypass\"[Mesh]",
+      "mesh_key": "Coronary Artery Bypass",
+      "match": [
+        "coronary artery bypass",
+        "bypass grafting"
+      ],
+      "abbr": [
+        "\\bCABG\\b"
+      ]
+    },
+    {
+      "key": "VAL",
+      "zh": "心脏瓣膜外科",
+      "epmc": [
+        "\"valve replacement\"",
+        "\"valve repair\"",
+        "\"mitral valve surgery\""
+      ],
+      "mesh": "\"Heart Valve Prosthesis\"[Mesh]",
+      "mesh_key": "Heart Valve Prosthesis",
+      "match": [
+        "valve replacement",
+        "valve repair",
+        "valve-sparing",
+        "mitral repair"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "AOR",
+      "zh": "主动脉外科",
+      "epmc": [
+        "\"aortic root replacement\"",
+        "\"aortic arch repair\"",
+        "\"thoracic aortic aneurysm\""
+      ],
+      "mesh": "\"Aortic Aneurysm, Thoracic\"[Mesh]",
+      "mesh_key": "Aortic Aneurysm, Thoracic",
+      "match": [
+        "aortic root",
+        "aortic arch",
+        "thoracic aortic aneurysm",
+        "elephant trunk"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "LCA",
+      "zh": "肺癌外科",
+      "epmc": [
+        "\"lung cancer surgery\"",
+        "\"pulmonary resection\"",
+        "\"lobectomy\""
+      ],
+      "mesh": "\"Lung Neoplasms\"[Mesh]",
+      "mesh_key": "Lung Neoplasms",
+      "match": [
+        "lobectomy",
+        "segmentectomy",
+        "pulmonary resection",
+        "sublobar"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "ESC",
+      "zh": "食管外科",
+      "epmc": [
+        "\"esophagectomy\"",
+        "\"esophageal cancer surgery\""
+      ],
+      "mesh": "\"Esophageal Neoplasms\"[Mesh]",
+      "mesh_key": "Esophageal Neoplasms",
+      "match": [
+        "esophagectomy",
+        "esophageal cancer"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "VAT",
+      "zh": "微创胸外科",
+      "epmc": [
+        "\"video-assisted thoracoscopic\"",
+        "\"uniportal\"",
+        "\"robotic thoracic\""
+      ],
+      "mesh": "\"Thoracoscopy\"[Mesh]",
+      "mesh_key": "Thoracoscopy",
+      "match": [
+        "video-assisted thoracoscop",
+        "vats",
+        "uniportal",
+        "robotic thoracic"
+      ],
+      "abbr": [
+        "\\bVATS\\b"
+      ]
+    },
+    {
+      "key": "HTX",
+      "zh": "心脏移植",
+      "epmc": [
+        "\"heart transplantation\""
+      ],
+      "mesh": "\"Heart Transplantation\"[Mesh]",
+      "mesh_key": "Heart Transplantation",
+      "match": [
+        "heart transplant"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "VAD",
+      "zh": "人工心脏与辅助装置",
+      "epmc": [
+        "\"ventricular assist device\"",
+        "\"left ventricular assist\""
+      ],
+      "mesh": "\"Heart-Assist Devices\"[Mesh]",
+      "mesh_key": "Heart-Assist Devices",
+      "match": [
+        "ventricular assist",
+        "artificial heart"
+      ],
+      "abbr": [
+        "\\bLVAD\\b",
+        "\\bVAD\\b"
+      ]
+    },
+    {
+      "key": "CHD",
+      "zh": "先天性心脏病外科",
+      "epmc": [
+        "\"congenital heart surgery\"",
+        "\"cardiac surgery congenital\""
+      ],
+      "mesh": "\"Heart Defects, Congenital\"[Mesh]",
+      "mesh_key": "Heart Defects, Congenital",
+      "match": [
+        "congenital heart",
+        "cardiac surgery"
+      ],
+      "abbr": [
+        "\\bCHD\\b"
+      ]
+    },
+    {
+      "key": "POP",
+      "zh": "围术期管理",
+      "epmc": [
+        "\"cardiopulmonary bypass\"",
+        "\"postoperative care cardiac surgery\""
+      ],
+      "mesh": "\"Cardiopulmonary Bypass\"[Mesh]",
+      "mesh_key": "Cardiopulmonary Bypass",
+      "match": [
+        "cardiopulmonary bypass",
+        "postoperative complication",
+        "fast-track"
+      ],
+      "abbr": []
+    }
+  ],
+  "journals": {
+    "top": {
+      "J Thorac Cardiovasc Surg": 34,
+      "Ann Thorac Surg": 32,
+      "Eur J Cardiothorac Surg": 30,
+      "N Engl J Med": 30,
+      "Lancet": 26,
+      "JAMA": 28,
+      "Circulation": 26,
+      "Eur Heart J": 28
+    },
+    "core": {
+      "Interact Cardiovasc Thorac Surg": 14,
+      "Ann Cardiothorac Surg": 14,
+      "Semin Thorac Cardiovasc Surg": 14,
+      "J Card Surg": 12,
+      "Asian Cardiovasc Thorac Ann": 10,
+      "J Thorac Dis": 10,
+      "J Thorac Oncol": 18,
+      "Gen Thorac Cardiovasc Surg": 10,
+      "Innovations (Phila)": 10,
+      "Curr Opin Cardiol": 14,
+      "J Surg Res": 10
+    },
+    "sci": {
+      "Front Cardiovasc Med": 10,
+      "J Cardiothorac Surg": 10
+    }
+  },
+  "conference": {
+    "journal_markers": [
+      "j thorac cardiovasc surg",
+      "ann thorac surg",
+      "eur j cardiothorac surg"
+    ],
+    "blob_terms": "sts \\d{4}|eacts \\d{4}|society of thoracic surgeons|european association for cardio[- ]thoracic surgery|supplement",
+    "pubmed_jour": "\"J Thorac Cardiovasc Surg\"[jour] OR \"Ann Thorac Surg\"[jour] OR \"Eur J Cardiothorac Surg\"[jour]",
+    "pubmed_terms": "\"STS\"[tiab] OR \"EACTS\"[tiab] OR \"Congress\"[tiab] OR \"meeting abstract\"[tiab]",
+    "epmc_titles": [
+      "congress",
+      "annual meeting",
+      "meeting abstract",
+      "conference abstract",
+      "proceedings"
+    ]
+  },
+  "ctgov_conditions": [
+    "coronary artery bypass",
+    "heart valve prosthesis",
+    "esophageal neoplasms",
+    "heart transplantation",
+    "heart-assist devices",
+    "heart defects, congenital",
+    "cardiopulmonary bypass"
+  ],
+  "ua": "MedicalDigest/1.2 (cardiothoracic literature digest)",
+  "topic_words": [
+    [
+      "\\b(CABG|bypass grafting|off[- ]pump|arterial conduit)\\b",
+      14
+    ],
+    [
+      "\\b(TAVR|TAVI|valve[- ]sparing|mitral repair|tricuspid)\\b",
+      14
+    ],
+    [
+      "\\b(VATS|robotic|uniportal|thoracoscopic)\\b",
+      12
+    ],
+    [
+      "\\b(aortic dissection|aortic arch|frozen elephant trunk|TEVAR)\\b",
+      14
+    ],
+    [
+      "\\b(lobectomy|segmentectomy|sublobar|lymphadenectomy)\\b",
+      12
+    ],
+    [
+      "\\b(esophagectomy|anastomotic leak)\\b",
+      12
+    ],
+    [
+      "\\b(LVAD|ventricular assist|heart transplantation|ECMO)\\b",
+      14
+    ],
+    [
+      "\\b(ERAS|enhanced recovery|fast[- ]track)\\b",
+      10
+    ],
+    [
+      "\\b(cardiopulmonary bypass|delirium|postoperative complications)\\b",
+      10
+    ],
+    [
+      "\\b(multivessel|left main|internal mammary)\\b",
+      10
+    ],
+    [
+      "\\b(prognos|predict|machine learning|deep learning|artificial intelligence|risk factor)\\b",
+      8
+    ],
+    [
+      "\\b(trial|safety|efficacy|adverse|mortality|hospitalization)\\b",
+      5
+    ]
+  ]
+}
