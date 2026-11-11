@@ -1,0 +1,302 @@
+{
+  "zh": "呼吸科",
+  "diseases": [
+    {
+      "key": "COPD",
+      "zh": "慢性阻塞性肺疾病",
+      "epmc": [
+        "\"chronic obstructive pulmonary disease\"",
+        "\"COPD\"",
+        "\"chronic bronchitis\""
+      ],
+      "mesh": "\"Pulmonary Disease, Chronic Obstructive\"[Mesh]",
+      "mesh_key": "Pulmonary Disease, Chronic Obstructive",
+      "match": [
+        "chronic obstructive pulmonary",
+        "\\bCOPD\\b"
+      ],
+      "abbr": [
+        "\\bCOPD\\b"
+      ]
+    },
+    {
+      "key": "ASTHMA",
+      "zh": "支气管哮喘",
+      "epmc": [
+        "\"asthma\"",
+        "\"asthma exacerbation\""
+      ],
+      "mesh": "\"Asthma\"[Mesh]",
+      "mesh_key": "Asthma",
+      "match": [
+        "\\basthma\\b",
+        "asthma exacerbation"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "ILD",
+      "zh": "间质性肺疾病",
+      "epmc": [
+        "\"interstitial lung disease\"",
+        "\"idiopathic pulmonary fibrosis\"",
+        "\"IPF\""
+      ],
+      "mesh": "\"Lung Diseases, Interstitial\"[Mesh]",
+      "mesh_key": "Lung Diseases, Interstitial",
+      "match": [
+        "interstitial lung diseas",
+        "idiopathic pulmonary fibrosis",
+        "\\bIPF\\b"
+      ],
+      "abbr": [
+        "\\bIPF\\b"
+      ]
+    },
+    {
+      "key": "PNEU",
+      "zh": "肺炎",
+      "epmc": [
+        "\"pneumonia\"",
+        "\"community-acquired pneumonia\""
+      ],
+      "mesh": "\"Pneumonia\"[Mesh]",
+      "mesh_key": "Pneumonia",
+      "match": [
+        "pneumonia"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "BRON",
+      "zh": "支气管扩张",
+      "epmc": [
+        "\"bronchiectasis\"",
+        "\"bronchial dilation\""
+      ],
+      "mesh": "\"Bronchiectasis\"[Mesh]",
+      "mesh_key": "Bronchiectasis",
+      "match": [
+        "bronchiectasis"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "OSA",
+      "zh": "阻塞性睡眠呼吸暂停",
+      "epmc": [
+        "\"obstructive sleep apnea\"",
+        "\"sleep apnea\"",
+        "\"OSA\""
+      ],
+      "mesh": "\"Sleep Apnea, Obstructive\"[Mesh]",
+      "mesh_key": "Sleep Apnea, Obstructive",
+      "match": [
+        "sleep apn",
+        "\\bOSA\\b"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "LCA",
+      "zh": "肺癌",
+      "epmc": [
+        "\"lung cancer\"",
+        "\"non-small cell lung cancer\"",
+        "\"NSCLC\""
+      ],
+      "mesh": "\"Lung Neoplasms\"[Mesh]",
+      "mesh_key": "Lung Neoplasms",
+      "match": [
+        "lung cancer",
+        "non-small cell lung"
+      ],
+      "abbr": [
+        "\\bNSCLC\\b"
+      ]
+    },
+    {
+      "key": "PAH",
+      "zh": "肺动脉高压",
+      "epmc": [
+        "\"pulmonary hypertension\"",
+        "\"pulmonary arterial hypertension\""
+      ],
+      "mesh": "\"Hypertension, Pulmonary\"[Mesh]",
+      "mesh_key": "Hypertension, Pulmonary",
+      "match": [
+        "pulmonary hypertension",
+        "\\bPAH\\b"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "CF",
+      "zh": "囊性纤维化",
+      "epmc": [
+        "\"cystic fibrosis\""
+      ],
+      "mesh": "\"Cystic Fibrosis\"[Mesh]",
+      "mesh_key": "Cystic Fibrosis",
+      "match": [
+        "cystic fibrosis"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "VRI",
+      "zh": "病毒性呼吸道感染",
+      "epmc": [
+        "\"COVID-19\"",
+        "\"SARS-CoV-2\"",
+        "\"respiratory viral infection\""
+      ],
+      "mesh": "\"COVID-19\"[Mesh]",
+      "mesh_key": "COVID-19",
+      "match": [
+        "COVID-19",
+        "SARS-CoV-2",
+        "respiratory viral"
+      ],
+      "abbr": []
+    }
+  ],
+  "journals": {
+    "top": {
+      "N Engl J Med": 30,
+      "Lancet": 26,
+      "JAMA": 28,
+      "Nat Med": 30,
+      "Ann Intern Med": 28,
+      "BMJ": 24,
+      "JAMA Intern Med": 24,
+      "Lancet Respir Med": 32,
+      "Thorax": 30,
+      "Am J Respir Crit Care Med": 30,
+      "Eur Respir J": 30,
+      "Nat Rev Dis Primers": 30,
+      "Circulation": 18,
+      "Eur Heart J": 18,
+      "JACC": 26
+    },
+    "core": {
+      "Am J Respir Cell Mol Biol": 22,
+      "Respirology": 20,
+      "Eur J Clin Invest": 16,
+      "J Allergy Clin Immunol": 16,
+      "Ann Allergy Asthma Immunol": 16,
+      "Chest": 20,
+      "Respir Care": 20,
+      "J Thorac Dis": 14,
+      "BMC Pulm Med": 14,
+      "COPD": 14,
+      "Sleep Med": 14,
+      "Crit Care Med": 20,
+      "Intensive Care Med": 20,
+      "ERJ Open Res": 18,
+      "ERJ Plus": 14,
+      "Pulm Pharmacol Ther": 14,
+      "Respir Med": 20,
+      "Sleep Breath": 10
+    },
+    "sci": {
+      "Eur J Immunol": 12,
+      "J Immunol": 12,
+      "Nat Rev Immunol": 14,
+      "Sci Transl Med": 14,
+      "Nat Commun": 10,
+      "Cell": 12,
+      "Lancet Infect Dis": 10,
+      "Clin Infect Dis": 10,
+      "JCI Insight": 16,
+      "Eur Respir Rev": 16
+    }
+  },
+  "conference": {
+    "journal_markers": [
+      "am j respir crit care med",
+      "eur respir j",
+      "thorax"
+    ],
+    "blob_terms": "european respiratory society|american thoracic society|chest congress|ers \\d{4}|ats \\d{4}|chest \\d{4}|am j respir crit care med suppl|eur respir j suppl|supplement",
+    "pubmed_jour": "\"Am J Respir Crit Care Med\"[jour] OR \"Eur Respir J\"[jour] OR \"Thorax\"[jour]",
+    "pubmed_terms": "\"ERS\"[tiab] OR \"ATS\"[tiab] OR \"CHEST\"[tiab] OR \"Respirology\"[tiab] OR \"Congress\"[tiab] OR \"meeting abstract\"[tiab]",
+    "epmc_titles": [
+      "congress",
+      "annual meeting",
+      "meeting abstract",
+      "conference abstract",
+      "proceedings"
+    ]
+  },
+  "ctgov_conditions": [
+    "chronic obstructive pulmonary disease",
+    "asthma",
+    "idiopathic pulmonary fibrosis",
+    "pneumonia",
+    "bronchiectasis",
+    "lung cancer",
+    "pulmonary hypertension",
+    "cystic fibrosis",
+    "obstructive sleep apnea"
+  ],
+  "ua": "OpenClaw-RespDaily/1.0 (respirology literature digest)",
+  "topic_words": [
+    [
+      "\\b(dupilumab|mepolizumab|benralizumab|reslizumab|omalizumab|tezepelumab)\\b",
+      14
+    ],
+    [
+      "\\b(LAMA|LABA|ICS|triple therapy|tiotropium|umeclidinium|glycopyrronium|indacaterol|salmeterol|formoterol|budesonide)\\b",
+      12
+    ],
+    [
+      "\\b(nintedanib|pirfenidone|bexotegrast|sotatercept)\\b",
+      16
+    ],
+    [
+      "\\b(COPD|exacerbation|GOLD|FEV1|CAT score|mMRC)\\b",
+      9
+    ],
+    [
+      "\\b(asthma control|ACQ|ACT score|eosinophil|FeNO|type 2 inflammation)\\b",
+      10
+    ],
+    [
+      "\\b(IPF|ILD|pulmonary fibrosis|FVC|DLCO|progressive pulmonary fibrosis)\\b",
+      9
+    ],
+    [
+      "\\b(pulmonary hypertension|mPAP|pulmonary vascular resistance|6MWD)\\b",
+      8
+    ],
+    [
+      "\\b(OSA|OSAS|CPAP|AHI|apnea[- ]hypopnea)\\b",
+      8
+    ],
+    [
+      "\\b(NSCLC|SCLC|immunotherapy|pembrolizumab|osimertinib|EGFR|ALK|PD[- ]L1)\\b",
+      10
+    ],
+    [
+      "\\b(pneumonia|CAP|HAP|VAP|antimicrobial|antibiotic|resistance|MDR)\\b",
+      8
+    ],
+    [
+      "\\b(CFTR|elexacaftor|tezacaftor|ivacaftor)\\b",
+      12
+    ],
+    [
+      "\\b(RSV|influenza|SARS-CoV-2|COVID|vaccin)\\b",
+      8
+    ],
+    [
+      "\\b(prognos|predict|machine learning|deep learning|artificial intelligence|risk factor)\\b",
+      8
+    ],
+    [
+      "\\b(trial|safety|efficacy|adverse|mortality|hospitalization)\\b",
+      5
+    ]
+  ]
+}

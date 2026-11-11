@@ -1,0 +1,284 @@
+{
+  "zh": "肾内科",
+  "diseases": [
+    {
+      "key": "CKD",
+      "zh": "慢性肾脏病",
+      "epmc": [
+        "\"chronic kidney disease\""
+      ],
+      "mesh": "\"Renal Insufficiency, Chronic\"[Mesh]",
+      "mesh_key": "Renal Insufficiency, Chronic",
+      "match": [
+        "chronic kidney disease",
+        "CKD"
+      ],
+      "abbr": [
+        "\\bCKD\\b"
+      ]
+    },
+    {
+      "key": "IGAN",
+      "zh": "IgA肾病",
+      "epmc": [
+        "\"IgA nephropathy\""
+      ],
+      "mesh": "\"Glomerulonephritis, IGA\"[Mesh]",
+      "mesh_key": "Glomerulonephritis, IGA",
+      "match": [
+        "iga nephropathy"
+      ],
+      "abbr": [
+        "\\bIgAN\\b"
+      ]
+    },
+    {
+      "key": "NS",
+      "zh": "肾病综合征",
+      "epmc": [
+        "\"nephrotic syndrome\""
+      ],
+      "mesh": "\"Nephrotic Syndrome\"[Mesh]",
+      "mesh_key": "Nephrotic Syndrome",
+      "match": [
+        "nephrotic syndrome"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "DKD",
+      "zh": "糖尿病肾病",
+      "epmc": [
+        "\"diabetic kidney disease\"",
+        "\"diabetic nephropathy\""
+      ],
+      "mesh": "\"Diabetic Nephropathies\"[Mesh]",
+      "mesh_key": "Diabetic Nephropathies",
+      "match": [
+        "diabetic kidney disease",
+        "diabetic nephropathy"
+      ],
+      "abbr": [
+        "\\bDKD\\b"
+      ]
+    },
+    {
+      "key": "AKI",
+      "zh": "急性肾损伤",
+      "epmc": [
+        "\"acute kidney injury\""
+      ],
+      "mesh": "\"Acute Kidney Injury\"[Mesh]",
+      "mesh_key": "Acute Kidney Injury",
+      "match": [
+        "acute kidney injury"
+      ],
+      "abbr": [
+        "\\bAKI\\b"
+      ]
+    },
+    {
+      "key": "DIAL",
+      "zh": "透析",
+      "epmc": [
+        "\"hemodialysis\"",
+        "\"peritoneal dialysis\""
+      ],
+      "mesh": "\"Renal Dialysis\"[Mesh]",
+      "mesh_key": "Renal Dialysis",
+      "match": [
+        "hemodialysis",
+        "peritoneal dialysis"
+      ],
+      "abbr": [
+        "\\bESRD\\b"
+      ]
+    },
+    {
+      "key": "KT",
+      "zh": "肾移植",
+      "epmc": [
+        "\"kidney transplantation\""
+      ],
+      "mesh": "\"Kidney Transplantation\"[Mesh]",
+      "mesh_key": "Kidney Transplantation",
+      "match": [
+        "kidney transplant"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "MN",
+      "zh": "膜性肾病",
+      "epmc": [
+        "\"membranous nephropathy\""
+      ],
+      "mesh": "\"Glomerulonephritis, Membranous\"[Mesh]",
+      "mesh_key": "Glomerulonephritis, Membranous",
+      "match": [
+        "membranous nephropathy"
+      ],
+      "abbr": [
+        "\\bMN\\b"
+      ]
+    },
+    {
+      "key": "LN",
+      "zh": "狼疮肾炎",
+      "epmc": [
+        "\"lupus nephritis\""
+      ],
+      "mesh": "\"Lupus Nephritis\"[Mesh]",
+      "mesh_key": "Lupus Nephritis",
+      "match": [
+        "lupus nephritis"
+      ],
+      "abbr": [
+        "\\bLN\\b"
+      ]
+    },
+    {
+      "key": "PKD",
+      "zh": "多囊肾",
+      "epmc": [
+        "\"polycystic kidney\""
+      ],
+      "mesh": "\"Polycystic Kidney Diseases\"[Mesh]",
+      "mesh_key": "Polycystic Kidney Diseases",
+      "match": [
+        "polycystic kidney"
+      ],
+      "abbr": [
+        "\\bADPKD\\b"
+      ]
+    }
+  ],
+  "journals": {
+    "top": {
+      "N Engl J Med": 30,
+      "Lancet": 26,
+      "JAMA": 28,
+      "Nat Med": 30,
+      "Ann Intern Med": 24,
+      "J Am Soc Nephrol": 34,
+      "Kidney Int": 32,
+      "Nat Rev Nephrol": 30,
+      "Am J Kidney Dis": 28,
+      "Clin J Am Soc Nephrol": 26,
+      "Nephrol Dial Transplant": 24,
+      "Kidney Int Rep": 18
+    },
+    "core": {
+      "Clin Kidney J": 16,
+      "Am J Nephrol": 14,
+      "J Nephrol": 14,
+      "BMC Nephrol": 12,
+      "Nephrology (Carlton)": 12,
+      "Kidney Blood Press Res": 10,
+      "J Ren Nutr": 10,
+      "Semin Dial": 10,
+      "Perit Dial Int": 10,
+      "Clin Transplant": 12,
+      "Ren Fail": 10,
+      "Int Urol Nephrol": 8,
+      "Semin Nephrol": 18,
+      "Pediatr Nephrol": 16,
+      "Blood Purif": 12,
+      "Clin Exp Nephrol": 12,
+      "J Vasc Access": 10,
+      "ASAIO J": 10
+    },
+    "sci": {
+      "Kidney360": 14,
+      "Am J Physiol Renal Physiol": 12,
+      "Nephron": 10,
+      "Front Med (Lausanne)": 10,
+      "Hypertension": 12,
+      "Am J Hypertens": 8,
+      "J Clin Invest": 12,
+      "Nat Commun": 10
+    }
+  },
+  "conference": {
+    "journal_markers": [
+      "j am soc nephrol",
+      "kidney int",
+      "nephrol dial transplant"
+    ],
+    "blob_terms": "asn \\d{4}|era \\d{4}|edta|american society of nephrology|european renal association|kidney week",
+    "pubmed_jour": "\"J Am Soc Nephrol\"[jour]",
+    "pubmed_terms": "\"ASN\"[tiab] OR \"ERA\"[tiab] OR \"congress\"[tiab]",
+    "epmc_titles": [
+      "congress",
+      "kidney week",
+      "annual meeting",
+      "late-breaking"
+    ]
+  },
+  "ctgov_conditions": [
+    "chronic kidney disease",
+    "iga nephropathy",
+    "diabetic nephropathies",
+    "acute kidney injury",
+    "kidney transplantation",
+    "membranous nephropathy",
+    "lupus nephritis",
+    "polycystic kidney diseases",
+    "renal dialysis"
+  ],
+  "ua": "MedicalDigest/1.2 (nephrology literature digest)",
+  "topic_words": [
+    [
+      "\\b(SGLT2|dapagliflozin|empagliflozin|canagliflozin|finerenone|GLP[- ]1|semaglutide)\\b",
+      14
+    ],
+    [
+      "\\b(IgA nephropathy|IgAN|sparsentan|iptacopan|budesonide|Nefecon)\\b",
+      12
+    ],
+    [
+      "\\b(nephrotic syndrome|minimal change|FSGS|membranous|PLA2R|rituximab|cyclophosphamide|tacrolimus)\\b",
+      12
+    ],
+    [
+      "\\b(lupus nephritis|belimumab|voclosporin|mycophenolate)\\b",
+      12
+    ],
+    [
+      "\\b(kidney transplant|renal transplant|rejection|tacrolimus|mycophenolate|donor)\\b",
+      10
+    ],
+    [
+      "\\b(CKD|chronic kidney disease|eGFR|proteinuria|albuminuria|KDIGO)\\b",
+      9
+    ],
+    [
+      "\\b(AKI|acute kidney injury|creatinine|urine output|NGAL|KIM[- ]1)\\b",
+      9
+    ],
+    [
+      "\\b(dialysis|hemodialysis|peritoneal dialysis|Kt/V|vascular access|AVF)\\b",
+      9
+    ],
+    [
+      "\\b(ADPKD|polycystic kidney|tolvaptan|PKD1|PKD2)\\b",
+      8
+    ],
+    [
+      "\\b(diabetic kidney|DKD|diabetic nephropathy)\\b",
+      8
+    ],
+    [
+      "\\b(anemia|erythropoietin|HIF[- ]PHI|roxadustat|hyperkalemia|potassium binder)\\b",
+      7
+    ],
+    [
+      "\\b(prognos|predict|machine learning|deep learning|artificial intelligence|risk factor)\\b",
+      8
+    ],
+    [
+      "\\b(trial|safety|efficacy|adverse|mortality|hospitalization)\\b",
+      5
+    ]
+  ]
+}

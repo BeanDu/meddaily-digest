@@ -1,0 +1,277 @@
+{
+  "zh": "耳鼻咽喉科",
+  "diseases": [
+    {
+      "key": "CRS",
+      "zh": "慢性鼻窦炎",
+      "epmc": [
+        "\"chronic rhinosinusitis\"",
+        "\"nasal polyps\""
+      ],
+      "mesh": "\"Sinusitis\"[Mesh]",
+      "mesh_key": "Sinusitis",
+      "match": [
+        "chronic rhinosinusitis",
+        "nasal polyp"
+      ],
+      "abbr": [
+        "\\bCRSwNP\\b",
+        "\\bCRS\\b"
+      ]
+    },
+    {
+      "key": "AR",
+      "zh": "过敏性鼻炎",
+      "epmc": [
+        "\"allergic rhinitis\""
+      ],
+      "mesh": "\"Rhinitis, Allergic\"[Mesh]",
+      "mesh_key": "Rhinitis, Allergic",
+      "match": [
+        "allergic rhinitis"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "HNC",
+      "zh": "头颈鳞癌",
+      "epmc": [
+        "\"head and neck squamous\"",
+        "\"head and neck cancer\""
+      ],
+      "mesh": "\"Head and Neck Neoplasms\"[Mesh]",
+      "mesh_key": "Head and Neck Neoplasms",
+      "match": [
+        "head and neck squamous",
+        "head and neck cancer",
+        "head and neck carcinoma"
+      ],
+      "abbr": [
+        "\\bHNSCC\\b"
+      ]
+    },
+    {
+      "key": "NPC",
+      "zh": "鼻咽癌",
+      "epmc": [
+        "\"nasopharyngeal carcinoma\"",
+        "\"nasopharyngeal cancer\""
+      ],
+      "mesh": "\"Nasopharyngeal Neoplasms\"[Mesh]",
+      "mesh_key": "Nasopharyngeal Neoplasms",
+      "match": [
+        "nasopharyngeal carcinoma",
+        "nasopharyngeal cancer"
+      ],
+      "abbr": [
+        "\\bNPC\\b"
+      ]
+    },
+    {
+      "key": "HRL",
+      "zh": "听力下降",
+      "epmc": [
+        "\"hearing loss\"",
+        "\"sensorineural hearing loss\""
+      ],
+      "mesh": "\"Hearing Loss\"[Mesh]",
+      "mesh_key": "Hearing Loss",
+      "match": [
+        "hearing loss"
+      ],
+      "abbr": [
+        "\\bSNHL\\b"
+      ]
+    },
+    {
+      "key": "TIN",
+      "zh": "耳鸣",
+      "epmc": [
+        "\"tinnitus\""
+      ],
+      "mesh": "\"Tinnitus\"[Mesh]",
+      "mesh_key": "Tinnitus",
+      "match": [
+        "tinnitus"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "MEN",
+      "zh": "梅尼埃病",
+      "epmc": [
+        "\"meniere\""
+      ],
+      "mesh": "\"Meniere Disease\"[Mesh]",
+      "mesh_key": "Meniere Disease",
+      "match": [
+        "meniere"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "OME",
+      "zh": "中耳炎",
+      "epmc": [
+        "\"otitis media\""
+      ],
+      "mesh": "\"Otitis Media\"[Mesh]",
+      "mesh_key": "Otitis Media",
+      "match": [
+        "otitis media"
+      ],
+      "abbr": [
+        "\\bOME\\b",
+        "\\bAOM\\b"
+      ]
+    },
+    {
+      "key": "VER",
+      "zh": "眩晕与前庭疾病",
+      "epmc": [
+        "\"vertigo\"",
+        "\"vestibular\"",
+        "\"benign paroxysmal positional\""
+      ],
+      "mesh": "\"Vertigo\"[Mesh]",
+      "mesh_key": "Vertigo",
+      "match": [
+        "vertigo",
+        "vestibular",
+        "bppv"
+      ],
+      "abbr": [
+        "\\bBPPV\\b"
+      ]
+    },
+    {
+      "key": "VFP",
+      "zh": "嗓音与声带疾病",
+      "epmc": [
+        "\"vocal fold\"",
+        "\"vocal cord\"",
+        "\"dysphonia\""
+      ],
+      "mesh": "\"Vocal Cord Paralysis\"[Mesh]",
+      "mesh_key": "Vocal Cord Paralysis",
+      "match": [
+        "vocal fold",
+        "vocal cord",
+        "dysphonia",
+        "laryngeal"
+      ],
+      "abbr": []
+    }
+  ],
+  "journals": {
+    "top": {
+      "N Engl J Med": 30,
+      "Lancet": 26,
+      "JAMA": 28,
+      "JAMA Otolaryngol Head Neck Surg": 28
+    },
+    "core": {
+      "Int Forum Allergy Rhinol": 22,
+      "Laryngoscope": 22,
+      "Head Neck": 20,
+      "Allergy": 20,
+      "Otolaryngol Head Neck Surg": 16,
+      "Rhinology": 16,
+      "Am J Rhinol Allergy": 16,
+      "Otol Neurotol": 16,
+      "Ear Hear": 14,
+      "Clin Otolaryngol": 12,
+      "Ann Otol Rhinol Laryngol": 12,
+      "Eur Arch Otorhinolaryngol": 12,
+      "J Laryngol Otol": 10,
+      "Int J Pediatr Otorhinolaryngol": 12,
+      "Am J Otolaryngol": 10,
+      "Eur Ann Otorhinolaryngol Head Neck Dis": 10,
+      "Ear Nose Throat J": 8
+    },
+    "sci": {
+      "Sci Transl Med": 14,
+      "Nat Commun": 10
+    }
+  },
+  "conference": {
+    "journal_markers": [
+      "jama otolaryngol head neck surg",
+      "laryngoscope",
+      "head neck",
+      "int forum allergy rhinol"
+    ],
+    "blob_terms": "aao[- ]hns \\d{4}|eahns \\d{4}|european rhinologic|american academy of otolaryngology|supplement",
+    "pubmed_jour": "\"JAMA Otolaryngol Head Neck Surg\"[jour] OR \"Laryngoscope\"[jour] OR \"Head Neck\"[jour]",
+    "pubmed_terms": "\"AAO-HNS\"[tiab] OR \"EAHNS\"[tiab] OR \"Congress\"[tiab] OR \"meeting abstract\"[tiab]",
+    "epmc_titles": [
+      "congress",
+      "annual meeting",
+      "meeting abstract",
+      "conference abstract",
+      "proceedings"
+    ]
+  },
+  "ctgov_conditions": [
+    "sinusitis",
+    "rhinitis, allergic",
+    "head and neck neoplasms",
+    "nasopharyngeal neoplasms",
+    "hearing loss",
+    "tinnitus",
+    "meniere disease",
+    "otitis media",
+    "vertigo"
+  ],
+  "ua": "MedicalDigest/1.2 (otolaryngology literature digest)",
+  "topic_words": [
+    [
+      "\\b(chronic rhinosinusitis|nasal polyp|dupilumab|omalizumab|mepolizumab|endoscopic sinus|FESS)\\b",
+      14
+    ],
+    [
+      "\\b(allergic rhinitis|SLIT|sublingual|immunotherapy)\\b",
+      12
+    ],
+    [
+      "\\b(HNSCC|head and neck|HPV|de[- ]escalation|transoral)\\b",
+      14
+    ],
+    [
+      "\\b(nasopharyngeal|NPC|induction chemotherapy)\\b",
+      12
+    ],
+    [
+      "\\b(hearing loss|cochlear implant|hair cell)\\b",
+      12
+    ],
+    [
+      "\\b(tinnitus|neuromodulation)\\b",
+      10
+    ],
+    [
+      "\\b(meniere|endolymphatic|hydrops)\\b",
+      10
+    ],
+    [
+      "\\b(BPPV|vestibular rehabilitation|vHIT|dizziness)\\b",
+      10
+    ],
+    [
+      "\\b(otitis media|tympanostomy|adenoid)\\b",
+      10
+    ],
+    [
+      "\\b(vocal fold|dysphonia|laryngeal|voice therapy)\\b",
+      10
+    ],
+    [
+      "\\b(machine learning|artificial intelligence)\\b",
+      8
+    ],
+    [
+      "\\b(trial|safety|efficacy|adverse|mortality|hospitalization)\\b",
+      5
+    ]
+  ]
+}

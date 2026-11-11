@@ -1,0 +1,287 @@
+{
+  "zh": "儿科",
+  "diseases": [
+    {
+      "key": "PRE",
+      "zh": "早产儿与新生儿疾病",
+      "epmc": [
+        "\"preterm infant\"",
+        "\"premature infant\"",
+        "\"neonatal\""
+      ],
+      "mesh": "\"Infant, Premature\"[Mesh]",
+      "mesh_key": "Infant, Premature",
+      "match": [
+        "preterm infant",
+        "premature infant",
+        "neonatal",
+        "very low birth weight"
+      ],
+      "abbr": [
+        "\\bNICU\\b"
+      ]
+    },
+    {
+      "key": "KAW",
+      "zh": "川崎病",
+      "epmc": [
+        "\"kawasaki disease\""
+      ],
+      "mesh": "\"Kawasaki Disease\"[Mesh]",
+      "mesh_key": "Kawasaki Disease",
+      "match": [
+        "kawasaki"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "BRO",
+      "zh": "毛细支气管炎",
+      "epmc": [
+        "\"bronchiolitis\"",
+        "\"respiratory syncytial virus\""
+      ],
+      "mesh": "\"Bronchiolitis\"[Mesh]",
+      "mesh_key": "Bronchiolitis",
+      "match": [
+        "bronchiolitis",
+        "respiratory syncytial"
+      ],
+      "abbr": [
+        "\\bRSV\\b"
+      ]
+    },
+    {
+      "key": "PNE",
+      "zh": "儿童肺炎",
+      "epmc": [
+        "\"pediatric pneumonia\"",
+        "\"childhood pneumonia\"",
+        "\"pneumonia in children\""
+      ],
+      "mesh": "\"Pneumonia\"[Mesh]",
+      "mesh_key": "Pneumonia",
+      "match": [
+        "pneumonia"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "CHD",
+      "zh": "先天性心脏病",
+      "epmc": [
+        "\"congenital heart disease\"",
+        "\"congenital heart defect\""
+      ],
+      "mesh": "\"Heart Defects, Congenital\"[Mesh]",
+      "mesh_key": "Heart Defects, Congenital",
+      "match": [
+        "congenital heart"
+      ],
+      "abbr": [
+        "\\bCHD\\b"
+      ]
+    },
+    {
+      "key": "ALL",
+      "zh": "儿童白血病",
+      "epmc": [
+        "\"pediatric acute lymphoblastic\"",
+        "\"childhood acute lymphoblastic\"",
+        "\"childhood leukemia\""
+      ],
+      "mesh": "\"Precursor Cell Lymphoblastic Leukemia-Lymphoma\"[Mesh]",
+      "mesh_key": "Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+      "match": [
+        "acute lymphoblastic",
+        "childhood leukemia",
+        "pediatric leukemia"
+      ],
+      "abbr": [
+        "\\bALL\\b"
+      ]
+    },
+    {
+      "key": "OBE",
+      "zh": "儿童肥胖",
+      "epmc": [
+        "\"childhood obesity\"",
+        "\"pediatric obesity\""
+      ],
+      "mesh": "\"Pediatric Obesity\"[Mesh]",
+      "mesh_key": "Pediatric Obesity",
+      "match": [
+        "childhood obesity",
+        "pediatric obesity"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "FSE",
+      "zh": "热性惊厥",
+      "epmc": [
+        "\"febrile seizure\"",
+        "\"febrile convulsion\""
+      ],
+      "mesh": "\"Seizures, Febrile\"[Mesh]",
+      "mesh_key": "Seizures, Febrile",
+      "match": [
+        "febrile seizure",
+        "febrile convuls"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "GHD",
+      "zh": "生长激素缺乏与矮小",
+      "epmc": [
+        "\"growth hormone deficiency\"",
+        "\"short stature\""
+      ],
+      "mesh": "\"Growth Hormone Deficiency\"[Mesh]",
+      "mesh_key": "Growth Hormone Deficiency",
+      "match": [
+        "growth hormone deficiency",
+        "short stature"
+      ],
+      "abbr": [
+        "\\bGHD\\b"
+      ]
+    },
+    {
+      "key": "SCD",
+      "zh": "镰状细胞病",
+      "epmc": [
+        "\"sickle cell disease\"",
+        "\"sickle cell anemia\""
+      ],
+      "mesh": "\"Anemia, Sickle Cell\"[Mesh]",
+      "mesh_key": "Anemia, Sickle Cell",
+      "match": [
+        "sickle cell"
+      ],
+      "abbr": [
+        "\\bSCD\\b"
+      ]
+    }
+  ],
+  "journals": {
+    "top": {
+      "Pediatrics": 32,
+      "JAMA Pediatr": 30,
+      "Lancet Child Adolesc Health": 30,
+      "N Engl J Med": 30,
+      "JAMA": 28,
+      "Lancet": 26,
+      "J Pediatr": 26
+    },
+    "core": {
+      "Arch Dis Child": 20,
+      "Pediatr Crit Care Med": 20,
+      "Pediatr Infect Dis J": 20,
+      "J Pediatr Surg": 14,
+      "Pediatr Pulmonol": 16,
+      "J Pediatr Gastroenterol Nutr": 16,
+      "Pediatr Blood Cancer": 16,
+      "J Perinatol": 16,
+      "Dev Med Child Neurol": 14,
+      "Acta Paediatr": 14,
+      "Neonatology": 14,
+      "Eur J Pediatr": 12,
+      "Pediatr Res": 12,
+      "World J Pediatr": 10,
+      "Pediatr Clin North Am": 12,
+      "Acad Pediatr": 12,
+      "Front Pediatr": 8
+    },
+    "sci": {
+      "Sci Transl Med": 14,
+      "Nat Commun": 10
+    }
+  },
+  "conference": {
+    "journal_markers": [
+      "pediatrics",
+      "jama pediatr",
+      "j pediatr",
+      "lancet child adolesc health"
+    ],
+    "blob_terms": "aap \\d{4}|espr \\d{4}|american academy of pediatrics|european paediatric|supplement",
+    "pubmed_jour": "\"Pediatrics\"[jour] OR \"JAMA Pediatr\"[jour] OR \"J Pediatr\"[jour]",
+    "pubmed_terms": "\"AAP\"[tiab] OR \"ESPR\"[tiab] OR \"Congress\"[tiab] OR \"meeting abstract\"[tiab]",
+    "epmc_titles": [
+      "congress",
+      "annual meeting",
+      "meeting abstract",
+      "conference abstract",
+      "proceedings"
+    ]
+  },
+  "ctgov_conditions": [
+    "preterm birth",
+    "kawasaki disease",
+    "bronchiolitis",
+    "pneumonia",
+    "congenital heart disease",
+    "acute lymphoblastic leukemia",
+    "obesity",
+    "febrile seizure",
+    "growth hormone deficiency",
+    "sickle cell disease"
+  ],
+  "ua": "MedicalDigest/1.2 (pediatrics literature digest)",
+  "topic_words": [
+    [
+      "\\b(RSV|bronchiolitis|nirsevimab|palivizumab)\\b",
+      14
+    ],
+    [
+      "\\b(kawasaki|IVIG|coronary aneurysm)\\b",
+      14
+    ],
+    [
+      "\\b(preterm|neonatal|NICU|bronchopulmonary dysplasia|surfactant)\\b",
+      12
+    ],
+    [
+      "\\b(vaccine|vaccination|immunization)\\b",
+      10
+    ],
+    [
+      "\\b(pediatric pneumonia|antibiotic|stewardship)\\b",
+      8
+    ],
+    [
+      "\\b(acute lymphoblastic|CAR[- ]T|chemotherapy)\\b",
+      12
+    ],
+    [
+      "\\b(congenital heart|cardiac surgery|single ventricle)\\b",
+      12
+    ],
+    [
+      "\\b(childhood obesity|BMI|metabolic)\\b",
+      8
+    ],
+    [
+      "\\b(febrile seizure|epilepsy|antiseizure|ketogenic)\\b",
+      10
+    ],
+    [
+      "\\b(growth hormone|short stature)\\b",
+      10
+    ],
+    [
+      "\\b(sickle cell|hydroxyurea|vaso[- ]occlusive)\\b",
+      12
+    ],
+    [
+      "\\b(screen time|development|adolescent|mental health)\\b",
+      8
+    ],
+    [
+      "\\b(trial|safety|efficacy|adverse|mortality|hospitalization)\\b",
+      5
+    ]
+  ]
+}

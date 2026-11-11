@@ -1,0 +1,293 @@
+{
+  "zh": "精神科",
+  "diseases": [
+    {
+      "key": "MDD",
+      "zh": "抑郁症",
+      "epmc": [
+        "\"major depressive disorder\"",
+        "\"depression\""
+      ],
+      "mesh": "\"Depressive Disorder, Major\"[Mesh]",
+      "mesh_key": "Depressive Disorder, Major",
+      "match": [
+        "major depressive",
+        "depression"
+      ],
+      "abbr": [
+        "\\bMDD\\b"
+      ]
+    },
+    {
+      "key": "BIP",
+      "zh": "双相障碍",
+      "epmc": [
+        "\"bipolar disorder\"",
+        "\"bipolar\""
+      ],
+      "mesh": "\"Bipolar Disorder\"[Mesh]",
+      "mesh_key": "Bipolar Disorder",
+      "match": [
+        "bipolar"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "SZ",
+      "zh": "精神分裂症",
+      "epmc": [
+        "\"schizophrenia\"",
+        "\"psychosis\""
+      ],
+      "mesh": "\"Schizophrenia\"[Mesh]",
+      "mesh_key": "Schizophrenia",
+      "match": [
+        "schizophrenia",
+        "psychosis",
+        "psychotic"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "ANX",
+      "zh": "焦虑障碍",
+      "epmc": [
+        "\"anxiety disorder\"",
+        "\"generalized anxiety\"",
+        "\"panic disorder\""
+      ],
+      "mesh": "\"Anxiety Disorders\"[Mesh]",
+      "mesh_key": "Anxiety Disorders",
+      "match": [
+        "anxiety disorder",
+        "generalized anxiety",
+        "panic disorder"
+      ],
+      "abbr": [
+        "\\bGAD\\b"
+      ]
+    },
+    {
+      "key": "PTSD",
+      "zh": "创伤后应激障碍",
+      "epmc": [
+        "\"post-traumatic stress\"",
+        "\"ptsd\""
+      ],
+      "mesh": "\"Stress Disorders, Post-Traumatic\"[Mesh]",
+      "mesh_key": "Stress Disorders, Post-Traumatic",
+      "match": [
+        "post-traumatic stress",
+        "posttraumatic stress",
+        "ptsd"
+      ],
+      "abbr": [
+        "\\bPTSD\\b"
+      ]
+    },
+    {
+      "key": "ADHD",
+      "zh": "注意缺陷多动障碍",
+      "epmc": [
+        "\"attention deficit hyperactivity\"",
+        "\"adhd\""
+      ],
+      "mesh": "\"Attention Deficit Disorder with Hyperactivity\"[Mesh]",
+      "mesh_key": "Attention Deficit Disorder with Hyperactivity",
+      "match": [
+        "attention deficit",
+        "adhd"
+      ],
+      "abbr": [
+        "\\bADHD\\b"
+      ]
+    },
+    {
+      "key": "ASD",
+      "zh": "孤独症谱系障碍",
+      "epmc": [
+        "\"autism spectrum\"",
+        "\"autistic\""
+      ],
+      "mesh": "\"Autism Spectrum Disorder\"[Mesh]",
+      "mesh_key": "Autism Spectrum Disorder",
+      "match": [
+        "autism",
+        "autistic"
+      ],
+      "abbr": [
+        "\\bASD\\b"
+      ]
+    },
+    {
+      "key": "EAT",
+      "zh": "进食障碍",
+      "epmc": [
+        "\"eating disorder\"",
+        "\"anorexia nervosa\"",
+        "\"bulimia\""
+      ],
+      "mesh": "\"Feeding and Eating Disorders\"[Mesh]",
+      "mesh_key": "Feeding and Eating Disorders",
+      "match": [
+        "eating disorder",
+        "anorexia nervosa",
+        "bulimia"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "SUD",
+      "zh": "物质使用障碍",
+      "epmc": [
+        "\"substance use disorder\"",
+        "\"opioid use disorder\"",
+        "\"alcohol use disorder\""
+      ],
+      "mesh": "\"Substance-Related Disorders\"[Mesh]",
+      "mesh_key": "Substance-Related Disorders",
+      "match": [
+        "substance use",
+        "opioid use disorder",
+        "alcohol use disorder",
+        "dependence"
+      ],
+      "abbr": [
+        "\\bOUD\\b",
+        "\\bAUD\\b"
+      ]
+    },
+    {
+      "key": "INS",
+      "zh": "失眠障碍",
+      "epmc": [
+        "\"insomnia\""
+      ],
+      "mesh": "\"Sleep Initiation and Maintenance Disorders\"[Mesh]",
+      "mesh_key": "Sleep Initiation and Maintenance Disorders",
+      "match": [
+        "insomnia"
+      ],
+      "abbr": []
+    }
+  ],
+  "journals": {
+    "top": {
+      "Lancet Psychiatry": 34,
+      "World Psychiatry": 34,
+      "JAMA Psychiatry": 32,
+      "Am J Psychiatry": 32,
+      "N Engl J Med": 30,
+      "Lancet": 26
+    },
+    "core": {
+      "Mol Psychiatry": 26,
+      "Biol Psychiatry": 24,
+      "J Am Acad Child Adolesc Psychiatry": 22,
+      "J Child Psychol Psychiatry": 20,
+      "Br J Psychiatry": 20,
+      "Schizophr Bull": 18,
+      "J Clin Psychiatry": 16,
+      "Acta Psychiatr Scand": 14,
+      "Psychol Med": 14,
+      "J Affect Disord": 14,
+      "Bipolar Disord": 14,
+      "CNS Drugs": 12,
+      "Schizophr Res": 12,
+      "J Psychiatr Res": 12,
+      "Aust N Z J Psychiatry": 12,
+      "Soc Psychiatry Psychiatr Epidemiol": 10,
+      "J Psychopharmacol": 14,
+      "J Consult Clin Psychol": 14,
+      "Psychiatry Clin Neurosci": 12,
+      "J Anxiety Disord": 12,
+      "BMC Psychiatry": 10
+    },
+    "sci": {
+      "Transl Psychiatry": 12,
+      "Front Psychiatry": 8
+    }
+  },
+  "conference": {
+    "journal_markers": [
+      "lancet psychiatry",
+      "jama psychiatry",
+      "am j psychiatry",
+      "world psychiatry"
+    ],
+    "blob_terms": "apa \\d{4}|ecnp \\d{4}|american psychiatric association|european college of neuropsychopharmacology|supplement",
+    "pubmed_jour": "\"Am J Psychiatry\"[jour] OR \"JAMA Psychiatry\"[jour] OR \"Lancet Psychiatry\"[jour]",
+    "pubmed_terms": "\"APA\"[tiab] OR \"ECNP\"[tiab] OR \"Congress\"[tiab] OR \"meeting abstract\"[tiab]",
+    "epmc_titles": [
+      "congress",
+      "annual meeting",
+      "meeting abstract",
+      "conference abstract",
+      "proceedings"
+    ]
+  },
+  "ctgov_conditions": [
+    "depressive disorder, major",
+    "bipolar disorder",
+    "schizophrenia",
+    "anxiety disorders",
+    "stress disorders, post-traumatic",
+    "attention deficit disorder with hyperactivity",
+    "substance-related disorders"
+  ],
+  "ua": "MedicalDigest/1.2 (psychiatry literature digest)",
+  "topic_words": [
+    [
+      "\\b(psilocybin|ketamine|esketamine|psychedelic)\\b",
+      14
+    ],
+    [
+      "\\b(SSRI|sertraline|escitalopram|fluoxetine|antidepressant)\\b",
+      12
+    ],
+    [
+      "\\b(antipsychotic|aripiprazole|clozapine|cariprazine|xanomeline|lumateperone)\\b",
+      14
+    ],
+    [
+      "\\b(lithium|valproate|lamotrigine)\\b",
+      12
+    ],
+    [
+      "\\b(CBT|cognitive behavioral|psychotherapy|digital intervention|app[- ]based)\\b",
+      10
+    ],
+    [
+      "\\b(deep brain stimulation|rTMS|transcranial magnetic|electroconvulsive|neuromodulation)\\b",
+      12
+    ],
+    [
+      "\\b(suicid|self[- ]harm)\\b",
+      12
+    ],
+    [
+      "\\b(gut[- ]brain|microbiome|anti[- ]inflammatory|inflammation)\\b",
+      8
+    ],
+    [
+      "\\b(neuroimaging|fMRI|connectome|EEG|digital phenotyping)\\b",
+      8
+    ],
+    [
+      "\\b(methylphenidate|stimulant|guanfacine)\\b",
+      10
+    ],
+    [
+      "\\b(autism|ASD)\\b",
+      10
+    ],
+    [
+      "\\b(prognos|predict|machine learning|deep learning|artificial intelligence|risk factor)\\b",
+      8
+    ],
+    [
+      "\\b(trial|safety|efficacy|adverse|mortality|hospitalization)\\b",
+      5
+    ]
+  ]
+}

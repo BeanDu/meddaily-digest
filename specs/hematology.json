@@ -1,0 +1,290 @@
+{
+  "zh": "血液科",
+  "diseases": [
+    {
+      "key": "AML",
+      "zh": "急性髓系白血病",
+      "epmc": [
+        "\"acute myeloid leukemia\""
+      ],
+      "mesh": "\"Leukemia, Myeloid, Acute\"[Mesh]",
+      "mesh_key": "Leukemia, Myeloid, Acute",
+      "match": [
+        "acute myeloid leukemia"
+      ],
+      "abbr": [
+        "\\bAML\\b"
+      ]
+    },
+    {
+      "key": "ALL",
+      "zh": "急性淋巴细胞白血病",
+      "epmc": [
+        "\"acute lymphoblastic leukemia\""
+      ],
+      "mesh": "\"Precursor Cell Lymphoblastic Leukemia-Lymphoma\"[Mesh]",
+      "mesh_key": "Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+      "match": [
+        "acute lymphoblastic leukemia"
+      ],
+      "abbr": [
+        "\\bALL\\b"
+      ]
+    },
+    {
+      "key": "CLL",
+      "zh": "慢性淋巴细胞白血病",
+      "epmc": [
+        "\"chronic lymphocytic leukemia\""
+      ],
+      "mesh": "\"Leukemia, Lymphocytic, Chronic, B-Cell\"[Mesh]",
+      "mesh_key": "Leukemia, Lymphocytic, Chronic, B-Cell",
+      "match": [
+        "chronic lymphocytic leukemia"
+      ],
+      "abbr": [
+        "\\bCLL\\b"
+      ]
+    },
+    {
+      "key": "LYMPH",
+      "zh": "淋巴瘤",
+      "epmc": [
+        "\"lymphoma\"",
+        "\"diffuse large B-cell\""
+      ],
+      "mesh": "\"Lymphoma\"[Mesh]",
+      "mesh_key": "Lymphoma",
+      "match": [
+        "lymphoma",
+        "diffuse large b-cell"
+      ],
+      "abbr": [
+        "\\bDLBCL\\b"
+      ]
+    },
+    {
+      "key": "MM",
+      "zh": "多发性骨髓瘤",
+      "epmc": [
+        "\"multiple myeloma\""
+      ],
+      "mesh": "\"Multiple Myeloma\"[Mesh]",
+      "mesh_key": "Multiple Myeloma",
+      "match": [
+        "multiple myeloma"
+      ],
+      "abbr": [
+        "\\bMM\\b"
+      ]
+    },
+    {
+      "key": "MDS",
+      "zh": "骨髓增生异常综合征",
+      "epmc": [
+        "\"myelodysplastic syndrome\""
+      ],
+      "mesh": "\"Myelodysplastic Syndromes\"[Mesh]",
+      "mesh_key": "Myelodysplastic Syndromes",
+      "match": [
+        "myelodysplastic"
+      ],
+      "abbr": [
+        "\\bMDS\\b"
+      ]
+    },
+    {
+      "key": "MPN",
+      "zh": "骨髓增殖性肿瘤",
+      "epmc": [
+        "\"myeloproliferative\"",
+        "\"myelofibrosis\""
+      ],
+      "mesh": "\"Myeloproliferative Disorders\"[Mesh]",
+      "mesh_key": "Myeloproliferative Disorders",
+      "match": [
+        "myeloproliferative",
+        "polycythemia",
+        "myelofibrosis"
+      ],
+      "abbr": [
+        "\\bMPN\\b"
+      ]
+    },
+    {
+      "key": "ITP",
+      "zh": "免疫性血小板减少",
+      "epmc": [
+        "\"immune thrombocytopenia\"",
+        "\"thrombotic thrombocytopenic\""
+      ],
+      "mesh": "\"Purpura, Thrombocytopenic, Idiopathic\"[Mesh]",
+      "mesh_key": "Purpura, Thrombocytopenic, Idiopathic",
+      "match": [
+        "immune thrombocytopenia"
+      ],
+      "abbr": [
+        "\\bITP\\b",
+        "\\bTTP\\b"
+      ]
+    },
+    {
+      "key": "ANEMIA",
+      "zh": "贫血",
+      "epmc": [
+        "\"anemia\"",
+        "\"iron deficiency\"",
+        "\"aplastic anemia\""
+      ],
+      "mesh": "\"Anemia\"[Mesh]",
+      "mesh_key": "Anemia",
+      "match": [
+        "anemia",
+        "iron deficiency",
+        "aplastic"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "VTE",
+      "zh": "静脉血栓与抗凝",
+      "epmc": [
+        "\"venous thromboembolism\"",
+        "\"anticoagulation\""
+      ],
+      "mesh": "\"Venous Thromboembolism\"[Mesh]",
+      "mesh_key": "Venous Thromboembolism",
+      "match": [
+        "venous thromboembolism",
+        "anticoagulation"
+      ],
+      "abbr": [
+        "\\bVTE\\b"
+      ]
+    }
+  ],
+  "journals": {
+    "top": {
+      "N Engl J Med": 30,
+      "Lancet": 26,
+      "JAMA": 28,
+      "Nat Med": 30,
+      "Ann Intern Med": 24,
+      "Blood": 34,
+      "Lancet Haematol": 32,
+      "J Clin Oncol": 28,
+      "Leukemia": 28,
+      "Haematologica": 26,
+      "Blood Adv": 24,
+      "Blood Cancer J": 22,
+      "Nat Rev Clin Oncol": 26,
+      "Am J Hematol": 22
+    },
+    "core": {
+      "J Thromb Haemost": 18,
+      "J Hematol Oncol": 20,
+      "Ann Oncol": 20,
+      "Bone Marrow Transplant": 16,
+      "Eur J Haematol": 16,
+      "Br J Haematol": 14,
+      "Ann Hematol": 14,
+      "Leuk Lymphoma": 12,
+      "Clin Lymphoma Myeloma Leuk": 12,
+      "Int J Hematol": 12,
+      "Semin Hematol": 12,
+      "Curr Opin Hematol": 12,
+      "Leuk Res": 10
+    },
+    "sci": {
+      "Blood Rev": 16,
+      "Transplant Cell Ther": 14,
+      "HemaSphere": 14,
+      "Exp Hematol": 10,
+      "Cytotherapy": 10,
+      "EJHaem": 10,
+      "Thromb Res": 10
+    }
+  },
+  "conference": {
+    "journal_markers": [
+      "blood",
+      "haematologica",
+      "leukemia"
+    ],
+    "blob_terms": "ash \\d{4}|eha \\d{4}|american society of hematology|european hematology association|annual meeting",
+    "pubmed_jour": "\"Blood\"[jour]",
+    "pubmed_terms": "\"ASH\"[tiab] OR \"EHA\"[tiab] OR \"congress\"[tiab]",
+    "epmc_titles": [
+      "congress",
+      "annual meeting",
+      "ash \\d{4}",
+      "late-breaking"
+    ]
+  },
+  "ctgov_conditions": [
+    "acute myeloid leukemia",
+    "acute lymphoblastic leukemia",
+    "chronic lymphocytic leukemia",
+    "lymphoma",
+    "multiple myeloma",
+    "myelodysplastic syndromes",
+    "immune thrombocytopenia",
+    "venous thromboembolism",
+    "anemia"
+  ],
+  "ua": "MedicalDigest/1.2 (hematology literature digest)",
+  "topic_words": [
+    [
+      "\\b(AML|acute myeloid|venetoclax|azacitidine|decitabine|FLT3|IDH1|IDH2|menin)\\b",
+      14
+    ],
+    [
+      "\\b(ALL|CAR[- ]?T|blinatumomab|inotuzumab|BCR[- ]ABL)\\b",
+      14
+    ],
+    [
+      "\\b(myeloma|daratumumab|lenalidomide|pomalidomide|bortezomib|BCMA|teclistamab)\\b",
+      14
+    ],
+    [
+      "\\b(CLL|ibrutinib|acalabrutinib|zanubrutinib|venetoclax|BTK)\\b",
+      12
+    ],
+    [
+      "\\b(lymphoma|DLBCL|Hodgkin|bispecific|glofitamab|epcoritamab|polatuzumab)\\b",
+      12
+    ],
+    [
+      "\\b(MDS|myelodysplastic|luspatercept|TP53)\\b",
+      10
+    ],
+    [
+      "\\b(MPN|myelofibrosis|ruxolitinib|essential thrombocythemia|polycythemia)\\b",
+      10
+    ],
+    [
+      "\\b(minimal residual disease|MRD|measurable residual)\\b",
+      9
+    ],
+    [
+      "\\b(ITP|immune thrombocytopenia|TPO|romiplostim|eltrombopag)\\b",
+      8
+    ],
+    [
+      "\\b(VTE|venous thromboembolism|anticoagulation|DOAC|heparin|thrombosis)\\b",
+      8
+    ],
+    [
+      "\\b(anemia|iron deficiency|ferritin|transfusion|erythropoietin)\\b",
+      7
+    ],
+    [
+      "\\b(prognos|predict|machine learning|deep learning|artificial intelligence|risk factor)\\b",
+      8
+    ],
+    [
+      "\\b(trial|safety|efficacy|adverse|mortality|survival)\\b",
+      5
+    ]
+  ]
+}

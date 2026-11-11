@@ -1,0 +1,294 @@
+{
+  "zh": "重症医学科",
+  "diseases": [
+    {
+      "key": "SEP",
+      "zh": "脓毒症与感染性休克",
+      "epmc": [
+        "\"sepsis\"",
+        "\"septic shock\"",
+        "\"sepsis-induced\""
+      ],
+      "mesh": "\"Sepsis\"[Mesh]",
+      "mesh_key": "Sepsis",
+      "match": [
+        "\\bsepsis\\b",
+        "septic shock"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "ARDS",
+      "zh": "急性呼吸窘迫综合征",
+      "epmc": [
+        "\"acute respiratory distress syndrome\"",
+        "\"ARDS\""
+      ],
+      "mesh": "\"Acute Respiratory Distress Syndrome\"[Mesh]",
+      "mesh_key": "Acute Respiratory Distress Syndrome",
+      "match": [
+        "acute respiratory distress",
+        "\\bARDS\\b"
+      ],
+      "abbr": [
+        "\\bARDS\\b"
+      ]
+    },
+    {
+      "key": "AKI",
+      "zh": "急性肾损伤",
+      "epmc": [
+        "\"acute kidney injury\"",
+        "\"AKI\""
+      ],
+      "mesh": "\"Acute Kidney Injury\"[Mesh]",
+      "mesh_key": "Acute Kidney Injury",
+      "match": [
+        "acute kidney injury",
+        "\\bAKI\\b"
+      ],
+      "abbr": [
+        "\\bAKI\\b"
+      ]
+    },
+    {
+      "key": "SHK",
+      "zh": "休克",
+      "epmc": [
+        "\"shock\"",
+        "\"hypotension\""
+      ],
+      "mesh": "\"Shock\"[Mesh]",
+      "mesh_key": "Shock",
+      "match": [
+        "\\bshock\\b"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "VAP",
+      "zh": "呼吸机相关肺炎",
+      "epmc": [
+        "\"ventilator-associated pneumonia\"",
+        "\"ventilator associated pneumonia\""
+      ],
+      "mesh": "\"Pneumonia, Ventilator-Associated\"[Mesh]",
+      "mesh_key": "Pneumonia, Ventilator-Associated",
+      "match": [
+        "ventilator[- ]associated pneumonia",
+        "\\bVAP\\b"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "ECMO",
+      "zh": "体外膜肺氧合",
+      "epmc": [
+        "\"extracorporeal membrane oxygenation\"",
+        "\"ECMO\""
+      ],
+      "mesh": "\"Extracorporeal Membrane Oxygenation\"[Mesh]",
+      "mesh_key": "Extracorporeal Membrane Oxygenation",
+      "match": [
+        "extracorporeal membrane oxygenation",
+        "\\bECMO\\b"
+      ],
+      "abbr": [
+        "\\bECMO\\b"
+      ]
+    },
+    {
+      "key": "CRRT",
+      "zh": "连续性肾脏替代治疗",
+      "epmc": [
+        "\"continuous renal replacement therapy\"",
+        "\"CRRT\"",
+        "\"kidney replacement therapy\""
+      ],
+      "mesh": "\"Renal Replacement Therapy\"[Mesh]",
+      "mesh_key": "Renal Replacement Therapy",
+      "match": [
+        "continuous renal replacement",
+        "\\bCRRT\\b"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "DEL",
+      "zh": "谵妄",
+      "epmc": [
+        "\"delirium\""
+      ],
+      "mesh": "\"Delirium\"[Mesh]",
+      "mesh_key": "Delirium",
+      "match": [
+        "\\bdelirium\\b"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "VENT",
+      "zh": "机械通气与急性呼吸衰竭",
+      "epmc": [
+        "\"mechanical ventilation\"",
+        "\"ventilator weaning\"",
+        "\"acute respiratory failure\""
+      ],
+      "mesh": "\"Respiration, Artificial\"[Mesh]",
+      "mesh_key": "Respiration, Artificial",
+      "match": [
+        "mechanical ventilat",
+        "ventilator weaning",
+        "acute respiratory failure"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "HAEM",
+      "zh": "重症相关血液学问题",
+      "epmc": [
+        "\"critical illness\"",
+        "\"critically ill\""
+      ],
+      "mesh": "\"Critical Illness\"[Mesh]",
+      "mesh_key": "Critical Illness",
+      "match": [
+        "critical(ly)? ill",
+        "critical illness",
+        "intensive care"
+      ],
+      "abbr": []
+    }
+  ],
+  "journals": {
+    "top": {
+      "N Engl J Med": 30,
+      "Lancet": 26,
+      "JAMA": 28,
+      "Nat Med": 30,
+      "Ann Intern Med": 28,
+      "BMJ": 24,
+      "JAMA Intern Med": 24,
+      "Lancet Respir Med": 30,
+      "Am J Respir Crit Care Med": 28,
+      "Crit Care Med": 28,
+      "Intensive Care Med": 28,
+      "Nat Rev Dis Primers": 30,
+      "Circulation": 18,
+      "Eur Heart J": 18,
+      "JACC": 26
+    },
+    "core": {
+      "Eur Respir J": 24,
+      "Crit Care": 24,
+      "Chest": 22,
+      "J Intensive Care Med": 20,
+      "Ann Intensive Care": 22,
+      "Crit Care Explor": 20,
+      "Am J Emerg Med": 20,
+      "Resuscitation": 20,
+      "J Thorac Dis": 16,
+      "BMC Emerg Med": 18,
+      "J Crit Care": 18,
+      "Shock": 18,
+      "Clin Chim Acta": 14,
+      "J Thromb Thrombolysis": 14,
+      "Eur J Anaesthesiol": 20
+    },
+    "sci": {
+      "J Allergy Clin Immunol": 12,
+      "Nat Rev Immunol": 12,
+      "J Immunol": 12,
+      "Sci Transl Med": 14,
+      "Nat Commun": 10,
+      "Cell": 12,
+      "Lancet Infect Dis": 12,
+      "Clin Infect Dis": 12,
+      "Clin Microbiol Rev": 14,
+      "Antimicrob Resist Infect Control": 16,
+      "JCI Insight": 14,
+      "Nat Rev Microbiol": 14,
+      "Eur Respir Rev": 14
+    }
+  },
+  "conference": {
+    "journal_markers": [
+      "crit care med",
+      "am j respir crit care med",
+      "eur respir j",
+      "intensive care med"
+    ],
+    "blob_terms": "european society of intensive care medicine|american thoracic society|american college of chest physicians|esicm|ats \\d{4}|chest \\d{4}|crit care med suppl|am j respir crit care med suppl|supplement",
+    "pubmed_jour": "\"Crit Care Med\"[jour] OR \"Am J Respir Crit Care Med\"[jour] OR \"Intensive Care Med\"[jour]",
+    "pubmed_terms": "\"ESICM\"[tiab] OR \"ATS\"[tiab] OR \"CHEST\"[tiab] OR \"SCCM\"[tiab] OR \"Congress\"[tiab] OR \"meeting abstract\"[tiab]",
+    "epmc_titles": [
+      "congress",
+      "annual meeting",
+      "meeting abstract",
+      "conference abstract",
+      "proceedings"
+    ]
+  },
+  "ctgov_conditions": [
+    "sepsis",
+    "septic shock",
+    "acute respiratory distress syndrome",
+    "acute kidney injury",
+    "ventilator-associated pneumonia",
+    "mechanical ventilation",
+    "extracorporeal membrane oxygenation",
+    "delirium",
+    "critical illness"
+  ],
+  "ua": "OpenClaw-ICUDaily/1.0 (critical care literature digest)",
+  "topic_words": [
+    [
+      "\\b(sepsis|septic shock|SOFA|qSOFA|vasopressor|norepinephrine|vasopressin|hydrocortisone)\\b",
+      14
+    ],
+    [
+      "\\b(ARDS|PEEP|prone position|recruitment maneuver|driving pressure|ventilator[- ]induced lung injury)\\b",
+      14
+    ],
+    [
+      "\\b(ECMO|ECLS|VV[- ]ECMO|VA[- ]ECMO|extracorporeal membrane)\\b",
+      14
+    ],
+    [
+      "\\b(CRRT|renal replacement|hemodialysis|continuous venovenous)\\b",
+      12
+    ],
+    [
+      "\\b(mechanical ventilation|invasive ventilation|noninvasive ventilation|NIV|HFNC|high[- ]flow nasal|extubation|weaning)\\b",
+      10
+    ],
+    [
+      "\\b(AKI|acute kidney injury|KDIGO|urine output)\\b",
+      9
+    ],
+    [
+      "\\b(delirium|dexmedetomidine|propofol|CAM[- ]ICU|RASS|ABCDEF bundle)\\b",
+      10
+    ],
+    [
+      "\\b(VAP|ventilator[- ]associated pneumonia|antimicrobial|antibiotic|resistance|MDR)\\b",
+      8
+    ],
+    [
+      "\\b(shock|cardiogenic|hypotension|fluid resuscitation|fluid balance|lactate)\\b",
+      9
+    ],
+    [
+      "\\b(thrombocytopenia|DIC|disseminated intravascular|anticoagulation|heparin|transfusion|VTE|DVT)\\b",
+      8
+    ],
+    [
+      "\\b(prognos|predict|machine learning|deep learning|artificial intelligence|risk factor)\\b",
+      8
+    ],
+    [
+      "\\b(trial|safety|efficacy|adverse|mortality|ICU length of stay|outcome)\\b",
+      5
+    ]
+  ]
+}

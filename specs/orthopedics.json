@@ -1,0 +1,284 @@
+{
+  "zh": "骨科",
+  "diseases": [
+    {
+      "key": "OAK",
+      "zh": "膝骨关节炎",
+      "epmc": [
+        "\"knee osteoarthritis\"",
+        "\"osteoarthritis of the knee\""
+      ],
+      "mesh": "\"Osteoarthritis, Knee\"[Mesh]",
+      "mesh_key": "Osteoarthritis, Knee",
+      "match": [
+        "knee osteoarthritis",
+        "osteoarthritis of the knee",
+        "knee oa"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "SSP",
+      "zh": "脊柱退行性疾病",
+      "epmc": [
+        "\"lumbar spinal stenosis\"",
+        "\"degenerative disc disease\"",
+        "\"lumbar disc herniation\""
+      ],
+      "mesh": "\"Spinal Stenosis\"[Mesh]",
+      "mesh_key": "Spinal Stenosis",
+      "match": [
+        "spinal stenosis",
+        "degenerative disc",
+        "disc herniation"
+      ],
+      "abbr": [
+        "\\bLSS\\b"
+      ]
+    },
+    {
+      "key": "OST",
+      "zh": "骨肉瘤",
+      "epmc": [
+        "\"osteosarcoma\""
+      ],
+      "mesh": "\"Osteosarcoma\"[Mesh]",
+      "mesh_key": "Osteosarcoma",
+      "match": [
+        "osteosarcoma"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "ACL",
+      "zh": "前交叉韧带损伤",
+      "epmc": [
+        "\"anterior cruciate ligament\"",
+        "\"acl reconstruction\""
+      ],
+      "mesh": "\"Anterior Cruciate Ligament Injuries\"[Mesh]",
+      "mesh_key": "Anterior Cruciate Ligament Injuries",
+      "match": [
+        "anterior cruciate ligament",
+        "acl reconstr",
+        "acl injury",
+        "acl tear"
+      ],
+      "abbr": [
+        "\\bACL\\b"
+      ]
+    },
+    {
+      "key": "RCT",
+      "zh": "肩袖损伤",
+      "epmc": [
+        "\"rotator cuff\""
+      ],
+      "mesh": "\"Rotator Cuff Injuries\"[Mesh]",
+      "mesh_key": "Rotator Cuff Injuries",
+      "match": [
+        "rotator cuff"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "NUN",
+      "zh": "骨折不愈合",
+      "epmc": [
+        "\"fracture nonunion\"",
+        "\"nonunion\"",
+        "\"delayed union\""
+      ],
+      "mesh": "\"Fractures, Ununited\"[Mesh]",
+      "mesh_key": "Fractures, Ununited",
+      "match": [
+        "nonunion",
+        "non-union",
+        "delayed union"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "CER",
+      "zh": "颈椎病",
+      "epmc": [
+        "\"cervical spondylosis\"",
+        "\"cervical myelopathy\"",
+        "\"cervical radiculopathy\""
+      ],
+      "mesh": "\"Spondylosis\"[Mesh]",
+      "mesh_key": "Spondylosis",
+      "match": [
+        "cervical spondyl",
+        "cervical myelopathy",
+        "cervical radiculopathy"
+      ],
+      "abbr": [
+        "\\bDCM\\b"
+      ]
+    },
+    {
+      "key": "LBP",
+      "zh": "慢性腰痛",
+      "epmc": [
+        "\"low back pain\"",
+        "\"chronic back pain\""
+      ],
+      "mesh": "\"Low Back Pain\"[Mesh]",
+      "mesh_key": "Low Back Pain",
+      "match": [
+        "low back pain",
+        "chronic back pain"
+      ],
+      "abbr": [
+        "\\bLBP\\b"
+      ]
+    },
+    {
+      "key": "PJI",
+      "zh": "假体周围感染",
+      "epmc": [
+        "\"periprosthetic joint infection\"",
+        "\"prosthetic joint infection\""
+      ],
+      "mesh": "\"Prosthesis-Related Infections\"[Mesh]",
+      "mesh_key": "Prosthesis-Related Infections",
+      "match": [
+        "periprosthetic joint infection",
+        "prosthetic joint infection",
+        "prosthesis-related infection"
+      ],
+      "abbr": [
+        "\\bPJI\\b"
+      ]
+    },
+    {
+      "key": "OME",
+      "zh": "骨髓炎",
+      "epmc": [
+        "\"osteomyelitis\""
+      ],
+      "mesh": "\"Osteomyelitis\"[Mesh]",
+      "mesh_key": "Osteomyelitis",
+      "match": [
+        "osteomyelitis"
+      ],
+      "abbr": []
+    }
+  ],
+  "journals": {
+    "top": {
+      "J Bone Joint Surg Am": 32,
+      "Osteoarthritis Cartilage": 28,
+      "N Engl J Med": 30,
+      "Lancet": 26,
+      "JAMA": 28,
+      "Am J Sports Med": 24,
+      "Bone Joint J": 22
+    },
+    "core": {
+      "J Arthroplasty": 24,
+      "Clin Orthop Relat Res": 22,
+      "Spine (Phila Pa 1976)": 20,
+      "Spine J": 20,
+      "Eur Spine J": 18,
+      "Knee Surg Sports Traumatol Arthrosc": 16,
+      "J Am Acad Orthop Surg": 16,
+      "Arthroscopy": 14,
+      "J Orthop Trauma": 14,
+      "J Shoulder Elbow Surg": 12,
+      "J Orthop Res": 12,
+      "EFORT Open Rev": 10,
+      "BMC Musculoskelet Disord": 10,
+      "J Hand Surg Am": 12,
+      "J Orthop Surg Res": 10,
+      "Knee": 10,
+      "Hip Int": 10,
+      "Orthop J Sports Med": 10,
+      "Arch Orthop Trauma Surg": 10
+    },
+    "sci": {
+      "Sci Transl Med": 14,
+      "Nat Commun": 10,
+      "Bone": 10
+    }
+  },
+  "conference": {
+    "journal_markers": [
+      "j bone joint surg am",
+      "bone joint j",
+      "clin orthop relat res",
+      "j arthroplasty"
+    ],
+    "blob_terms": "aaos \\d{4}|efort \\d{4}|ota \\d{4}|american academy of orthopaedic|european federation of national associations of orthopaedics|supplement",
+    "pubmed_jour": "\"J Bone Joint Surg Am\"[jour] OR \"Bone Joint J\"[jour] OR \"Clin Orthop Relat Res\"[jour]",
+    "pubmed_terms": "\"AAOS\"[tiab] OR \"EFORT\"[tiab] OR \"Congress\"[tiab] OR \"meeting abstract\"[tiab]",
+    "epmc_titles": [
+      "congress",
+      "annual meeting",
+      "meeting abstract",
+      "conference abstract",
+      "proceedings"
+    ]
+  },
+  "ctgov_conditions": [
+    "osteoarthritis, knee",
+    "spinal stenosis",
+    "osteosarcoma",
+    "anterior cruciate ligament injuries",
+    "rotator cuff injuries",
+    "low back pain",
+    "osteomyelitis"
+  ],
+  "ua": "MedicalDigest/1.2 (orthopedics literature digest)",
+  "topic_words": [
+    [
+      "\\b(arthroplasty|total joint|revision|periprosthetic)\\b",
+      12
+    ],
+    [
+      "\\b(PJI|periprosthetic joint infection|debridement|one[- ]stage|two[- ]stage)\\b",
+      14
+    ],
+    [
+      "\\b(ACL|reconstruction|return to sport|meniscus)\\b",
+      12
+    ],
+    [
+      "\\b(rotator cuff|shoulder)\\b",
+      10
+    ],
+    [
+      "\\b(spinal stenosis|decompression|fusion|lumbar disc)\\b",
+      12
+    ],
+    [
+      "\\b(platelet[- ]rich plasma|hyaluronic|corticosteroid injection)\\b",
+      10
+    ],
+    [
+      "\\b(osteosarcoma|limb salvage|neoadjuvant)\\b",
+      12
+    ],
+    [
+      "\\b(nonunion|bone graft|bone morphogenetic)\\b",
+      10
+    ],
+    [
+      "\\b(ERAS|enhanced recovery|ambulatory|day surgery)\\b",
+      8
+    ],
+    [
+      "\\b(robot[- ]assisted|navigation|patient[- ]specific)\\b",
+      8
+    ],
+    [
+      "\\b(prognos|predict|machine learning|deep learning|artificial intelligence|risk factor)\\b",
+      8
+    ],
+    [
+      "\\b(trial|safety|efficacy|adverse|mortality|hospitalization)\\b",
+      5
+    ]
+  ]
+}

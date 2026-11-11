@@ -1,0 +1,300 @@
+{
+  "zh": "心内科",
+  "diseases": [
+    {
+      "key": "CAD",
+      "zh": "冠心病",
+      "epmc": [
+        "\"coronary artery disease\"",
+        "\"coronary heart disease\"",
+        "\"myocardial infarction\""
+      ],
+      "mesh": "\"Coronary Artery Disease\"[Mesh]",
+      "mesh_key": "Coronary Artery Disease",
+      "match": [
+        "coronary artery disease",
+        "coronary heart disease",
+        "myocardial infarction"
+      ],
+      "abbr": [
+        "\\bCAD\\b",
+        "\\bMI\\b"
+      ]
+    },
+    {
+      "key": "ACS",
+      "zh": "急性冠脉综合征",
+      "epmc": [
+        "\"acute coronary syndrome\""
+      ],
+      "mesh": "\"Acute Coronary Syndrome\"[Mesh]",
+      "mesh_key": "Acute Coronary Syndrome",
+      "match": [
+        "acute coronary syndrome"
+      ],
+      "abbr": [
+        "\\bACS\\b"
+      ]
+    },
+    {
+      "key": "HF",
+      "zh": "心力衰竭",
+      "epmc": [
+        "\"heart failure\""
+      ],
+      "mesh": "\"Heart Failure\"[Mesh]",
+      "mesh_key": "Heart Failure",
+      "match": [
+        "heart failure"
+      ],
+      "abbr": [
+        "\\bHF\\b",
+        "\\bHFrEF\\b",
+        "\\bHFpEF\\b"
+      ]
+    },
+    {
+      "key": "AF",
+      "zh": "心房颤动",
+      "epmc": [
+        "\"atrial fibrillation\""
+      ],
+      "mesh": "\"Atrial Fibrillation\"[Mesh]",
+      "mesh_key": "Atrial Fibrillation",
+      "match": [
+        "atrial fibrillation"
+      ],
+      "abbr": [
+        "\\bAF\\b"
+      ]
+    },
+    {
+      "key": "HTN",
+      "zh": "高血压",
+      "epmc": [
+        "\"hypertension\""
+      ],
+      "mesh": "\"Hypertension\"[Mesh]",
+      "mesh_key": "Hypertension",
+      "match": [
+        "hypertension"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "CM",
+      "zh": "心肌病",
+      "epmc": [
+        "\"cardiomyopathy\""
+      ],
+      "mesh": "\"Cardiomyopathies\"[Mesh]",
+      "mesh_key": "Cardiomyopathies",
+      "match": [
+        "cardiomyopath"
+      ],
+      "abbr": [
+        "\\bHCM\\b",
+        "\\bDCM\\b"
+      ]
+    },
+    {
+      "key": "VHD",
+      "zh": "结构性心脏病/瓣膜病",
+      "epmc": [
+        "\"aortic stenosis\"",
+        "\"mitral regurgitation\"",
+        "\"transcatheter aortic\""
+      ],
+      "mesh": "\"Heart Valve Diseases\"[Mesh]",
+      "mesh_key": "Heart Valve Diseases",
+      "match": [
+        "aortic stenosis",
+        "mitral regurgitation",
+        "transcatheter aortic"
+      ],
+      "abbr": [
+        "\\bTAVR\\b",
+        "\\bTAVI\\b"
+      ]
+    },
+    {
+      "key": "LIPID",
+      "zh": "血脂异常",
+      "epmc": [
+        "\"dyslipidemia\"",
+        "\"LDL cholesterol\""
+      ],
+      "mesh": "\"Dyslipidemias\"[Mesh]",
+      "mesh_key": "Dyslipidemias",
+      "match": [
+        "dyslipidem",
+        "LDL cholesterol"
+      ],
+      "abbr": [
+        "\\bLDL\\b"
+      ]
+    },
+    {
+      "key": "ARR",
+      "zh": "心律失常/猝死",
+      "epmc": [
+        "\"ventricular arrhythmia\"",
+        "\"sudden cardiac death\""
+      ],
+      "mesh": "\"Arrhythmias, Cardiac\"[Mesh]",
+      "mesh_key": "Arrhythmias, Cardiac",
+      "match": [
+        "ventricular arrhythmia",
+        "sudden cardiac death"
+      ],
+      "abbr": [
+        "\\bICD\\b"
+      ]
+    },
+    {
+      "key": "CS",
+      "zh": "心源性休克",
+      "epmc": [
+        "\"cardiogenic shock\""
+      ],
+      "mesh": "\"Shock, Cardiogenic\"[Mesh]",
+      "mesh_key": "Shock, Cardiogenic",
+      "match": [
+        "cardiogenic shock"
+      ],
+      "abbr": []
+    }
+  ],
+  "journals": {
+    "top": {
+      "N Engl J Med": 30,
+      "Lancet": 26,
+      "JAMA": 28,
+      "Nat Med": 30,
+      "Ann Intern Med": 24,
+      "Circulation": 34,
+      "Eur Heart J": 34,
+      "J Am Coll Cardiol": 32,
+      "Nat Rev Cardiol": 30,
+      "JAMA Cardiol": 26,
+      "Circ Heart Fail": 24,
+      "JACC Heart Fail": 24,
+      "Eur J Heart Fail": 22,
+      "Heart": 20,
+      "JACC Cardiovasc Interv": 20,
+      "Europace": 18,
+      "Circ Arrhythm Electrophysiol": 18
+    },
+    "core": {
+      "Am J Cardiol": 18,
+      "Int J Cardiol": 14,
+      "Clin Cardiol": 12,
+      "Heart Rhythm": 16,
+      "J Card Fail": 16,
+      "Clin Res Cardiol": 14,
+      "J Am Heart Assoc": 16,
+      "Am Heart J": 14,
+      "Circ Cardiovasc Qual Outcomes": 14,
+      "Eur Heart J Cardiovasc Pharmacother": 12,
+      "Kardiol Pol": 10,
+      "Hellenic J Cardiol": 10,
+      "J Cardiovasc Med": 10,
+      "BMC Cardiovasc Disord": 10,
+      "Front Cardiovasc Med": 12,
+      "Cardiovasc Drugs Ther": 12,
+      "Circ Cardiovasc Interv": 16
+    },
+    "sci": {
+      "Cardiovasc Res": 14,
+      "Basic Res Cardiol": 14,
+      "Nat Cardiovasc Res": 14,
+      "Circ Res": 14,
+      "J Mol Cell Cardiol": 10,
+      "ESC Heart Fail": 12,
+      "Circ Genom Precis Med": 10,
+      "Open Heart": 10
+    }
+  },
+  "conference": {
+    "journal_markers": [
+      "eur heart j",
+      "circulation",
+      "j am coll cardiol"
+    ],
+    "blob_terms": "acc \\d{4}|aha \\d{4}|esc \\d{4}|american college of cardiology|european society of cardiology|scientific session|late-breaking",
+    "pubmed_jour": "\"Eur Heart J\"[jour]",
+    "pubmed_terms": "\"ESC\"[tiab] OR \"ACC\"[tiab] OR \"AHA\"[tiab] OR \"congress\"[tiab]",
+    "epmc_titles": [
+      "congress",
+      "scientific session",
+      "annual meeting",
+      "late-breaking"
+    ]
+  },
+  "ctgov_conditions": [
+    "coronary artery disease",
+    "heart failure",
+    "atrial fibrillation",
+    "hypertension",
+    "aortic stenosis",
+    "cardiomyopathy",
+    "acute coronary syndrome",
+    "dyslipidemia",
+    "cardiogenic shock"
+  ],
+  "ua": "MedicalDigest/1.2 (cardiology literature digest)",
+  "topic_words": [
+    [
+      "\\b(SGLT2|empagliflozin|dapagliflozin|sacubitril|valsartan|ARNI|vericiguat|finerenone)\\b",
+      14
+    ],
+    [
+      "\\b(PCSK9|evolocumab|alirocumab|inclisiran|statin|ezetimibe|LDL[- ]C)\\b",
+      12
+    ],
+    [
+      "\\b(TAVR|TAVI|TEER|MitraClip|transcatheter|valve replacement|valvuloplasty)\\b",
+      12
+    ],
+    [
+      "\\b(DOAC|apixaban|rivaroxaban|edoxaban|dabigatran|warfarin|anticoagul)\\b",
+      10
+    ],
+    [
+      "\\b(PCI|stent|DES|CABG|revascularization|FFR|IVUS|OCT)\\b",
+      10
+    ],
+    [
+      "\\b(cardiomyopathy|HCM|amyloidosis|ATTR|myocarditis)\\b",
+      10
+    ],
+    [
+      "\\b(heart failure|HFrEF|HFpEF|LVEF|NT-proBNP|ejection fraction)\\b",
+      9
+    ],
+    [
+      "\\b(atrial fibrillation|AF|ablation|catheter ablation|AF burden)\\b",
+      9
+    ],
+    [
+      "\\b(ACS|STEMI|NSTEMI|myocardial infarction|troponin|DAPT)\\b",
+      9
+    ],
+    [
+      "\\b(hypertension|blood pressure|resistant hypertension|renal denervation)\\b",
+      8
+    ],
+    [
+      "\\b(sudden cardiac death|ICD|arrhythmia|ventricular tachycardia)\\b",
+      8
+    ],
+    [
+      "\\b(prognos|predict|machine learning|deep learning|artificial intelligence|risk factor)\\b",
+      8
+    ],
+    [
+      "\\b(trial|safety|efficacy|adverse|mortality|hospitalization)\\b",
+      5
+    ]
+  ]
+}

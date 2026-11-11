@@ -1,0 +1,290 @@
+{
+  "zh": "神经内科",
+  "diseases": [
+    {
+      "key": "STROKE",
+      "zh": "卒中",
+      "epmc": [
+        "\"ischemic stroke\"",
+        "\"intracerebral hemorrhage\""
+      ],
+      "mesh": "\"Stroke\"[Mesh]",
+      "mesh_key": "Stroke",
+      "match": [
+        "ischemic stroke",
+        "intracerebral hemorrhage",
+        "cerebral infarct"
+      ],
+      "abbr": [
+        "\\bAIS\\b",
+        "\\bICH\\b"
+      ]
+    },
+    {
+      "key": "EPI",
+      "zh": "癫痫",
+      "epmc": [
+        "\"epilepsy\"",
+        "\"seizure\""
+      ],
+      "mesh": "\"Epilepsy\"[Mesh]",
+      "mesh_key": "Epilepsy",
+      "match": [
+        "epilepsy",
+        "seizure"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "PD",
+      "zh": "帕金森病",
+      "epmc": [
+        "\"parkinson's disease\"",
+        "\"parkinsonism\""
+      ],
+      "mesh": "\"Parkinson Disease\"[Mesh]",
+      "mesh_key": "Parkinson Disease",
+      "match": [
+        "parkinson"
+      ],
+      "abbr": [
+        "\\bPD\\b"
+      ]
+    },
+    {
+      "key": "AD",
+      "zh": "阿尔茨海默病/痴呆",
+      "epmc": [
+        "\"alzheimer's disease\"",
+        "\"dementia\""
+      ],
+      "mesh": "\"Alzheimer Disease\"[Mesh]",
+      "mesh_key": "Alzheimer Disease",
+      "match": [
+        "alzheimer",
+        "dementia"
+      ],
+      "abbr": [
+        "\\bAD\\b"
+      ]
+    },
+    {
+      "key": "MS",
+      "zh": "多发性硬化",
+      "epmc": [
+        "\"multiple sclerosis\""
+      ],
+      "mesh": "\"Multiple Sclerosis\"[Mesh]",
+      "mesh_key": "Multiple Sclerosis",
+      "match": [
+        "multiple sclerosis"
+      ],
+      "abbr": [
+        "\\bMS\\b"
+      ]
+    },
+    {
+      "key": "MIG",
+      "zh": "偏头痛",
+      "epmc": [
+        "\"migraine\""
+      ],
+      "mesh": "\"Migraine Disorders\"[Mesh]",
+      "mesh_key": "Migraine Disorders",
+      "match": [
+        "migraine"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "NMJ",
+      "zh": "神经肌肉病",
+      "epmc": [
+        "\"myasthenia gravis\"",
+        "\"myopathy\"",
+        "\"amyotrophic lateral sclerosis\""
+      ],
+      "mesh": "\"Neuromuscular Diseases\"[Mesh]",
+      "mesh_key": "Neuromuscular Diseases",
+      "match": [
+        "myasthenia",
+        "myopathy",
+        "amyotrophic lateral sclerosis"
+      ],
+      "abbr": [
+        "\\bMG\\b",
+        "\\bALS\\b"
+      ]
+    },
+    {
+      "key": "PNS",
+      "zh": "周围神经病",
+      "epmc": [
+        "\"peripheral neuropathy\"",
+        "\"guillain\""
+      ],
+      "mesh": "\"Peripheral Nervous System Diseases\"[Mesh]",
+      "mesh_key": "Peripheral Nervous System Diseases",
+      "match": [
+        "peripheral neuropathy",
+        "guillain"
+      ],
+      "abbr": [
+        "\\bGBS\\b",
+        "\\bCIDP\\b"
+      ]
+    },
+    {
+      "key": "CNSI",
+      "zh": "中枢神经系统感染",
+      "epmc": [
+        "\"meningitis\"",
+        "\"encephalitis\""
+      ],
+      "mesh": "\"Central Nervous System Infections\"[Mesh]",
+      "mesh_key": "Central Nervous System Infections",
+      "match": [
+        "meningitis",
+        "encephalitis"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "CSVD",
+      "zh": "脑小血管病",
+      "epmc": [
+        "\"small vessel disease\"",
+        "\"cerebral amyloid angiopathy\""
+      ],
+      "mesh": "\"Cerebral Small Vessel Diseases\"[Mesh]",
+      "mesh_key": "Cerebral Small Vessel Diseases",
+      "match": [
+        "small vessel disease",
+        "cerebral amyloid"
+      ],
+      "abbr": [
+        "\\bCSVD\\b"
+      ]
+    }
+  ],
+  "journals": {
+    "top": {
+      "N Engl J Med": 30,
+      "Lancet": 26,
+      "JAMA": 28,
+      "Nat Med": 30,
+      "Ann Intern Med": 24,
+      "Lancet Neurol": 34,
+      "Neurology": 32,
+      "Brain": 30,
+      "Ann Neurol": 28,
+      "JAMA Neurol": 28,
+      "Nat Rev Neurol": 28,
+      "Stroke": 28,
+      "J Neurol Neurosurg Psychiatry": 24,
+      "Mov Disord": 24,
+      "Epilepsia": 22
+    },
+    "core": {
+      "Eur J Neurol": 18,
+      "J Neurol": 16,
+      "Mult Scler": 18,
+      "Alzheimers Dement": 20,
+      "Cephalalgia": 14,
+      "Muscle Nerve": 14,
+      "Clin Neurophysiol": 12,
+      "Neurol Sci": 12,
+      "J Stroke Cerebrovasc Dis": 12,
+      "Front Neurol": 12,
+      "BMC Neurol": 10,
+      "J Headache Pain": 14,
+      "Parkinsonism Relat Disord": 14,
+      "Neurotherapeutics": 14,
+      "J Neurol Sci": 12,
+      "J Alzheimers Dis": 12
+    },
+    "sci": {
+      "Ann Clin Transl Neurol": 14,
+      "Neurol Neuroimmunol Neuroinflamm": 14,
+      "Brain Commun": 10,
+      "Neurobiol Dis": 10
+    }
+  },
+  "conference": {
+    "journal_markers": [
+      "lancet neurol",
+      "neurology",
+      "brain"
+    ],
+    "blob_terms": "aan \\d{4}|ean \\d{4}|american academy of neurology|european academy of neurology|annual meeting",
+    "pubmed_jour": "\"Neurology\"[jour]",
+    "pubmed_terms": "\"AAN\"[tiab] OR \"EAN\"[tiab] OR \"congress\"[tiab]",
+    "epmc_titles": [
+      "congress",
+      "annual meeting",
+      "aan \\d{4}",
+      "late-breaking"
+    ]
+  },
+  "ctgov_conditions": [
+    "ischemic stroke",
+    "epilepsy",
+    "parkinson disease",
+    "alzheimer disease",
+    "multiple sclerosis",
+    "migraine disorders",
+    "myasthenia gravis",
+    "peripheral nervous system diseases"
+  ],
+  "ua": "MedicalDigest/1.2 (neurology literature digest)",
+  "topic_words": [
+    [
+      "\\b(stroke|ischemic stroke|thrombectomy|thrombolysis|alteplase|tenecteplase|NIHSS)\\b",
+      12
+    ],
+    [
+      "\\b(Parkinson|levodopa|carbidopa|dopamine agonist|deep brain stimulation|DBS|alpha[- ]synuclein)\\b",
+      12
+    ],
+    [
+      "\\b(Alzheimer|dementia|amyloid|lecanemab|donanemab|tau|MMSE|MoCA)\\b",
+      12
+    ],
+    [
+      "\\b(multiple sclerosis|ocrelizumab|natalizumab|S1P|fingolimod|anti[- ]CD20|NEDA)\\b",
+      12
+    ],
+    [
+      "\\b(epilepsy|seizure|antiseizure|levetiracetam|cenobamate|status epilepticus|EEG)\\b",
+      10
+    ],
+    [
+      "\\b(migraine|CGRP|erenumab|fremanezumab|galcanezumab|eptinezumab|triptan|aura)\\b",
+      10
+    ],
+    [
+      "\\b(neuropathy|CIDP|GBS|Guillain[- ]Barr|myasthenia|ALS|SMA|gene therapy)\\b",
+      10
+    ],
+    [
+      "\\b(secondary prevention|antiplatelet|ticagrelor|clopidogrel|anticoagulation|DOAC)\\b",
+      9
+    ],
+    [
+      "\\b(CNS infection|meningitis|encephalitis|HSV|lumbar puncture)\\b",
+      8
+    ],
+    [
+      "\\b(cerebral small vessel|CSVD|white matter hyperintens|microbleed|lacunar)\\b",
+      8
+    ],
+    [
+      "\\b(prognos|predict|machine learning|deep learning|artificial intelligence|risk factor)\\b",
+      8
+    ],
+    [
+      "\\b(trial|safety|efficacy|adverse|mortality|outcome)\\b",
+      5
+    ]
+  ]
+}

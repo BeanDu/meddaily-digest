@@ -1,0 +1,290 @@
+{
+  "zh": "麻醉科",
+  "diseases": [
+    {
+      "key": "GA",
+      "zh": "全身麻醉与麻醉深度",
+      "epmc": [
+        "\"general anesthesia\"",
+        "\"depth of anesthesia\""
+      ],
+      "mesh": "\"Anesthesia, General\"[Mesh]",
+      "mesh_key": "Anesthesia, General",
+      "match": [
+        "general anesthesia",
+        "depth of anesthesia",
+        "anesthetic depth"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "RA",
+      "zh": "区域阻滞与椎管内麻醉",
+      "epmc": [
+        "\"regional anesthesia\"",
+        "\"nerve block\"",
+        "\"spinal anesthesia\"",
+        "\"epidural anesthesia\""
+      ],
+      "mesh": "\"Anesthesia, Conduction\"[Mesh]",
+      "mesh_key": "Anesthesia, Conduction",
+      "match": [
+        "regional anesthes",
+        "nerve block",
+        "spinal anesthes",
+        "epidural anesthes"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "AW",
+      "zh": "困难气道与气道管理",
+      "epmc": [
+        "\"difficult airway\"",
+        "\"airway management\"",
+        "\"tracheal intubation\""
+      ],
+      "mesh": "\"Intubation, Intratracheal\"[Mesh]",
+      "mesh_key": "Intubation, Intratracheal",
+      "match": [
+        "difficult airway",
+        "airway management",
+        "intubation",
+        "videolaryngoscop"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "PONV",
+      "zh": "术后恶心呕吐",
+      "epmc": [
+        "\"postoperative nausea and vomiting\""
+      ],
+      "mesh": "\"Postoperative Nausea and Vomiting\"[Mesh]",
+      "mesh_key": "Postoperative Nausea and Vomiting",
+      "match": [
+        "postoperative nausea",
+        "ponv"
+      ],
+      "abbr": [
+        "\\bPONV\\b"
+      ]
+    },
+    {
+      "key": "POP",
+      "zh": "术后急性疼痛管理",
+      "epmc": [
+        "\"postoperative pain\"",
+        "\"acute pain management\"",
+        "\"multimodal analgesia\""
+      ],
+      "mesh": "\"Postoperative Pain\"[Mesh]",
+      "mesh_key": "Postoperative Pain",
+      "match": [
+        "postoperative pain",
+        "acute pain",
+        "multimodal analgesia",
+        "analgesia"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "TRX",
+      "zh": "围术期输血与血液保护",
+      "epmc": [
+        "\"patient blood management\"",
+        "\"perioperative transfusion\""
+      ],
+      "mesh": "\"Blood Transfusion\"[Mesh]",
+      "mesh_key": "Blood Transfusion",
+      "match": [
+        "blood management",
+        "transfusion"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "PND",
+      "zh": "围术期神经认知障碍",
+      "epmc": [
+        "\"postoperative cognitive\"",
+        "\"postoperative delirium\"",
+        "\"perioperative neurocognitive\""
+      ],
+      "mesh": "\"Cognitive Dysfunction\"[Mesh]",
+      "mesh_key": "Cognitive Dysfunction",
+      "match": [
+        "postoperative cognitive",
+        "postoperative delirium",
+        "perioperative neurocognitive"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "AMB",
+      "zh": "日间手术与加速康复",
+      "epmc": [
+        "\"ambulatory surgery\"",
+        "\"day surgery\"",
+        "\"enhanced recovery after surgery\""
+      ],
+      "mesh": "\"Ambulatory Surgical Procedures\"[Mesh]",
+      "mesh_key": "Ambulatory Surgical Procedures",
+      "match": [
+        "ambulatory surgery",
+        "day surgery",
+        "enhanced recovery",
+        "eras"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "OBA",
+      "zh": "产科麻醉与分娩镇痛",
+      "epmc": [
+        "\"obstetric anesthesia\"",
+        "\"labor analgesia\""
+      ],
+      "mesh": "\"Anesthesia, Obstetrical\"[Mesh]",
+      "mesh_key": "Anesthesia, Obstetrical",
+      "match": [
+        "obstetric anesthes",
+        "labor analges",
+        "labour analges"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "NMB",
+      "zh": "肌松与拮抗",
+      "epmc": [
+        "\"neuromuscular blockade\"",
+        "\"sugammadex\"",
+        "\"rocuronium\""
+      ],
+      "mesh": "\"Neuromuscular Blockade\"[Mesh]",
+      "mesh_key": "Neuromuscular Blockade",
+      "match": [
+        "neuromuscular block",
+        "sugammadex",
+        "rocuronium"
+      ],
+      "abbr": []
+    }
+  ],
+  "journals": {
+    "top": {
+      "Anesthesiology": 34,
+      "Br J Anaesth": 32,
+      "Anaesthesia": 30,
+      "Anesth Analg": 30,
+      "N Engl J Med": 30,
+      "Lancet": 26,
+      "JAMA": 28
+    },
+    "core": {
+      "Reg Anesth Pain Med": 22,
+      "Pain": 24,
+      "J Clin Anesth": 16,
+      "Can J Anaesth": 14,
+      "Eur J Anaesthesiol": 14,
+      "Paediatr Anaesth": 14,
+      "Int J Obstet Anesth": 14,
+      "J Neurosurg Anesthesiol": 12,
+      "Pain Med": 12,
+      "Eur J Pain": 12,
+      "J Anesth": 8,
+      "BMC Anesthesiol": 8,
+      "Anaesth Crit Care Pain Med": 14,
+      "Curr Opin Anaesthesiol": 12,
+      "Minerva Anestesiol": 12,
+      "Anesthesiol Clin": 10,
+      "J Clin Monit Comput": 10,
+      "Anaesth Intensive Care": 10
+    },
+    "sci": {
+      "Front Med (Lausanne)": 8
+    }
+  },
+  "conference": {
+    "journal_markers": [
+      "anesthesiology",
+      "british journal of anaesthesia",
+      "anesth analg",
+      "reg anesth pain med"
+    ],
+    "blob_terms": "asa \\d{4}|euroanaesthesia|american society of anesthesiologists|european society of anaesthesiology|supplement",
+    "pubmed_jour": "\"Anesthesiology\"[jour] OR \"Br J Anaesth\"[jour] OR \"Anesth Analg\"[jour]",
+    "pubmed_terms": "\"ASA\"[tiab] OR \"ESAIC\"[tiab] OR \"Congress\"[tiab] OR \"meeting abstract\"[tiab]",
+    "epmc_titles": [
+      "congress",
+      "annual meeting",
+      "meeting abstract",
+      "conference abstract",
+      "proceedings"
+    ]
+  },
+  "ctgov_conditions": [
+    "postoperative pain",
+    "postoperative nausea and vomiting",
+    "anesthesia, conduction",
+    "airway management",
+    "blood transfusion",
+    "ambulatory surgical procedures"
+  ],
+  "ua": "MedicalDigest/1.2 (anesthesiology literature digest)",
+  "topic_words": [
+    [
+      "\\b(erector spinae|transversus abdominis|TAP block|fascia iliaca|nerve block)\\b",
+      12
+    ],
+    [
+      "\\b(ultrasound[- ]guided|regional anesthesia)\\b",
+      12
+    ],
+    [
+      "\\b(dexmedetomidine|propofol|sevoflurane|desflurane|etomidate)\\b",
+      10
+    ],
+    [
+      "\\b(neuromuscular blockade|sugammadex|reversal)\\b",
+      12
+    ],
+    [
+      "\\b(PONV|ondansetron|dexamethasone)\\b",
+      12
+    ],
+    [
+      "\\b(ERAS|enhanced recovery|perioperative)\\b",
+      12
+    ],
+    [
+      "\\b(difficult airway|videolaryngoscop|awake intubation)\\b",
+      14
+    ],
+    [
+      "\\b(depth of anesthesia|BIS|processed EEG|intraoperative awareness)\\b",
+      10
+    ],
+    [
+      "\\b(multimodal analgesia|opioid[- ]sparing|patient[- ]controlled)\\b",
+      12
+    ],
+    [
+      "\\b(postoperative cognitive|delirium|neurocognitive)\\b",
+      12
+    ],
+    [
+      "\\b(goal[- ]directed therapy|hemodynamic monitoring|cardiac output)\\b",
+      10
+    ],
+    [
+      "\\b(obstetric anesthesia|labor analgesia|epidural)\\b",
+      10
+    ],
+    [
+      "\\b(trial|safety|efficacy|adverse|mortality|hospitalization)\\b",
+      5
+    ]
+  ]
+}

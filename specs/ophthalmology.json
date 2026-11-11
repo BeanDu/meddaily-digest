@@ -1,0 +1,284 @@
+{
+  "zh": "眼科",
+  "diseases": [
+    {
+      "key": "DR",
+      "zh": "糖尿病视网膜病变",
+      "epmc": [
+        "\"diabetic retinopathy\"",
+        "\"diabetic macular edema\""
+      ],
+      "mesh": "\"Diabetic Retinopathy\"[Mesh]",
+      "mesh_key": "Diabetic Retinopathy",
+      "match": [
+        "diabetic retinopathy",
+        "diabetic macular edema"
+      ],
+      "abbr": [
+        "\\bDME\\b",
+        "\\bPDR\\b",
+        "\\bNPDR\\b"
+      ]
+    },
+    {
+      "key": "AMD",
+      "zh": "年龄相关性黄斑变性",
+      "epmc": [
+        "\"age-related macular degeneration\"",
+        "\"macular degeneration\""
+      ],
+      "mesh": "\"Macular Degeneration\"[Mesh]",
+      "mesh_key": "Macular Degeneration",
+      "match": [
+        "macular degeneration"
+      ],
+      "abbr": [
+        "\\bAMD\\b"
+      ]
+    },
+    {
+      "key": "GLA",
+      "zh": "青光眼",
+      "epmc": [
+        "\"glaucoma\""
+      ],
+      "mesh": "\"Glaucoma\"[Mesh]",
+      "mesh_key": "Glaucoma",
+      "match": [
+        "glaucoma"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "CAT",
+      "zh": "白内障",
+      "epmc": [
+        "\"cataract\""
+      ],
+      "mesh": "\"Cataract\"[Mesh]",
+      "mesh_key": "Cataract",
+      "match": [
+        "cataract"
+      ],
+      "abbr": [
+        "\\bIOL\\b"
+      ]
+    },
+    {
+      "key": "DED",
+      "zh": "干眼",
+      "epmc": [
+        "\"dry eye\"",
+        "\"meibomian gland\""
+      ],
+      "mesh": "\"Dry Eye Syndromes\"[Mesh]",
+      "mesh_key": "Dry Eye Syndromes",
+      "match": [
+        "dry eye",
+        "meibomian",
+        "tear film"
+      ],
+      "abbr": [
+        "\\bDED\\b"
+      ]
+    },
+    {
+      "key": "RVO",
+      "zh": "视网膜静脉阻塞",
+      "epmc": [
+        "\"retinal vein occlusion\""
+      ],
+      "mesh": "\"Retinal Vein Occlusion\"[Mesh]",
+      "mesh_key": "Retinal Vein Occlusion",
+      "match": [
+        "retinal vein occlusion"
+      ],
+      "abbr": [
+        "\\bRVO\\b",
+        "\\bCRVO\\b",
+        "\\bBRVO\\b"
+      ]
+    },
+    {
+      "key": "MYO",
+      "zh": "近视",
+      "epmc": [
+        "\"myopia\""
+      ],
+      "mesh": "\"Myopia\"[Mesh]",
+      "mesh_key": "Myopia",
+      "match": [
+        "myopia"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "KER",
+      "zh": "角膜炎",
+      "epmc": [
+        "\"keratitis\"",
+        "\"corneal infection\""
+      ],
+      "mesh": "\"Keratitis\"[Mesh]",
+      "mesh_key": "Keratitis",
+      "match": [
+        "keratitis",
+        "corneal ulcer",
+        "corneal infection"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "UVE",
+      "zh": "葡萄膜炎",
+      "epmc": [
+        "\"uveitis\""
+      ],
+      "mesh": "\"Uveitis\"[Mesh]",
+      "mesh_key": "Uveitis",
+      "match": [
+        "uveitis"
+      ],
+      "abbr": []
+    },
+    {
+      "key": "TED",
+      "zh": "甲状腺眼病",
+      "epmc": [
+        "\"thyroid eye disease\"",
+        "\"graves ophthalmopathy\"",
+        "\"thyroid-associated ophthalmopathy\""
+      ],
+      "mesh": "\"Graves Ophthalmopathy\"[Mesh]",
+      "mesh_key": "Graves Ophthalmopathy",
+      "match": [
+        "thyroid eye disease",
+        "graves ophthalmopathy",
+        "thyroid-associated ophthalmopathy",
+        "orbitopathy"
+      ],
+      "abbr": [
+        "\\bTED\\b",
+        "\\bTAO\\b"
+      ]
+    }
+  ],
+  "journals": {
+    "top": {
+      "Ophthalmology": 34,
+      "Prog Retin Eye Res": 32,
+      "JAMA Ophthalmol": 30,
+      "Am J Ophthalmol": 30,
+      "N Engl J Med": 30,
+      "Lancet": 26
+    },
+    "core": {
+      "Ophthalmol Retina": 22,
+      "Br J Ophthalmol": 22,
+      "Surv Ophthalmol": 22,
+      "Retina": 20,
+      "Invest Ophthalmol Vis Sci": 18,
+      "J Cataract Refract Surg": 18,
+      "Ocul Surf": 16,
+      "Cornea": 14,
+      "J Glaucoma": 14,
+      "Acta Ophthalmol": 14,
+      "Eye (Lond)": 12,
+      "Graefes Arch Clin Exp Ophthalmol": 12,
+      "J Neuroophthalmol": 10,
+      "Indian J Ophthalmol": 10,
+      "J Pediatr Ophthalmol Strabismus": 10,
+      "Optom Vis Sci": 10
+    },
+    "sci": {
+      "Sci Transl Med": 14,
+      "Nat Commun": 10,
+      "Exp Eye Res": 10
+    }
+  },
+  "conference": {
+    "journal_markers": [
+      "ophthalmology",
+      "jama ophthalmol",
+      "am j ophthalmol",
+      "invest ophthalmol vis sci"
+    ],
+    "blob_terms": "aao \\d{4}|arvo \\d{4}|euretina \\d{4}|american academy of ophthalmology|association for research in vision|supplement",
+    "pubmed_jour": "\"Ophthalmology\"[jour] OR \"JAMA Ophthalmol\"[jour] OR \"Am J Ophthalmol\"[jour]",
+    "pubmed_terms": "\"AAO\"[tiab] OR \"ARVO\"[tiab] OR \"Congress\"[tiab] OR \"meeting abstract\"[tiab]",
+    "epmc_titles": [
+      "congress",
+      "annual meeting",
+      "meeting abstract",
+      "conference abstract",
+      "proceedings"
+    ]
+  },
+  "ctgov_conditions": [
+    "diabetic retinopathy",
+    "macular degeneration",
+    "glaucoma",
+    "cataract",
+    "dry eye syndromes",
+    "retinal vein occlusion",
+    "myopia",
+    "keratitis",
+    "uveitis",
+    "graves ophthalmopathy"
+  ],
+  "ua": "MedicalDigest/1.2 (ophthalmology literature digest)",
+  "topic_words": [
+    [
+      "\\b(anti[- ]VEGF|aflibercept|ranibizumab|brolucizumab|faricimab|bevacizumab)\\b",
+      14
+    ],
+    [
+      "\\b(geographic atrophy|complement|pegcetacoplan|avacincaptad)\\b",
+      14
+    ],
+    [
+      "\\b(intraocular pressure|IOP|trabeculectomy|MIGS|glaucoma drainage)\\b",
+      12
+    ],
+    [
+      "\\b(cataract|phacoemulsification|IOL|femtosecond)\\b",
+      10
+    ],
+    [
+      "\\b(dry eye|tear film|meibomian|lifitegrast|cyclosporine)\\b",
+      10
+    ],
+    [
+      "\\b(retinal vein occlusion|dexamethasone implant)\\b",
+      10
+    ],
+    [
+      "\\b(myopia|atropine|orthokeratology|light exposure)\\b",
+      10
+    ],
+    [
+      "\\b(keratitis|corneal transplant|DMEK|cross[- ]linking)\\b",
+      12
+    ],
+    [
+      "\\b(uveitis|steroid implant|immunosuppression)\\b",
+      10
+    ],
+    [
+      "\\b(teprotumumab|orbitopathy)\\b",
+      12
+    ],
+    [
+      "\\b(gene therapy|optogenetics|retinitis)\\b",
+      12
+    ],
+    [
+      "\\b(OCT|artificial intelligence|screening|telemedicine)\\b",
+      8
+    ],
+    [
+      "\\b(trial|safety|efficacy|adverse|mortality|hospitalization)\\b",
+      5
+    ]
+  ]
+}
