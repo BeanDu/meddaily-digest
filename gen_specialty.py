@@ -6,7 +6,7 @@
 + 4 份各科共用的通用脚本（fetch/render/spec/db，运行时读包内 spec.json）
 + 母版配色 icon.svg。digest/ 不含任何科室实例。
 
-科室事实来自 specs/{key}.json（server/app/scripts/specs 的 7 字段投影）。
+科室事实来自 specs/{key}.json（各科病种/期刊权重/热点词/会议识别配置）。
 包级差异：
   SLUGS            包名缩写（slug = {SLUGS[key]}-digest）
   QUOTES           市场引用样例（仅真实产出过的科；其余科 README 不渲染示例块）
@@ -111,7 +111,7 @@ def all_keys():
 def gen(key, idx):
     assert key in SLUGS, "SLUGS 缺少 %s 的包名缩写" % key
     snap_path = os.path.join(SPEC_DIR, "%s.json" % key)
-    assert os.path.exists(snap_path), "specs/ 缺少 %s.json（从 server/app/scripts/specs 投影）" % key
+    assert os.path.exists(snap_path), "specs/ 缺少 %s.json" % key
     spec = json.load(open(snap_path, encoding="utf-8"))
     assert isinstance(spec.get("zh"), str) and spec["zh"], "specs/%s.json 缺少 zh" % key
     assert isinstance(spec.get("diseases"), list) and spec["diseases"], "specs/%s.json 缺少 diseases" % key
