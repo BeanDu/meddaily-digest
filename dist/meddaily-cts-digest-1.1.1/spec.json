@@ -1,8 +1,0 @@
-{
-  "name": "医学文献日报-心胸外科",
-  "version": "1.1.1",
-  "specialty_spec": "cardiothoracic.json",
-  "key": "cardiothoracic",
-  "dept": "心胸外科",
-  "file_prefix": "meddaily-cts-digest"
-}

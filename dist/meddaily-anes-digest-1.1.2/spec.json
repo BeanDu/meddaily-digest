@@ -1,0 +1,8 @@
+{
+  "name": "医学文献日报-麻醉科",
+  "version": "1.1.2",
+  "specialty_spec": "anesthesiology.json",
+  "key": "anesthesiology",
+  "dept": "麻醉科",
+  "file_prefix": "meddaily-anes-digest"
+}

@@ -1,8 +1,0 @@
-{
-  "name": "医学文献日报-儿科",
-  "version": "1.1.1",
-  "specialty_spec": "pediatrics.json",
-  "key": "pediatrics",
-  "dept": "儿科",
-  "file_prefix": "meddaily-peds-digest"
-}

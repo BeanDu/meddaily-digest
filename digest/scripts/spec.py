@@ -33,8 +33,6 @@ def _default_spec_name():
     return specs[0] if specs else ""  # 空值仅用于无法定位时的报错提示
 
 
-DEFAULT_SPEC = _default_spec_name()
-
 _cache = {}
 
 
@@ -50,6 +48,11 @@ def list_specs():
         for f in os.listdir(SPEC_DIR)
         if f.endswith(".json")
     )
+
+
+# 必须在 list_specs 定义之后求值：包内缺 spec.json 时回退分支要调它
+# （曾因定义顺序在源树 import 即 NameError——包内走 spec.json 分支从未暴露）。
+DEFAULT_SPEC = _default_spec_name()
 
 
 def load(name=None):

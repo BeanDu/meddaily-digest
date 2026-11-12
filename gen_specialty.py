@@ -20,7 +20,7 @@
 验收（幂等零差异）：重跑后生成目录与 dist/ 现有目录 `diff -rq` 应零差异。
 
 用法：python3 gen_specialty.py [key ...]（默认 specs/ 下全部科室）
-环境：GEN_VERSION（默认 1.1.1）/ GEN_DEST（默认 ./dist）/ GEN_SRC（默认 ./digest）
+环境：GEN_VERSION（默认 1.1.2）/ GEN_DEST（默认 ./dist）/ GEN_SRC（默认 ./digest）
 """
 import colorsys
 import json
@@ -35,7 +35,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.environ.get("GEN_SRC", os.path.join(HERE, "digest"))
 SPEC_DIR = os.path.join(HERE, "specs")
 DEST_BASE = os.environ.get("GEN_DEST", os.path.join(HERE, "dist"))
-VERSION = os.environ.get("GEN_VERSION", "1.1.1")  # 发版时同步在 digest/README.md 版本记录写条目（生成器会断言）
+VERSION = os.environ.get("GEN_VERSION", "1.1.2")  # 发版时同步在 digest/README.md 版本记录写条目（生成器会断言）
 
 # 包名缩写（slug = meddaily-{SLUGS[key]}-digest）
 SLUGS = {

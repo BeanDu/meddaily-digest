@@ -1,0 +1,8 @@
+{
+  "name": "医学文献日报-骨科",
+  "version": "1.1.2",
+  "specialty_spec": "orthopedics.json",
+  "key": "orthopedics",
+  "dept": "骨科",
+  "file_prefix": "meddaily-ortho-digest"
+}

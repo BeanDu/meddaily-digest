@@ -1,0 +1,8 @@
+{
+  "name": "医学文献日报-泌尿外科",
+  "version": "1.1.2",
+  "specialty_spec": "urology.json",
+  "key": "urology",
+  "dept": "泌尿外科",
+  "file_prefix": "meddaily-uro-digest"
+}

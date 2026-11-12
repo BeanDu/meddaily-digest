@@ -1,8 +1,0 @@
-{
-  "name": "医学文献日报-感染科",
-  "version": "1.1.1",
-  "specialty_spec": "infectious.json",
-  "key": "infectious",
-  "dept": "感染科",
-  "file_prefix": "meddaily-infect-digest"
-}

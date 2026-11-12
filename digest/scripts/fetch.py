@@ -8,6 +8,7 @@
   2. PubMed      补 MeSH / PublicationType / 精确发表日期
   3. ClinicalTrials.gov v2  在研管线（Phase 2/3）
   4. PubMed      会议摘要（学会增刊 + 会议标记）
+  5. PubMed      每日入库批次（crdt=基准日-1）——EPMC 收录滞后 1-2 天的补新发现源
 
 科室特异的检索词 / 期刊权重 / 会议识别 / CT.gov 条件全部来自
 specs/<name>.json，用 --spec 指定。
@@ -480,6 +481,64 @@ def fetch_pubmed_xml(pmids):
     return out
 
 
+def _merge_by_pmid(papers, recs):
+    """按 PMID 去重合并：EPMC 未覆盖的 PubMed 记录补齐默认字段后追加。"""
+    have = {p.get("pmid") for p in papers if p.get("pmid")}
+    for r in recs:
+        if not r.get("pmid") or r["pmid"] in have:
+            continue
+        have.add(r["pmid"])
+        r["is_oa"] = r.get("is_oa", False)
+        r["in_epmc"] = r.get("in_epmc", False)
+        r["cited_by"] = r.get("cited_by", 0)
+        r["pmcid"] = r.get("pmcid", "")
+        papers.append(r)
+    return papers
+
+
+def fetch_pubmed_recent(report_day: datetime):
+    """补新发现源：PubMed 每日入库批次（crdt = 日报基准日 - 1）。
+
+    EPMC 对近期文献的收录滞后 1-2 天（2026-11-12 实测：PubMed 前一日风湿 18 篇
+    中 15 篇未进 EPMC，含 Arthritis Rheumatol 等核心刊）；而 PubMed 当日批次
+    在日报生成时尚未入库（同日实测全库仅个位数），故锚点取 基准日 N → crdt=N-1，
+    抓"截至昨夜 PubMed 已入库"的最新记录，与 EPMC 主源结果按 PMID 去重合并
+    （由调用方 _merge_by_pmid 完成）。
+    """
+    day = (report_day - timedelta(days=1)).strftime("%Y/%m/%d")
+    print(f"[PubMed] 入库批次发现 crdt={day}（补 EPMC 收录滞后）")
+
+    seen, ids = set(), []
+    for d in DISEASES:
+        terms = " OR ".join('"%s"[tiab]' % t.strip('"') for t in d["epmc"])
+        term = '(%s) AND ("%s"[crdt] : "%s"[crdt])' % (terms, day, day)
+        q = urllib.parse.urlencode({"db": "pubmed", "term": term, "retmax": 150,
+                                    "retmode": "json", "sort": "pub_date"})
+        raw = http_get(f"{EUTILS}/esearch.fcgi?{q}", kind="ncbi")
+        if not raw:
+            print(f"  {d['key']}: ⚠ 源失败（网络/限流）")
+            continue
+        try:
+            got = json.loads(raw)["esearchresult"].get("idlist", [])
+        except Exception:
+            print(f"  {d['key']}: ⚠ 响应异常，跳过")
+            continue
+        print(f"  {d['key']}: {len(got)} 条")
+        for i in got:
+            if i not in seen:
+                seen.add(i)
+                ids.append(i)
+    if not ids:
+        return []
+    recs = []
+    for i in range(0, len(ids), 100):
+        recs += fetch_pubmed_xml(ids[i:i + 100])
+    for r in recs:
+        r["src"] = "pubmed_crdt"
+    print(f"  入库批次命中 {len(ids)} 条（efetch 取回 {len(recs)} 条）")
+    return recs
+
+
 def fetch_trials(ref_date: datetime, window_days=45):
     """ClinicalTrials.gov v2：在研管线（Phase 2/3）"""
     print("[CT.gov] 在研管线检索")
@@ -698,6 +757,11 @@ def main():
                 if len(rec["abstract"]) > len(tgt.get("abstract", "")):
                     tgt["abstract"] = rec["abstract"]
                 tgt["doi"] = tgt.get("doi") or rec["doi"]
+
+    # PubMed 入库批次发现：EPMC 收录滞后 1-2 天，用前一日 crdt 批次补最新文献。
+    # 锚点=日报基准日（与 payload date 同口径），非上面的 UTC 抓取锚点。
+    report_day = datetime.strptime(args.date, "%Y-%m-%d") if args.date else datetime.now()
+    _merge_by_pmid(papers, fetch_pubmed_recent(report_day))
 
     # 会议摘要：EPMC 标题会议关键词（主）+ PubMed Ann Rheum Dis 增刊（辅）
     conf = fetch_conference_epmc(ref) + fetch_conference(ref)

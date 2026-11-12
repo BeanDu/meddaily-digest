@@ -1,8 +1,0 @@
-{
-  "name": "医学文献日报-重症医学科",
-  "version": "1.1.1",
-  "specialty_spec": "icu.json",
-  "key": "icu",
-  "dept": "重症医学科",
-  "file_prefix": "meddaily-icu-digest"
-}

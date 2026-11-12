@@ -39,6 +39,10 @@ _DRUG_NUM = re.compile(
     r"SOFA|APACHE|NYHA|GOLD|mMRC|BODE|FEV1)[ -]?\d+[A-Za-z]*", re.I)
 _NUM = re.compile(r"\d+(?:\.\d+)?")
 
+# 送 agent 的摘要字符上限：防指南/共识类超长摘要的长尾（实测 p99≈3163）。
+# finalize 的数字保真校验也以这份截断后文本为唯一来源——agent 读到与校验依据一致，不会误打回。
+_ABSTRACT_CAP = 3000
+
 
 def db_pushed_recently(date):
     """近 7 天已推送（本地库 summaries，按 ukey）集合——跨天去重。"""
@@ -82,7 +86,8 @@ def cmd_plan(date, top):
             "pmid": p.get("pmid", ""), "title": p.get("title", ""),
             "journal": p.get("journal_iso") or p.get("journal", ""),
             "pub_date": p.get("pub_date", ""), "score": p.get("score", 0),
-            "section": p.get("section", ""), "abstract": p.get("abstract") or "（无摘要）",
+            "section": p.get("section", ""),
+            "abstract": (p.get("abstract") or "")[:_ABSTRACT_CAP] or "（无摘要）",
         } for p in picked],
     }
     path = os.path.join(OUT, "pending-%s.json" % date)
@@ -145,7 +150,7 @@ def cmd_finalize(date):
         L.append("")
         for it, body in grp:
             L.append("### %s ｜ %s（%s，score %.0f）"
-                     % (it["title"][:80], it["journal"][:36], it["pub_date"], it["score"]))
+                     % (it["title"][:160], it["journal"][:36], it["pub_date"], it["score"]))
             for ln in body.strip().splitlines():
                 if ln.strip():
                     L.append("- " + ln.strip())

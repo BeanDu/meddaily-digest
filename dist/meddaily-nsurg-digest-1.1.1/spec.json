@@ -1,8 +1,0 @@
-{
-  "name": "医学文献日报-神经外科",
-  "version": "1.1.1",
-  "specialty_spec": "neurosurgery.json",
-  "key": "neurosurgery",
-  "dept": "神经外科",
-  "file_prefix": "meddaily-nsurg-digest"
-}

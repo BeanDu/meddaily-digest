@@ -1,0 +1,8 @@
+{
+  "name": "医学文献日报-口腔科",
+  "version": "1.1.2",
+  "specialty_spec": "dentistry.json",
+  "key": "dentistry",
+  "dept": "口腔科",
+  "file_prefix": "meddaily-dental-digest"
+}

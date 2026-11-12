@@ -1,8 +1,0 @@
-{
-  "name": "医学文献日报-康复医学科",
-  "version": "1.1.1",
-  "specialty_spec": "rehabilitation.json",
-  "key": "rehabilitation",
-  "dept": "康复医学科",
-  "file_prefix": "meddaily-rehab-digest"
-}
